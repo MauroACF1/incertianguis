@@ -129,7 +129,7 @@ def clave_dia(texto):
 def comercios():
     cols = ["nom_estab", "codigo_act", "municipio", "cod_postal", "latitud", "longitud"]
     d = pd.concat([pd.read_csv(RAW / "denue_09_46.csv", dtype=str, usecols=cols),
-                   pd.read_csv(RAW / "denue_09_3118_panaderias.csv", dtype=str, usecols=cols)])
+                   pd.read_csv(RAW / "denue_09_3118.csv", dtype=str, usecols=cols)])
     d = d[d["codigo_act"].isin(GIROS_AFILIABLES)]
     df = pd.DataFrame({
         "nombre": d["nom_estab"].fillna("Sin nombre").str.title(),

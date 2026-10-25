@@ -10,7 +10,11 @@ Se eliminan columnas de contacto y de posible dato personal (razón social,
 teléfono, correo, web) y el tamaño por personal ocupado.
 
 Uso: py -3.12 scripts/03_descarga_denue.py
-Salida: data/raw/denue_09_46.csv  (zips en data/raw/denue_zip/, ignorados por git)
+Además extrae SCIAN 3118 (panificación y tortillas), que INEGI clasifica en
+manufacturas (sector 31-33) y no en comercio al por menor.
+
+Salida: data/raw/denue_09_46.csv y data/raw/denue_09_3118.csv
+        (zips en data/raw/denue_zip/, ignorados por git)
 """
 import time
 import zipfile
@@ -29,6 +33,7 @@ HEADERS = {
 RAW = Path(__file__).resolve().parents[1] / "data" / "raw"
 ZIPS = RAW / "denue_zip"
 SALIDA = RAW / "denue_09_46.csv"
+SALIDA_PAN = RAW / "denue_09_3118.csv"
 COLUMNAS = ["id", "nom_estab", "codigo_act", "nombre_act", "tipo_vial", "nom_vial", "numero_ext",
             "letra_ext", "tipo_asent", "nomb_asent", "cod_postal", "cve_ent", "cve_mun", "municipio",
             "latitud", "longitud", "fecha_alta"]
@@ -71,6 +76,11 @@ def main():
     df = df[df["codigo_act"].str.startswith("46")].drop_duplicates("id")
     df.to_csv(SALIDA, index=False, encoding="utf-8")
     print(f"{len(df):,} establecimientos de comercio al por menor en CDMX -> {SALIDA}")
+
+    pan = lee_cdmx(descarga("denue_00_31-33"))
+    pan = pan[pan["codigo_act"].str.startswith("3118")].drop_duplicates("id")
+    pan.to_csv(SALIDA_PAN, index=False, encoding="utf-8")
+    print(f"{len(pan):,} establecimientos SCIAN 3118 (panaderías, tortillerías) en CDMX -> {SALIDA_PAN}")
 
 
 if __name__ == "__main__":

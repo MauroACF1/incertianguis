@@ -1,0 +1,13 @@
+#,nombre_de_variable,variable,descripción_de_variable,clasificación_variable,tipo_variable
+1,Ruta de operación,Ruta,Ruta sobre la que opera el mercado sobre ruedas,Texto,Policotómicas
+2,Días de operación,Día_Oper,Días en los que opera el mercado sobre ruedas,Texto,Categorica
+3,,Num_Oferen,Número,Número,Continua
+4,Dirección,Dirección,Calle exacta en la que opera el mercado sobre ruedas,Texto,Policotómicas
+5,Alcaldía,Alcaldía,Alcaldía en donde opera el mercado sobre ruedas,Texto,Categorica
+6,Latitud,Coord_X,Latitud sobre la que opera el mercado sobre ruedas,Coordenada,Continua
+7,Longitud,Coord_Y,Longitud sobre la que opera el mercado sobre ruedas,Coordenada,Continua
+8,ID,PUNTO,Número de mercado sobre ruedas registrado,Número,Discreta
+9,Coordenada X UTM,Coor_GeogX,Coordenada UTM sobre eje X,Coordenada,Continua
+10,Coordenada Y UTM,Coor_GeogY,Coordenada UTM sobre eje Y,Coordenada,Continua
+11,Colonia,Colonia,Colonia en donde opera el mercado sobre ruedas,Texto,Categorica
+12,Estado,ESTADO,Estado en donde opera el mercado sobre ruedas,Texto,Categorica

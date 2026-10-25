@@ -1,0 +1,14 @@
+TIANGUIS_ADIP,,,,,
+#,nombre_de_variable,variable,descripción_de_variable,clasificación_variable,tipo_variable
+1,ID,CONS,Número de tianguis registrado,Número,Discreta
+2,ID por alcaldía,ID_SUB_NOR,Número de tianguis registrado por alcaldía,Número,Discreta
+3,Estado,ESTADO,Estado en donde opera el tianguis,Texto,Categorica
+4,Alcaldía,ALCALDÍA,Alcaldía en donde opera el tianguis,Texto,Categorica
+5,Colonia,NOMBRE_COL,Colonia en donde opera el tianguis,Texto,Categorica
+6,Coordenada X UTM,COORD_UTM_,Coordenada UTM sobre eje X,Coordenada,Continua
+7,Coordenada Y UTM,COORD_UTM1,Coordenada UTM sobre eje Y,Coordenada,Continua
+8,Giro del tianguis,GIRO,Giros y actividades desarrolladas en el tianguis,Texto,Categorica
+9,Días de operación,DÍA,Días en los que opera el tianguis,Texto,Categorica
+10,Horario,HORARIO,Horario en el que opera el tianguis,Hora,Continua
+11,Dirección,UBIC_,Calle exacta en la que opera el tianguis,Texto,Policotómicas
+12,,NUM_OFER_1,Número ,Número,Continua

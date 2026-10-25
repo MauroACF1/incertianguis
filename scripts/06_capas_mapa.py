@@ -32,6 +32,7 @@ GIROS_AFILIABLES = {
     "461130": "Frutas y verduras",
     "461150": "Cremería, lácteos y embutidos",
     "311812": "Panadería",  # panificación tradicional; INEGI la clasifica en manufacturas
+    "311830": "Tortillería",  # tortillas de maíz y molienda de nixtamal; también manufacturas
 }
 
 ALCALDIAS = ["Álvaro Obregón", "Azcapotzalco", "Benito Juárez", "Coyoacán", "Cuajimalpa de Morelos",

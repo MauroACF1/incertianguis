@@ -10,8 +10,12 @@ GET /?alcaldia=&colonia=&giro=&establecimiento=&page=N  -> JSON {html, paginatio
 (10 filas por página, tamaño fijo). Con --descarga se recorre esa paginación con pausas
 y se guarda data/raw/mercomuna_directorio.csv (nombre, giro, calle_numero, cp, alcaldia, colonia).
 
+Con --por-alcaldia la descarga se hace filtrando alcaldía por alcaldía (más estable que
+paginar todo el directorio, que repite filas). Ojo: la sugerencia "Gustavo A. Madero" del
+buscador del sitio devuelve 0 resultados; el valor que funciona es "GUSTAVO A MADERO".
+
 Uso: py -3.12 scripts/05_mercomuna_playwright.py [--log ruta.json]
-     py -3.12 scripts/05_mercomuna_playwright.py --descarga [--pausa 0.7] [--cache dir]
+     py -3.12 scripts/05_mercomuna_playwright.py --descarga [--por-alcaldia] [--pausa 0.7] [--cache dir]
 """
 import json
 import re
@@ -28,6 +32,10 @@ PAGINAS = [
 ]
 PALABRAS_DIR = re.compile(r"directorio|comercio|tienda|mapa|establecimiento|padr[oó]n|consulta", re.I)
 MAX_EXTRA = 6
+# Valores del filtro alcaldia= que devuelven resultados (verificado 2026-10-25).
+ALCALDIAS_FILTRO = ["ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ", "COYOACAN", "CUAJIMALPA DE MORELOS",
+                    "CUAUHTEMOC", "GUSTAVO A MADERO", "IZTACALCO", "IZTAPALAPA", "LA MAGDALENA CONTRERAS",
+                    "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA", "XOCHIMILCO"]
 
 
 def visita(page, url, registro):
@@ -128,8 +136,7 @@ def main():
 
 
 def descarga():
-    import csv
-    import html as htmlmod
+    import urllib.parse
     import urllib.request
     from pathlib import Path
 
@@ -138,13 +145,13 @@ def descarga():
     cache = Path(sys.argv[sys.argv.index("--cache") + 1]) if "--cache" in sys.argv else None
     if cache:
         cache.mkdir(parents=True, exist_ok=True)
-    base = "https://comercios-mercomuna.cdmx.gob.mx/?alcaldia=&colonia=&giro=&establecimiento=&page={}"
+    base = "https://comercios-mercomuna.cdmx.gob.mx/?alcaldia={}&colonia=&giro=&establecimiento=&page={}"
 
-    def pagina(n):
-        f = cache / f"p{n:04d}.json" if cache else None
+    def pagina(n, alcaldia=""):
+        f = cache / f"{alcaldia.replace(' ', '_')}p{n:04d}.json" if cache else None
         if f and f.exists():
             return json.loads(f.read_text(encoding="utf-8"))
-        req = urllib.request.Request(base.format(n), headers={
+        req = urllib.request.Request(base.format(urllib.parse.quote(alcaldia), n), headers={
             "User-Agent": UA, "Accept": "application/json", "X-Requested-With": "XMLHttpRequest"})
         for intento in range(3):
             try:
@@ -161,30 +168,44 @@ def descarga():
         time.sleep(pausa)
         return json.loads(txt)
 
+    filtros = ALCALDIAS_FILTRO if "--por-alcaldia" in sys.argv else [""]
+    filas = []
+    total = 0
+    for alcaldia in filtros:
+        primera = pagina(1, alcaldia)
+        t = int(primera["total"])
+        total += t
+        antes = len(filas)
+        lee_paginas(primera, t, alcaldia, pagina, filas)
+        print(f"{alcaldia or 'todas'}: total reportado {t}, filas {len(filas) - antes}", flush=True)
+    escribe(raiz, filas, total)
+
+
+def lee_paginas(primera, total, alcaldia, pagina, filas):
+    import html as htmlmod
     fila_re = re.compile(r"<tr>(.*?)</tr>", re.S)
     celda_re = re.compile(r"<td>(.*?)</td>", re.S)
     cp_re = re.compile(r"\s*C\.P\.\s*(\d{4,5})\s*$")
-
-    primera = pagina(1)
-    total = int(primera["total"])
     paginas = -(-total // 10)
-    print(f"total={total} paginas={paginas}")
-    filas = []
     for n in range(1, paginas + 1):
-        d = primera if n == 1 else pagina(n)
+        d = primera if n == 1 else pagina(n, alcaldia)
         sin_coment = re.sub(r"<!--.*?-->", "", d["html"], flags=re.S)
         for tr in fila_re.findall(sin_coment):
             c = [re.sub(r"\s+", " ", htmlmod.unescape(x)).strip() for x in celda_re.findall(tr)]
             if len(c) < 5:
                 continue
-            nombre, direccion, colonia, alcaldia, giro = c[:5]
+            nombre, direccion, colonia, alcaldia_fila, giro = c[:5]
             m = cp_re.search(direccion)
             cp = m.group(1).zfill(5) if m else ""
             calle = cp_re.sub("", direccion).strip()
             filas.append({"nombre": nombre, "giro": giro, "calle_numero": calle, "cp": cp,
-                          "alcaldia": alcaldia, "colonia": colonia})
+                          "alcaldia": alcaldia_fila, "colonia": colonia})
         if n % 50 == 0:
             print(f"  página {n}/{paginas} filas={len(filas)}", flush=True)
+
+
+def escribe(raiz, filas, total):
+    import csv
     salida = raiz / "data" / "raw" / "mercomuna_directorio.csv"
     with open(salida, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["nombre", "giro", "calle_numero", "cp", "alcaldia", "colonia"])

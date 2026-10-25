@@ -14,7 +14,8 @@ const RADIO_MAPA_M = 2500;      // puntos que se pintan alrededor de la ubicaci�
 const MAX_LISTA = 20;
 const FACTOR_CAMINO = 1.3;      // distancia en línea recta -> caminando (aprox.)
 const M_POR_MINUTO = 75;        // ~4.5 km/h
-const CLAVE_EVENTOS = "canjeaCerca.eventos";
+const CLAVE_EVENTOS = "canjeaCerca.eventos.v2";   // respaldo local si la API no responde
+const API_FEEDBACK = "http://localhost:3001/api/v1/feedback";   // repo mapatianguis, rama feedback-api
 
 const DIAS = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
 const DIA_HOY = DIAS[DEMO_HOY.getDay()];
@@ -47,6 +48,7 @@ const estado = {
   capaPuntos: null,
   marcadorYo: null,
   ultimo: null,         // {cp, giro} del comercio sobre el que se respondió
+  evento: null,         // evento en curso; se envía al salir de "Gracias"
 };
 
 // ---------- Utilidades ----------
@@ -113,7 +115,9 @@ function parseCSV(texto) {
   return datos.filter(f => f.length === enc.length).map(f => Object.fromEntries(enc.map((k, i) => [k, f[i]])));
 }
 
-// ---------- Almacenamiento local (solo eventos agregables) ----------
+// ---------- Eventos: API de feedback con respaldo en localStorage ----------
+// Un evento por visita: se crea al confirmar Sí/No, se completa con las preguntas
+// opcionales y se envía al salir de "Gracias". Si la API no responde, se guarda local.
 function leeEventos() {
   try { return JSON.parse(localStorage.getItem(CLAVE_EVENTOS)) || []; }
   catch { return []; }
@@ -121,24 +125,47 @@ function leeEventos() {
 function guardaEventos(lista) {
   try { localStorage.setItem(CLAVE_EVENTOS, JSON.stringify(lista)); } catch { /* sin almacenamiento */ }
 }
-function registra(respuesta) {
+function nuevoEvento(respuesta) {
   if (!estado.ultimo) return;
-  const ev = { fecha: DEMO_HOY.toISOString().slice(0, 10), cp: estado.ultimo.cp, giro: estado.ultimo.giro, respuesta };
-  guardaEventos([...leeEventos(), ev]);
+  estado.evento = {
+    fecha: DEMO_HOY.toISOString().slice(0, 10), cp: estado.ultimo.cp, giro: estado.ultimo.giro,
+    respuesta, encontro: null, dificultad: null, busca: null,
+  };
+}
+function completaEvento(campo, valor) {
+  if (estado.evento) estado.evento[campo] = valor;
+}
+async function enviaEvento() {
+  const ev = estado.evento;
+  if (!ev) return;
+  estado.evento = null;
+  try {
+    const r = await fetch(API_FEEDBACK, {
+      method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(ev),
+      keepalive: true, signal: AbortSignal.timeout(3000),
+    });
+    if (!r.ok) throw new Error(`API respondió ${r.status}`);
+  } catch {
+    guardaEventos([...leeEventos(), ev]);
+  }
 }
 function eventosEjemplo() {
-  // 30 eventos ficticios, deterministas, para que el panel no se vea vacío.
+  // 30 eventos ficticios, deterministas, para que el panel no se vea vacío sin la API.
   const cps = ["04030", "04000", "04100", "04330", "04360", "04480", "09820", "09310"];
   const giros = ["Abarrotes y misceláneas", "Tortillería", "Frutas y verduras", "Pollería", "Carnicería", "Mercado"];
-  const resp = ["aceptado", "aceptado", "no_aceptado", "encontro:si", "encontro:parcial", "dificultad:distancia",
-                "aceptado", "dificultad:no_aceptaban", "encontro:no", "deseo:una tortillería",
-                "dificultad:horario", "deseo:carnicería", "aceptado", "dificultad:sin_producto", "dificultad:nada"];
-  return Array.from({ length: 30 }, (_, i) => ({
-    fecha: `2026-10-${String(12 + (i % 13)).padStart(2, "0")}`,
-    cp: cps[(i * 3) % cps.length],
-    giro: giros[(i * 5) % giros.length],
-    respuesta: resp[i % resp.length],
-  }));
+  const busca = [null, "tortillería", null, "carnicería", null, null, "pan"];
+  return Array.from({ length: 30 }, (_, i) => {
+    const rechazo = i % 4 === 0;
+    return {
+      fecha: `2026-10-${String(12 + (i % 13)).padStart(2, "0")}`,
+      cp: cps[(i * 3) % cps.length],
+      giro: giros[(i * 5) % giros.length],
+      respuesta: rechazo ? "no_aceptado" : "aceptado",
+      encontro: rechazo ? "no" : ["si", "parcial"][i % 2],
+      dificultad: rechazo ? "no_aceptaban" : ["nada", "distancia", "horario", "sin_producto"][i % 4],
+      busca: busca[i % busca.length],
+    };
+  });
 }
 function siembraEventos(forzar = false) {
   if (forzar || !leeEventos().length) guardaEventos(eventosEjemplo());
@@ -344,49 +371,76 @@ const ETIQUETAS_DIFICULTAD = {
   distancia: "Distancia", horario: "Horario", no_aceptaban: "No aceptaban", sin_producto: "Sin producto", nada: "Nada",
 };
 
-function pintaPanel() {
-  const eventos = leeEventos();
-  const grupos = new Map();
-  const deseos = new Map();
+// Mismo agregado que GET /api/v1/feedback/summary, para cuando la API no responde.
+function normalizaProducto(t) {
+  return (t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim()
+    .replace(/^(un|una|unos|unas|el|la|los|las|mas)\s+/, "").replace(/[^a-z\s]/g, "").replace(/\s+/g, " ").trim();
+}
+function ranking(conteos) {
+  return [...conteos.entries()].map(([producto, n]) => ({ producto, n }))
+    .sort((a, b) => b.n - a.n || a.producto.localeCompare(b.producto));
+}
+function resumenLocal(eventos) {
+  const grupos = new Map(), productos = new Map();
   for (const e of eventos) {
     const k = `${e.cp}|${e.giro}`;
-    if (!grupos.has(k)) grupos.set(k, { cp: e.cp, giro: e.giro, si: 0, no: 0, enc: { si: 0, parcial: 0, no: 0 }, dif: {} });
+    if (!grupos.has(k)) grupos.set(k, { cp: e.cp, giro: e.giro, eventos: 0, aceptados: 0, noAceptados: 0,
+      encontro: { si: 0, parcial: 0, no: 0 }, dif: new Map(), prod: new Map() });
     const g = grupos.get(k);
-    const [tipo, valor] = e.respuesta.split(":");
-    if (tipo === "aceptado") g.si++;
-    else if (tipo === "no_aceptado") g.no++;
-    else if (tipo === "encontro") g.enc[valor] = (g.enc[valor] || 0) + 1;
-    else if (tipo === "dificultad") g.dif[valor] = (g.dif[valor] || 0) + 1;
-    else if (tipo === "deseo" && valor) {
-      const t = valor.trim().toLowerCase();
-      deseos.set(t, (deseos.get(t) || 0) + 1);
-    }
+    g.eventos++;
+    if (e.respuesta === "aceptado") g.aceptados++;
+    if (e.respuesta === "no_aceptado") g.noAceptados++;
+    if (e.encontro) g.encontro[e.encontro]++;
+    if (e.dificultad && e.dificultad !== "nada") g.dif.set(e.dificultad, (g.dif.get(e.dificultad) || 0) + 1);
+    const p = normalizaProducto(e.busca);
+    if (p) { g.prod.set(p, (g.prod.get(p) || 0) + 1); productos.set(p, (productos.get(p) || 0) + 1); }
   }
-  const filas = [...grupos.values()].sort((a, b) => a.cp.localeCompare(b.cp) || a.giro.localeCompare(b.giro));
-  const si = filas.reduce((s, g) => s + g.si, 0), no = filas.reduce((s, g) => s + g.no, 0);
+  return {
+    totalEventos: eventos.length,
+    productosBuscados: ranking(productos),
+    grupos: [...grupos.values()].map(({ dif, prod, ...g }) => {
+      const conf = g.aceptados + g.noAceptados;
+      return { ...g, tasaAceptacion: conf ? g.aceptados / conf : null,
+        dificultadComun: ranking(dif)[0]?.producto ?? null, productosBuscados: ranking(prod) };
+    }).sort((a, b) => a.cp.localeCompare(b.cp) || a.giro.localeCompare(b.giro)),
+  };
+}
+
+async function pintaPanel() {
+  let resumen, fuente;
+  try {
+    const r = await fetch(`${API_FEEDBACK}/summary`, { cache: "no-store", signal: AbortSignal.timeout(2500) });
+    if (!r.ok) throw new Error(`API respondió ${r.status}`);
+    resumen = await r.json();
+    fuente = "Fuente: API de retroalimentación (todas las personas usuarias).";
+  } catch {
+    resumen = resumenLocal(leeEventos());
+    fuente = "Fuente: este dispositivo. La API no respondió; se muestran las respuestas guardadas aquí.";
+  }
+  $("#panel-fuente").textContent = fuente;
+
+  const grupos = resumen.grupos;
+  const si = grupos.reduce((s, g) => s + g.aceptados, 0), no = grupos.reduce((s, g) => s + g.noAceptados, 0);
   $("#panel-resumen").replaceChildren(
-    el("div", {}, el("strong", { text: String(eventos.length) }), "respuestas"),
-    el("div", {}, el("strong", { text: String(new Set(filas.map(g => g.cp)).size) }), "códigos postales"),
+    el("div", {}, el("strong", { text: String(resumen.totalEventos) }), "respuestas"),
+    el("div", {}, el("strong", { text: String(new Set(grupos.map(g => g.cp)).size) }), "códigos postales"),
     el("div", {}, el("strong", { text: String(si + no) }), "confirmaciones de vale"),
     el("div", {}, el("strong", { text: si + no ? `${Math.round(100 * si / (si + no))}%` : "—" }), "vales aceptados"));
 
-  const enc = ["CP", "Giro", "Aceptado", "No aceptado", "% acept.", "Encontró (sí/parc./no)", "Dificultad principal"];
-  const cuerpo = filas.map(g => {
-    const top = Object.entries(g.dif).sort((a, b) => b[1] - a[1])[0];
-    const pct = g.si + g.no ? `${Math.round(100 * g.si / (g.si + g.no))}%` : "—";
-    return el("tr", {},
-      el("td", { text: g.cp }), el("td", { text: g.giro }),
-      el("td", { class: "num", text: String(g.si) }), el("td", { class: "num", text: String(g.no) }),
-      el("td", { class: "num", text: pct }),
-      el("td", { class: "num", text: `${g.enc.si}/${g.enc.parcial}/${g.enc.no}` }),
-      el("td", { text: top ? `${ETIQUETAS_DIFICULTAD[top[0]] || top[0]} (${top[1]})` : "—" }));
-  });
+  const enc = ["CP", "Giro", "Aceptado", "No aceptado", "% acept.", "Encontró (sí/parc./no)", "Dificultad común", "Buscan"];
+  const cuerpo = grupos.map(g => el("tr", {},
+    el("td", { text: g.cp }), el("td", { text: g.giro }),
+    el("td", { class: "num", text: String(g.aceptados) }), el("td", { class: "num", text: String(g.noAceptados) }),
+    el("td", { class: "num", text: g.tasaAceptacion == null ? "—" : `${Math.round(100 * g.tasaAceptacion)}%` }),
+    el("td", { class: "num", text: `${g.encontro.si}/${g.encontro.parcial}/${g.encontro.no}` }),
+    el("td", { text: g.dificultadComun ? ETIQUETAS_DIFICULTAD[g.dificultadComun] || g.dificultadComun : "—" }),
+    el("td", { text: g.productosBuscados.map(p => p.producto).slice(0, 2).join(", ") || "—" })));
   $("#panel-tabla").replaceChildren(
     el("thead", {}, el("tr", {}, ...enc.map(t => el("th", { text: t })))),
     el("tbody", {}, ...cuerpo));
-  const listaDeseos = [...deseos.entries()].sort((a, b) => b[1] - a[1]);
-  $("#panel-deseos").replaceChildren(...(listaDeseos.length
-    ? listaDeseos.map(([t, n]) => el("li", { class: "lista-cp" }, el("div", { class: "item", text: `${capitaliza(t)} · ${n}` })))
+  $("#panel-deseos").replaceChildren(...(resumen.productosBuscados.length
+    ? resumen.productosBuscados.map(({ producto, n }) =>
+        el("li", { class: "lista-cp" }, el("div", { class: "item", text: `${capitaliza(producto)} · ${n}` })))
     : [el("li", { class: "vacio", text: "Sin sugerencias todavía." })]));
 }
 
@@ -396,6 +450,7 @@ const TITULOS = { inicio: "Canjea Cerca", mapa: "¿Dónde canjeo?", comercio: "C
 function navega() {
   const [ruta, param] = (location.hash.slice(1) || "inicio").split("/");
   const destino = TITULOS[ruta] ? ruta : "inicio";
+  if (destino !== "gracias") enviaEvento();
   document.querySelectorAll(".pantalla").forEach(p => p.classList.toggle("activa", p.dataset.ruta === destino));
   $("#titulo").textContent = TITULOS[destino];
   $("#btn-atras").hidden = destino === "inicio";
@@ -414,7 +469,7 @@ function conectaEventos() {
   $("#btn-ubicacion").addEventListener("click", usaUbicacionReal);
   $("#solo-vales").addEventListener("change", e => { estado.soloVales = e.target.checked; actualizaCercanos(); });
   document.querySelectorAll("[data-retro]").forEach(b => b.addEventListener("click", () => {
-    registra(b.dataset.retro);
+    nuevoEvento(b.dataset.retro);
     location.hash = "#gracias";
   }));
   document.querySelectorAll("[data-ruta=gracias] .pregunta[data-pregunta]").forEach(p => {
@@ -422,18 +477,19 @@ function conectaEventos() {
       if (p.classList.contains("respondida")) return;   // una sola pulsación
       b.setAttribute("aria-pressed", "true");
       p.classList.add("respondida");
-      registra(`${p.dataset.pregunta}:${b.dataset.valor}`);
+      completaEvento(p.dataset.pregunta, b.dataset.valor);
     }));
   });
   $("#btn-deseo").addEventListener("click", () => {
     const t = $("#deseo").value.replace(/[\d@]/g, "").trim().slice(0, 60);   // sin números ni correos
     if (!t) return;
-    registra(`deseo:${t}`);
+    completaEvento("busca", t);
     $("#btn-deseo").closest(".pregunta").classList.add("respondida");
     $("#deseo").value = "";
   });
   $("#btn-reiniciar").addEventListener("click", () => { siembraEventos(true); pintaPanel(); });
   window.addEventListener("hashchange", navega);
+  window.addEventListener("pagehide", enviaEvento);
 }
 
 async function inicia() {

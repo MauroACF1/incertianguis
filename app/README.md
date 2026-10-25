@@ -22,3 +22,9 @@ Abre http://localhost:8000 en el navegador, en vista móvil (390 px). El panel o
 - La fecha se guarda sin hora.
 - El texto libre se limita a 60 caracteres y se le quitan números y "@" (para evitar teléfonos o correos).
 - Al abrir la app por primera vez se precargan 30 eventos de ejemplo. Se pueden reiniciar desde el panel.
+
+## Conexión con la API de retroalimentación
+
+- Al salir de "Gracias", la app envía **un evento por visita** a `POST http://localhost:3001/api/v1/feedback`, con la forma `{fecha, cp, giro, respuesta, encontro, dificultad, busca}`. Esa API vive en el repo [mapatianguis](https://github.com/danmondra/mapatianguis), rama `feedback-api`; se levanta con `npm run dev:api`. Si la API no responde en 3 s o rechaza el evento, este se guarda en `localStorage` (`canjeaCerca.eventos.v2`).
+- El panel `#panel` lee primero `GET /api/v1/feedback/summary` y, si no responde, agrega localmente con la misma lógica. Debajo del título indica cuál fuente usó.
+- Con la API apagada, Chrome escribe `net::ERR_CONNECTION_REFUSED` en la consola. Lo genera el navegador al fallar la petición, no es un error de la app.

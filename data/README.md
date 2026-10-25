@@ -53,3 +53,4 @@ Fuente: https://comercios-mercomuna.cdmx.gob.mx, consultada el 2026-10-25 (`scri
   - el directorio no se ha actualizado.
 
   Vale la pena preguntarlo a SAPCI. La cobertura que calculamos (`cobertura_ids.csv`, `resumen_alcaldias.csv`) se basa solo en el directorio público.
+| `processed/senales_semana.json` | `scripts/10_informe_semanal.py` (lee `GET /api/v1/feedback/summary` de mapatianguis) | Señales semanales: CP con rechazo > 30% (mín. 3 confirmaciones), productos buscados sin comercios afiliables del giro en el CP y CP de IDS bajo con respuestas y cero Mercomuna. **Generado con 60 eventos sintéticos.** Informe de ejemplo: `informes/informe_semanal_ejemplo.md`. |

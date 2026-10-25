@@ -1,0 +1,498 @@
+{
+  "generado": "2026-10-25",
+  "fuente_summary": "http://localhost:3001/api/v1/feedback/summary",
+  "aviso": "Las respuestas provienen de eventos SINTÉTICOS (scripts/seed-feedback.mjs de mapatianguis); los CP y los datos de comercios son reales.",
+  "umbrales": {
+    "tasa_rechazo": 0.3,
+    "min_confirmaciones": 3,
+    "ids_bajo": [
+      "bajo",
+      "muy bajo"
+    ]
+  },
+  "totales": {
+    "eventos": 60,
+    "codigos_postales": 11,
+    "aceptados": 38,
+    "no_aceptados": 22,
+    "tasa_aceptacion": 0.633,
+    "productos_mas_buscados": [
+      {
+        "producto": "carne",
+        "n": 5
+      },
+      {
+        "producto": "pan",
+        "n": 4
+      },
+      {
+        "producto": "tortillas",
+        "n": 3
+      },
+      {
+        "producto": "queso",
+        "n": 2
+      },
+      {
+        "producto": "verduras",
+        "n": 2
+      }
+    ]
+  },
+  "senales": {
+    "rechazo_alto": [
+      {
+        "cp": "09096",
+        "alcaldia": "Iztapalapa",
+        "colonias": [
+          "Iztlahuacan"
+        ],
+        "ids_estrato": "muy bajo",
+        "confirmaciones": 5,
+        "no_aceptados": 3,
+        "tasa_rechazo": 0.6,
+        "giros": [
+          {
+            "giro": "Tianguis",
+            "aceptados": 2,
+            "no_aceptados": 3
+          }
+        ]
+      },
+      {
+        "cp": "14734",
+        "alcaldia": "Tlalpan",
+        "colonias": [
+          "Zacaton",
+          "El Zacaton",
+          "Santa Cruz Atoyac"
+        ],
+        "ids_estrato": "muy bajo",
+        "confirmaciones": 7,
+        "no_aceptados": 4,
+        "tasa_rechazo": 0.571,
+        "giros": [
+          {
+            "giro": "Tianguis",
+            "aceptados": 3,
+            "no_aceptados": 4
+          }
+        ]
+      },
+      {
+        "cp": "09440",
+        "alcaldia": "Iztapalapa",
+        "colonias": [
+          "San Andrés Tetepilco",
+          "El Retoño",
+          "Zacahuitzco"
+        ],
+        "ids_estrato": "medio",
+        "confirmaciones": 6,
+        "no_aceptados": 3,
+        "tasa_rechazo": 0.5,
+        "giros": [
+          {
+            "giro": "Abarrotes y misceláneas",
+            "aceptados": 3,
+            "no_aceptados": 3
+          }
+        ]
+      },
+      {
+        "cp": "14426",
+        "alcaldia": "Tlalpan",
+        "colonias": [
+          "Mesa De Los Hornos",
+          "Texcaltenco",
+          "Tlaxcaltenco La Mesa"
+        ],
+        "ids_estrato": "bajo",
+        "confirmaciones": 4,
+        "no_aceptados": 2,
+        "tasa_rechazo": 0.5,
+        "giros": [
+          {
+            "giro": "Tianguis",
+            "aceptados": 2,
+            "no_aceptados": 2
+          }
+        ]
+      },
+      {
+        "cp": "14250",
+        "alcaldia": "Tlalpan",
+        "colonias": [
+          "Miguel Hidalgo Tercera Sección",
+          "Miguel Hidalgo Segunda Sección",
+          "Miguel Hidalgo Cuarta Sección"
+        ],
+        "ids_estrato": "medio",
+        "confirmaciones": 9,
+        "no_aceptados": 4,
+        "tasa_rechazo": 0.444,
+        "giros": [
+          {
+            "giro": "Carnicería",
+            "aceptados": 2,
+            "no_aceptados": 1
+          },
+          {
+            "giro": "Pollería",
+            "aceptados": 3,
+            "no_aceptados": 3
+          }
+        ]
+      },
+      {
+        "cp": "04620",
+        "alcaldia": "Coyoacán",
+        "colonias": [
+          "San Pablo Tepetlapa",
+          "Santa Rosa",
+          "El Reloj"
+        ],
+        "ids_estrato": "bajo",
+        "confirmaciones": 5,
+        "no_aceptados": 2,
+        "tasa_rechazo": 0.4,
+        "giros": [
+          {
+            "giro": "Pollería",
+            "aceptados": 3,
+            "no_aceptados": 2
+          }
+        ]
+      },
+      {
+        "cp": "04850",
+        "alcaldia": "Coyoacán",
+        "colonias": [
+          "De Santa Úrsula Coapa",
+          "Ex-Hacienda Coapa",
+          "Pedregal De Santa Úrsula"
+        ],
+        "ids_estrato": "muy bajo",
+        "confirmaciones": 6,
+        "no_aceptados": 2,
+        "tasa_rechazo": 0.333,
+        "giros": [
+          {
+            "giro": "Mercado",
+            "aceptados": 4,
+            "no_aceptados": 2
+          }
+        ]
+      }
+    ],
+    "productos_sin_oferta": [
+      {
+        "cp": "09096",
+        "alcaldia": "Iztapalapa",
+        "colonias": [
+          "Iztlahuacan"
+        ],
+        "ids_estrato": "muy bajo",
+        "producto": "pan",
+        "veces": 2,
+        "categoria": "Panadería",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "09438",
+        "alcaldia": "Iztapalapa",
+        "colonias": [
+          "Ampliación El Triunfo"
+        ],
+        "ids_estrato": "bajo",
+        "producto": "carne",
+        "veces": 2,
+        "categoria": "Carnicería",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "14426",
+        "alcaldia": "Tlalpan",
+        "colonias": [
+          "Mesa De Los Hornos",
+          "Texcaltenco",
+          "Tlaxcaltenco La Mesa"
+        ],
+        "ids_estrato": "bajo",
+        "producto": "tortillas",
+        "veces": 2,
+        "categoria": "Tortillería",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "14734",
+        "alcaldia": "Tlalpan",
+        "colonias": [
+          "Zacaton",
+          "El Zacaton",
+          "Santa Cruz Atoyac"
+        ],
+        "ids_estrato": "muy bajo",
+        "producto": "carne",
+        "veces": 2,
+        "categoria": "Carnicería",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "14734",
+        "alcaldia": "Tlalpan",
+        "colonias": [
+          "Zacaton",
+          "El Zacaton",
+          "Santa Cruz Atoyac"
+        ],
+        "ids_estrato": "muy bajo",
+        "producto": "queso",
+        "veces": 2,
+        "categoria": "Cremería, lácteos y embutidos",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "04620",
+        "alcaldia": "Coyoacán",
+        "colonias": [
+          "San Pablo Tepetlapa",
+          "Santa Rosa",
+          "El Reloj"
+        ],
+        "ids_estrato": "bajo",
+        "producto": "fruta",
+        "veces": 1,
+        "categoria": "Frutas y verduras",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "04620",
+        "alcaldia": "Coyoacán",
+        "colonias": [
+          "San Pablo Tepetlapa",
+          "Santa Rosa",
+          "El Reloj"
+        ],
+        "ids_estrato": "bajo",
+        "producto": "verduras",
+        "veces": 1,
+        "categoria": "Frutas y verduras",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "04850",
+        "alcaldia": "Coyoacán",
+        "colonias": [
+          "De Santa Úrsula Coapa",
+          "Ex-Hacienda Coapa",
+          "Pedregal De Santa Úrsula"
+        ],
+        "ids_estrato": "muy bajo",
+        "producto": "carne",
+        "veces": 1,
+        "categoria": "Carnicería",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "04850",
+        "alcaldia": "Coyoacán",
+        "colonias": [
+          "De Santa Úrsula Coapa",
+          "Ex-Hacienda Coapa",
+          "Pedregal De Santa Úrsula"
+        ],
+        "ids_estrato": "muy bajo",
+        "producto": "pan",
+        "veces": 1,
+        "categoria": "Panadería",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "04850",
+        "alcaldia": "Coyoacán",
+        "colonias": [
+          "De Santa Úrsula Coapa",
+          "Ex-Hacienda Coapa",
+          "Pedregal De Santa Úrsula"
+        ],
+        "ids_estrato": "muy bajo",
+        "producto": "pescado",
+        "veces": 1,
+        "categoria": null,
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_giro_afiliable"
+      },
+      {
+        "cp": "04909",
+        "alcaldia": "Coyoacán",
+        "colonias": [
+          "Culhuacán Ctm Sección Ix-A",
+          "Culhuacán Ctm Sección Viii",
+          "Culhuacán Ctm Sección Ix-B"
+        ],
+        "ids_estrato": "muy alto",
+        "producto": "medicinas",
+        "veces": 1,
+        "categoria": null,
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_giro_afiliable"
+      },
+      {
+        "cp": "09096",
+        "alcaldia": "Iztapalapa",
+        "colonias": [
+          "Iztlahuacan"
+        ],
+        "ids_estrato": "muy bajo",
+        "producto": "pan dulce",
+        "veces": 1,
+        "categoria": "Panadería",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "09438",
+        "alcaldia": "Iztapalapa",
+        "colonias": [
+          "Ampliación El Triunfo"
+        ],
+        "ids_estrato": "bajo",
+        "producto": "verduras",
+        "veces": 1,
+        "categoria": "Frutas y verduras",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "09577",
+        "alcaldia": "Iztapalapa",
+        "colonias": [
+          "Ejército De Agua Prieta"
+        ],
+        "ids_estrato": "muy bajo",
+        "producto": "pan",
+        "veces": 1,
+        "categoria": "Panadería",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      },
+      {
+        "cp": "09577",
+        "alcaldia": "Iztapalapa",
+        "colonias": [
+          "Ejército De Agua Prieta"
+        ],
+        "ids_estrato": "muy bajo",
+        "producto": "tortillas",
+        "veces": 1,
+        "categoria": "Tortillería",
+        "afiliables_en_cp": 1,
+        "mercomuna_en_cp": 0,
+        "situacion": "hay_oferta_pero_ninguno_acepta_vales"
+      },
+      {
+        "cp": "14426",
+        "alcaldia": "Tlalpan",
+        "colonias": [
+          "Mesa De Los Hornos",
+          "Texcaltenco",
+          "Tlaxcaltenco La Mesa"
+        ],
+        "ids_estrato": "bajo",
+        "producto": "tortilleria",
+        "veces": 1,
+        "categoria": "Tortillería",
+        "afiliables_en_cp": 0,
+        "mercomuna_en_cp": 0,
+        "situacion": "sin_oferta_afiliable_en_cp"
+      }
+    ],
+    "ids_bajo_sin_mercomuna": [
+      {
+        "cp": "14734",
+        "alcaldia": "Tlalpan",
+        "colonias": [
+          "Zacaton",
+          "El Zacaton",
+          "Santa Cruz Atoyac"
+        ],
+        "ids_estrato": "muy bajo",
+        "eventos": 7,
+        "mercomuna_en_cp": 0,
+        "afiliables_en_cp": 18
+      },
+      {
+        "cp": "04850",
+        "alcaldia": "Coyoacán",
+        "colonias": [
+          "De Santa Úrsula Coapa",
+          "Ex-Hacienda Coapa",
+          "Pedregal De Santa Úrsula"
+        ],
+        "ids_estrato": "muy bajo",
+        "eventos": 6,
+        "mercomuna_en_cp": 0,
+        "afiliables_en_cp": 20
+      },
+      {
+        "cp": "09096",
+        "alcaldia": "Iztapalapa",
+        "colonias": [
+          "Iztlahuacan"
+        ],
+        "ids_estrato": "muy bajo",
+        "eventos": 5,
+        "mercomuna_en_cp": 0,
+        "afiliables_en_cp": 37
+      },
+      {
+        "cp": "09577",
+        "alcaldia": "Iztapalapa",
+        "colonias": [
+          "Ejército De Agua Prieta"
+        ],
+        "ids_estrato": "muy bajo",
+        "eventos": 4,
+        "mercomuna_en_cp": 0,
+        "afiliables_en_cp": 20
+      },
+      {
+        "cp": "14426",
+        "alcaldia": "Tlalpan",
+        "colonias": [
+          "Mesa De Los Hornos",
+          "Texcaltenco",
+          "Tlaxcaltenco La Mesa"
+        ],
+        "ids_estrato": "bajo",
+        "eventos": 4,
+        "mercomuna_en_cp": 0,
+        "afiliables_en_cp": 18
+      }
+    ]
+  }
+}

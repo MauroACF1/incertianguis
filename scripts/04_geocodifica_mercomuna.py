@@ -61,8 +61,14 @@ def elige(nombre_n, dir_n, grupo):
 
 def main(dir_csv, denue_csv, salida_csv):
     merco = pd.read_csv(dir_csv, dtype=str)
-    denue = pd.read_csv(denue_csv, dtype=str, usecols=["id", "nom_estab", "nom_vial", "numero_ext",
-                                                           "cod_postal", "latitud", "longitud"])
+    n0 = len(merco)
+    merco = merco.drop_duplicates()  # el directorio paginado repite filas
+    print(f"{n0 - len(merco)} filas duplicadas eliminadas del directorio")
+    cols = ["id", "nom_estab", "nom_vial", "numero_ext", "cod_postal", "latitud", "longitud"]
+    denue = pd.read_csv(denue_csv, dtype=str, usecols=cols)
+    pan = Path(denue_csv).with_name("denue_09_3118.csv")  # panaderías y tortillerías
+    if pan.exists():
+        denue = pd.concat([denue, pd.read_csv(pan, dtype=str, usecols=cols)], ignore_index=True)
 
     denue["cp"] = denue["cod_postal"].map(normaliza_cp)
     denue["nombre_n"] = denue["nom_estab"].map(normaliza)

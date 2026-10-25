@@ -10,3 +10,9 @@ Cada fuente descargada se registra aquí. Las fechas están en formato AAAA-MM-D
 | `raw/tianguis-de-la-ciudad-de-mexico__diccionario_de_datos_de_tianguis.csv` | https://datos.cdmx.gob.mx/dataset/64aa33ed-e3f4-4949-aab5-4fcca129eecd/resource/092ed975-7759-41eb-84c9-85ef5cce2ff2/download/092ed975-7759-41eb-84c9-85ef5cce2ff2.csv | 2026-10-25 | Diccionario de datos de tianguis. |
 | `raw/mercomuna_directorio.csv` | https://sapci.cdmx.gob.mx/mercomuna y https://sapci.cdmx.gob.mx/programas/programa/ingreso-social-mercomuna-cdmx | 2026-10-25 (intento) | **NO DISPONIBLE.** Las páginas responden (HTTP 200) pero no publican el directorio de comercios: no hay tabla, ni endpoint JSON/CSV, ni AJAX. Las subrutas `/mercomuna/directorio`, `/comercios` y `/mapa` dan 404. La única captura en Wayback (2025-08-27) tampoco lo incluye. `scripts/02_mercomuna_sapci.py` lo reintenta. |
 | `raw/denue_09_46.csv` | INEGI DENUE, corte 05/2026. https://www.inegi.org.mx/contenidos/masiva/denue/denue_00_46111_csv.zip, `denue_00_46112-46311_csv.zip`, `denue_00_46321-46531_csv.zip`, `denue_00_46591-46911_csv.zip` (listados en https://www.inegi.org.mx/app/descarga/?ti=6) | 2026-10-25 | 212,251 establecimientos de comercio al por menor (SCIAN 46) en CDMX (`cve_ent=09`). Se eliminaron razón social, teléfono, correo, web y estrato de personal ocupado. Los zips nacionales (~230 MB) quedan en `raw/denue_zip/` (fuera de git). Script: `scripts/03_descarga_denue.py` |
+
+## Salidas procesadas
+
+| Archivo | Script | Estado |
+|---|---|---|
+| `processed/mercomuna_comercios_geo.csv` | `scripts/04_geocodifica_mercomuna.py` | **Pendiente**: requiere `raw/mercomuna_directorio.csv`, que SAPCI no publica (ver arriba). Columnas: nombre, giro, direccion, cp, alcaldia, lat, lon, precision (exacta/cp/sin_ubicacion), fuente_match. |

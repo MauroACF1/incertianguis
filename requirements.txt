@@ -2,3 +2,6 @@ pandas
 rapidfuzz
 requests
 beautifulsoup4
+geopandas
+pyogrio
+openpyxl

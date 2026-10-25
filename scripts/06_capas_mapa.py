@@ -6,6 +6,11 @@ Capas:
   comercios   -> comercios_afiliables.geojson / .csv (DENUE, giros de alimentos)
   resumen     -> resumen_alcaldias.csv
 
+Cada punto recibe ids_estrato (muy bajo/bajo/medio/alto/muy alto) del Índice de
+Desarrollo Social 2020 de Evalúa por manzana: spatial join del punto con los polígonos
+de manzana (MG 2020); si el punto cae en la calle se toma la manzana más cercana a
+<= IDS_DIST_MAX metros. Requiere scripts/07_descarga_ids.py.
+
 Uso: py -3.12 scripts/06_capas_mapa.py [mercados|tianguis|comercios|resumen ...]
      (sin argumentos genera todas)
 """
@@ -15,6 +20,7 @@ import sys
 import unicodedata
 from pathlib import Path
 
+import geopandas as gpd
 import pandas as pd
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -23,6 +29,9 @@ OUT = RAIZ / "data" / "processed"
 
 # Caja aproximada de la CDMX para descartar coordenadas erróneas (p. ej. 0,0).
 LAT_MIN, LAT_MAX, LON_MIN, LON_MAX = 19.04, 19.60, -99.37, -98.94
+
+IDS_DIST_MAX = 60  # metros
+ESTRATOS = ["muy bajo", "bajo", "medio", "alto", "muy alto"]
 
 # Giros de alimentos donde se canjean vales (catálogo SCIAN 2023, verificado contra el DENUE).
 GIROS_AFILIABLES = {
@@ -56,10 +65,36 @@ def en_cdmx(df):
     return df["lat"].between(LAT_MIN, LAT_MAX) & df["lon"].between(LON_MIN, LON_MAX)
 
 
+_MANZANAS = None
+
+
+def manzanas_ids():
+    """Polígonos de manzana (EPSG:6372, metros) con su estrato IDS."""
+    global _MANZANAS
+    if _MANZANAS is None:
+        mz = gpd.read_file(f"zip://{RAW / 'manzanas_mg2020.zip'}", columns=["CVEGEO"]).to_crs(6372)
+        ids = pd.read_csv(RAW / "ids_2020_manzana.csv", dtype=str, encoding="latin-1",
+                          usecols=["folio_mza", "e_idsm"])
+        ids["ids_estrato"] = ids["e_idsm"].str.strip().str.lower()
+        _MANZANAS = mz.merge(ids[["folio_mza", "ids_estrato"]], left_on="CVEGEO", right_on="folio_mza")
+        _MANZANAS = _MANZANAS[_MANZANAS["ids_estrato"].isin(ESTRATOS)][["ids_estrato", "geometry"]]
+    return _MANZANAS
+
+
+def agrega_ids(df):
+    puntos = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df["lon"], df["lat"]), crs=4326).to_crs(6372)
+    unido = gpd.sjoin_nearest(puntos, manzanas_ids(), how="left", max_distance=IDS_DIST_MAX)
+    unido = unido[~unido.index.duplicated()]  # empates de distancia: primera manzana
+    df = df.copy()
+    df["ids_estrato"] = unido["ids_estrato"]
+    return df
+
+
 def guarda(df, nombre):
     """Escribe <nombre>.csv y <nombre>.geojson; las columnas lat/lon se vuelven la geometría."""
     OUT.mkdir(parents=True, exist_ok=True)
-    df = df.reset_index(drop=True)
+    df = agrega_ids(df.reset_index(drop=True))
+    print(f"{nombre}: ids_estrato {df['ids_estrato'].value_counts(dropna=False).to_dict()}")
     df.to_csv(OUT / f"{nombre}.csv", index=False, encoding="utf-8")
     props = df.drop(columns=["lat", "lon"]).astype(object).where(df.drop(columns=["lat", "lon"]).notna(), None)
     features = [
@@ -150,8 +185,17 @@ def resumen():
     capas = {"mercados": "mercados_publicos", "tianguis": "tianguis", "comercios_afiliables": "comercios_afiliables"}
     conteos = {k: pd.read_csv(OUT / f"{v}.csv", usecols=["alcaldia"])["alcaldia"].value_counts()
                for k, v in capas.items()}
+    com = pd.read_csv(OUT / "comercios_afiliables.csv", usecols=["alcaldia", "ids_estrato"])
+    for estrato in ["muy bajo", "bajo"]:
+        conteos[f"comercios_ids_{estrato.replace(' ', '_')}"] =             com.loc[com["ids_estrato"] == estrato, "alcaldia"].value_counts()
     r = pd.DataFrame(conteos).reindex(ALCALDIAS).fillna(0).astype(int).rename_axis("alcaldia").reset_index()
-    r.loc[len(r)] = ["Total CDMX", *r[list(capas)].sum()]
+    r["comercios_ids_bajo_y_muy_bajo"] = r["comercios_ids_bajo"] + r["comercios_ids_muy_bajo"]
+    r["pct_comercios_ids_bajo_y_muy_bajo"] = (100 * r["comercios_ids_bajo_y_muy_bajo"]
+                                              / r["comercios_afiliables"]).round(1)
+    total = r.drop(columns="alcaldia").sum()
+    total["pct_comercios_ids_bajo_y_muy_bajo"] = round(
+        100 * total["comercios_ids_bajo_y_muy_bajo"] / total["comercios_afiliables"], 1)
+    r.loc[len(r)] = ["Total CDMX", *total]
     r.to_csv(OUT / "resumen_alcaldias.csv", index=False, encoding="utf-8")
     print(r.to_string(index=False))
 

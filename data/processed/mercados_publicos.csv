@@ -1,330 +1,330 @@
-nombre,numero,alcaldia,colonia,direccion,tipo,locales,lat,lon
-Mercado Azcapotzalco,35,Azcapotzalco,Centro De Azcapotzalco,AV. AZCAPOTZALCO ENTRE ESPERANZA Y RAYON,Tradicional,546,19.4828719147,-99.1854389999
-Mercado Claveria,46,Azcapotzalco,Claveria,IRAPUATO Y CLAVERIA S/N,Tradicional,98,19.4650029147,-99.1811519999
-Mercado Arenal,125,Azcapotzalco,Arenal,ALAMO Y CALLE 6 ENTRE OLIVO Y CALLE 6,Tradicional,198,19.4662709147,-99.150715
-Mercado Prohogar,126,Azcapotzalco,Pro Hogar I,CALLE 14 S/N ENTRE CALLES 19 Y 21,Tradicional,641,19.4758479147,-99.1535589999
-Mercado Santa Lucia,137,Azcapotzalco,Santa Lucia (Barr),AV. SANTA LUCIA ENTRE CENTEOTL Y ACATL,Tradicional,150,19.4764169147,-99.1963989999
-Mercado Cosmopolita,138,Azcapotzalco,Potrero Del Llano,AV. CEYLAN ESQ. ISLAS ALEUTIANAS,Tradicional,135,19.4752229147,-99.1617959999
-Mercado Victoria De Las Democracias,141,Azcapotzalco,Ignacio Allende,"TORONJIL Y PEREJIL, ENTRE PIMIENTA Y MEJORANA",Tradicional,177,19.4675909147,-99.1630669999
-Mercado Obrero Popular,142,Azcapotzalco,Obrero Popular,NORTE 67 ENTRE  PONIENTE 54 Y SUR 4,Tradicional,125,19.4632329148,-99.1735679999
-Mercado Nueva Santa Maria,143,Azcapotzalco,Nueva Santa Maria,"CLAVELINAS ENTRE MEMBRILLO, BEGONIAS Y VID",Tradicional,126,19.4643959147,-99.1692599999
-Mercado Benito Juarez,167,Azcapotzalco,Sindicato Mexicano De Electricistas,AV. RABAUL ENTRE NORTE 81 Y NORTE 79,Tradicional,123,19.4757259147,-99.1768029999
-Mercado Tlatilco,194,Azcapotzalco,Tlatilco,"ORQUIDEA 35, ENTRE AV. JARDIN Y AV. TLATILCO",Tradicional,155,19.4620539148,-99.1625949999
-Mercado San Juan Tlihuaca,224,Azcapotzalco,San Juan Tlihuaca (Pblo),SAN JUAN TLIHUACA Y FORTUNA ZUA ZUA,Tradicional,168,19.4929589146,-99.2033809999
-Mercado Jardin 23 De Abril,227,Azcapotzalco,San Pedro Xalpa (Ampl) I,"AV. 23 DE ABRIL Y LIBERATO LARA, ENTRE ADRIAN CASTREJON Y JOAQUIN AMARO",Tradicional,154,19.4823639147,-99.2153219999
-Mercado Jardin Fortuna Nacional,228,Azcapotzalco,San Antonio (Fracc),"CAMPO FORTUNA NACIONAL, ENTRE  CAMPO VERDE Y CAMPO TASAJERA",Tradicional,71,19.4807519147,-99.2051779999
-Mercado Providencia,247,Azcapotzalco,Providencia,"CALLE LUCIO BLANCO, ENTRE FRANCISCO I. MADERO Y VENUSTIANO CARRANZA",Tradicional,143,19.4914999146,-99.2136319999
-Mercado Laminadores,250,Azcapotzalco,Monte Alto,"MINEROS METALURGICOS, ENTRE LAMINADORES Y CALLES 8 Y 9",Tradicional,148,19.4803289147,-99.1558689999
-Mercado Pantaco,268,Azcapotzalco,Jardin Azpeitia,AV. RABAUL Y ADUANAS PANTACO,Especializado,41,19.4744329147,-99.1712289999
-Mercado Pasteros,276,Azcapotzalco,Pasteros,JACARANDAS ENTRE DURAZNOS Y CIRUELOS,Tradicional,122,19.4962039146,-99.1974969999
-Mercado Coyoacan,89,Coyoacán,Del Carmen,"XICOTENCATL, ENTRE MALITZIN Y ALLENDE",Tradicional,464,19.3527349151,-99.1614979999
-Mercado Prado Churubusco,130,Coyoacán,Prado Churubusco,OSA MENOR ENTRE ORION Y PEGASO,Tradicional,117,19.3540979151,-99.125975
-Mercado Santa Ursula Coapa (Pescaditos),154,Coyoacán,Pedregal De Santa Ursula I,"SAN GONZALO MZ. 933 LT. 2, ENTRE SAN BENJAMIN Y SAN CASTULO",Tradicional,268,19.3117739152,-99.1503369999
-Mercado El Reloj,155,Coyoacán,El Reloj,"CAL.CALIZ Y PRIMAVERA,CDA DE CALIZ",Tradicional,90,19.3186839152,-99.1405319999
-Mercado Xotepingo,157,Coyoacán,Ciudad Jardin,LAS ROSAS Y NOCHE BUENA,Tradicional,124,19.3380869151,-99.1445519999
-Mercado Churubusco,171,Coyoacán,San Mateo (Barr),"MARTIRES IRLANDESES, ENTRE JUAN AGUILAR Y LOPEZ  Y PAZ MONTES DE OCA",Tradicional,157,19.3497769151,-99.1470619999
-Mercado Avante,180,Coyoacán,Avante,AV. DEL PARQUE Y RETORNO 50 S/N,Tradicional,101,19.3261629152,-99.1349329999
-Mercado Ruiz Cortinez (La Cruz),199,Coyoacán,Adolfo Ruiz Cortines Ii,TEPETLAPA ENTRE CANAZOC Y TEPEPEHU,Tradicional,95,19.3187239152,-99.1513459999
-Mercado Ajusco Montserrat (La Bola),229,Coyoacán,Ajusco I,TOTONACAS IXTLIXOCHITL (LA BOLA),Tradicional,233,19.3238169152,-99.1574639999
-Mercado San Francisco Culhuacan,236,Coyoacán,Ampliacion San Francisco Culhuacan (Ej),"HEROICA ESCUELA NAVAL MILITAR # 51, ENTRE AV. TAXQUEÑA Y EJIDO  SAN ANTONIO TOMATLAN",Tradicional,235,19.3360439151,-99.1233089999
-Mercado Ajusco Moctezuma,237,Coyoacán,Ajusco Iii,"AV. CORAS Y NEZAHALPILLI, ENTRE MOCTEZUMA Y SAN GUILLERMO",Tradicional,232,19.3130269153,-99.1623249999
-Mercado Educacion Petrolera,259,Coyoacán,Petrolera Taxquea,AVENIDA 3 Y AVENIDA 5,Tradicional,78,19.3363029151,-99.1318449999
-Mercado Los Reyes Coyoacan,300,Coyoacán,Pedregal De Sto Domingo Ii,BASALTO Y CANTERA,Tradicional,104,19.3335259151,-99.1579439999
-Mercado Santo Domingo Las Rosas,301,Coyoacán,Pedregal De Sto Domingo Iii,AV. PAPALOTL ENTRE ESCUINAPA Y CANAHUTLI,Tradicional,105,19.3309569152,-99.1629299999
-Mercado Carmen Serdan,303,Coyoacán,Carmen Serdan,MANUELA MEDINA S/N. HERMANAS GONZALEZ Y GERTRUDIS BOCANEGRA,Tradicional,116,19.3203469152,-99.1060589999
-Mercado Margarita Maza De Juarez,311,Coyoacán,Alianza Popular Revolucionaria Oriente (U Hab),"ORIENTAL , ENTRE TEPETLAPA Y TORRE EIFFEL",Tradicional,102,19.3130479153,-99.1146
-Mercado Emiliano Zapata,319,Coyoacán,Emiliano Zapata (U Hab),PLAN DE AYALA Y ANENECUILCO,Tradicional,47,19.3164129152,-99.109774
-Mercado Santo Domingo Los Reyes,340,Coyoacán,Pedregal De Sto Domingo Vii,ZIHUATLAN No 25 ENTRE PASCLE Y AHUEJOTE,Tradicional,35,19.3196929152,-99.1687719999
-Mercado Copilco El Alto,347,Coyoacán,Pedregal De Sto Domingo Ix,AV.ANACAHUITLA Y ECUINAPA S/N,Tradicional,68,19.3318099152,-99.1706849999
-Mercado Hermosillo,368,Coyoacán,Hermosillo,AMACUZAC ESQ. QUINCEO,Tradicional,45,19.3459929151,-99.1284289999
-Mercado El Verde,412,Coyoacán,Ctm Viii Culhuacan (U Hab),ROSARIO CASTELLANOS Y DOLORES GUERRERO,Tradicional,176,19.3146639152,-99.1039189999
-Mercado Bazar Del Artesano Mexicano,414,Coyoacán,Villa Coyoacan,CALLE FELIPE CARRILLO PUERTO No 25,Especializado,550,19.3501729151,-99.1634649999
-Mercado Cuajimalpa,37,Cuajimalpa de Morelos,San Pedro Cuajimalpa (Pblo),AV. VERACRUZ Y MELCHOR OCAMPO,Tradicional,128,19.355573915,-99.2993179998
-Mercado San Mateo Tlaltenango,258,Cuajimalpa de Morelos,San Mateo Tlaltenango (Pblo),MINA Y CDA. DE MINA S/N,Tradicional,32,19.3422729151,-99.2824659998
-Mercado Rosa Torres,262,Cuajimalpa de Morelos,San Jose De Los Cedros Ii,"AV. SAN JOSE DE LOS CEDROS ESQ, SAUCE",Tradicional,159,19.369909915,-99.2888889999
-Mercado Huizachito,-378,Cuajimalpa de Morelos,Jardines De La Palma (Huizachito),"CAMINO A HUIZACHITOS/N, NOCHE DE PAZ Y ECHANOVE",Tradicional,8,19.371298915,-99.2805909998
-Mercado Villa Zona,34,Gustavo A. Madero,Villa Gustavo A Madero,5 DE FEBRERO ENTRE MATAMOROS E ITURBIDE,Tradicional,938,19.4838639146,-99.115241
-Mercado Ramon Corona,45,Gustavo A. Madero,Industrial I,"CONSTANCIA  S/N, ENTRE RIO BLANCO Y NECAXA",Tradicional,458,19.4771019147,-99.1244919999
-Mercado Carrera Lardizabal,50,Gustavo A. Madero,Constitucion De La Republica,LUIS DE LA ROSA Y LEON GUZMAN,Tradicional,131,19.4825229147,-99.0997109999
-Mercado Rio Blanco,53,Gustavo A. Madero,Martires De Rio Blanco,"CONGRESO DE LA UNION, ENTRE ORIENTE 95 Y ORIENTE 91",Tradicional,454,19.4615999148,-99.1126009999
-Mercado Estrella,54,Gustavo A. Madero,Estrella,JOYAS ENTRE OPALO Y ESCUELA,Tradicional,124,19.4756379147,-99.115836
-Mercado Diez De Mayo,56,Gustavo A. Madero,Nueva Tenochtitlan,"ORIENTE 87, NORTE 84 Y ORIENTE 89",Tradicional,390,19.4561979147,-99.104686
-Mercado Gertrudis Sanchez,58,Gustavo A. Madero,Gertrudis Sanchez 2A Seccion,"NORTE 82B ESQ. HENRY FORD, ENTRE NORTE 84 Y NORTE 82",Tradicional,215,19.4640839147,-99.101213
-Mercado Salvado Diaz Miron,62,Gustavo A. Madero,Salvador Diaz Miron,"NORTE 66A, ORIENTE 155 Y NORTE 66",Tradicional,150,19.4878659146,-99.099303
-Mercado Gabriel Hernandez,69,Gustavo A. Madero,Santiago Atzacoalco (Pblo),AV. CENTENARIO Y CERRITO,Tradicional,214,19.5010649146,-99.0950519999
-Mercado Vasco De Quiroga,70,Gustavo A. Madero,Vasco De Quiroga,BARTOLOME DE OLMEDO Y FRAY JUAN DE PADILLA,Tradicional,212,19.4945639147,-99.094934
-Mercado Tres Estrellas,171,Coyoacán,San Mateo (Barr),"MARTIRES IRLANDESES, ENTRE JUAN AGUILAR Y LOPEZ  Y PAZ MONTES DE OCA",Tradicional,122,19.3497769151,-99.1470619999
-Mercado Progreso Nacional,73,Gustavo A. Madero,Guadalupe Proletaria,CALLE 28 ENTRE CALLE 11 Y CALLE 12,Tradicional,274,19.5218719146,-99.158824
-Mercado Villa Comidas (Viejo),81,Gustavo A. Madero,15 De Agosto,5 DE FEBRERO ENTRE ECHEVERRIA Y PEDRO MARIA ANAYA,Especializado,209,19.4847549147,-99.113189
-Mercado Ampliacion Casas Aleman,116,Gustavo A. Madero,Casas Aleman (Ampl) I,"PUERTO TAMPICO Y PUERTO ACAPULCO, PUERTO MANZANILLO Y CDA . PUERTO ACAPULCO",Tradicional,192,19.4763089147,-99.0838319999
-Mercado Martin Carrera,117,Gustavo A. Madero,Martin Carrera I,V. GUERRERO Y JOSE J. HERRERA,Tradicional,241,19.4870619147,-99.106977
-Mercado San Juan De Aragon Unidad I,121,Gustavo A. Madero,San Juan De Aragon 1A Seccion (U Hab) I,AV. 517 Y 521,Tradicional,193,19.4597059148,-99.09175
-Mercado Vicente Guerrero (Nueva Atzacoalco),123,Gustavo A. Madero,Nueva Atzacoalco Ii,CALLE 314 ENTRE CALLE 311 Y 313,Tradicional,386,19.5015429146,-99.085439
-Mercado Maximino Avila Camacho,127,Gustavo A. Madero,Tlacamaca,"PPONIENTE 112, NORTE 1B Y NORTE 1C",Tradicional,130,19.4759409147,-99.137876
-Mercado Panamericana,145,Gustavo A. Madero,Panamericana,PONIENTE 122 Y NORTE 9,Tradicional,430,19.4776129147,-99.1453989999
-Mercado Fernando Casas Aleman,156,Gustavo A. Madero,Cerro Prieto,"RUBLOS, CAIRO Y PESETAS",Tradicional,222,19.4526849148,-99.0972779999
-Mercado Juan Gonzalez Romero,160,Gustavo A. Madero,Juan Gonzalez Romero,"AV. DE LAS FLORES Y CALLE GLORIA, ENTRE MADRE SELVA Y ALCATRAZ",Tradicional,201,19.5064369146,-99.0900489999
-Mercado Bondojito,161,Gustavo A. Madero,Faja De Oro,HENRY FORD Y NORTE 72A,Tradicional,181,19.4657169147,-99.105756
-Mercado Santa Rosa,164,Gustavo A. Madero,Santa Rosa,"CALLE 26 , ENTRE CALLE 28A Y CALZ. VALLEJO",Tradicional,167,19.5245939146,-99.1686969999
-Mercado Santa Maria Ticoman,176,Gustavo A. Madero,La Laguna Ticoman (Barr),AV. 21 DE MARZO Y CALLE 1810,Tradicional,119,19.5163179145,-99.133305
-Mercado Pueblo De San Juan De Aragon,185,Gustavo A. Madero,San Juan De Aragon (Pblo),"RIO GUADALUPE, JARDIN REVOLUCION Y J. M. MORELOS",Tradicional,64,19.4687059147,-99.0842109999
-Mercado San Bartolo Atepehuacan,188,Gustavo A. Madero,San Bartolo Atepehuacan (Pblo),AV. MONTEVIDEO No 500 ENTRE CALLE LOMA Y MANDUJANO,Tradicional,159,19.4917859146,-99.1406139999
-Mercado San Pedro Zacatenco,189,Gustavo A. Madero,Residencial Zacatenco,"LA RIOJA Y MANIZALES, ENTRE MANIZALES Y RAMIRIQUI",Tradicional,111,19.5056279146,-99.1250519999
-Mercado Magdalena De Las Salinas (Nueva Vallejo),193,Gustavo A. Madero,Nueva Vallejo,"PONIENTE 122, ENTRE NORTE 19A NORTE 21 Y PTE 126",Tradicional,86,19.4851229146,-99.1487169999
-Mercado San Juan De Aragon Unidad 7,204,Gustavo A. Madero,San Juan De Aragon 7 Secc (U Hab) Ii,"AV. 414, ENTRE 481 Y 483",Tradicional,190,19.4701709147,-99.0754499999
-Mercado San Felipe De Jesus,205,Gustavo A. Madero,San Felipe De Jesus Iv,HIDALGO ENTRE TAMAZULA Y APATZINGAN,Tradicional,269,19.4935729146,-99.0765599999
-Mercado San Juan De Aragon Unidad 2,218,Gustavo A. Madero,San Juan De Aragon 2A Seccion (U Hab) I,"AV. 506, 553 Y 549",Tradicional,108,19.4539619148,-99.0856129999
-Mercado San Juan De Aragon Unidad 3,219,Gustavo A. Madero,San Juan De Aragon 3A Seccion (U Hab) I,"AV. 606, 597 Y 595",Tradicional,232,19.4517999148,-99.0717499999
-Mercado Santa Isabel Tola,221,Gustavo A. Madero,Santa Isabel Tola (Pblo),CUAUHTEMOC Y CACAMA,Tradicional,67,19.4988129146,-99.116792
-Mercado Pradera,242,Gustavo A. Madero,La Pradera,MALINCHE Y POPOCATEPETL,Tradicional,106,19.4756779147,-99.0675479999
-Mercado Campestre Aragon,272,Gustavo A. Madero,Campestre Aragon I,"CALLE ESFUERZO""A""  ESQ. CAMINO CENTRAL SUR",Tradicional,137,19.4859219147,-99.0782099999
-Mercado Ampliacion Gabriel Hernandez,277,Gustavo A. Madero,Gabriel Hernandez (Ampl) Ii,EVA SAMANO DE LOPEZ MATEOS Y RODOLFO MENDEZ,Tradicional,78,19.5058609146,-99.099716
-Mercado Veinticinco De Julio,302,Gustavo A. Madero,25 De Julio,"EJIDO Y CANAL DE DESAGUE, ENTRE CANAL Y CUAUHTEMOC",Especializado,249,19.4961399147,-99.0826199999
-Mercado San Pedro El Chico,329,Gustavo A. Madero,San Pedro El Chico,AV.TALISMAN Y NORTE 94,Tradicional,51,19.4678769147,-99.0956659999
-Mercado Ma. Esther Zuno De Echeverria,330,Gustavo A. Madero,Villa Gustavo A Madero,AQUILES SERDAN Y FRAY JUAN DE ZUMARRAGA,Especializado,90,19.4832679146,-99.117126
-Mercado San Juan De Aragon Unidad 4 Y 5,336,Gustavo A. Madero,San Juan De Aragon 4A  Y 5A Seccion (U Hab) I,CALLE 625 Y CALLE 623 ENTRE CALLE 604 Y CALLE 606,Tradicional,169,19.4535779147,-99.065062
-Mercado Cuchilla Del Tesoro,338,Gustavo A. Madero,Cuchilla Del Tesoro,AV. CUHILLA DEL TESORO Y AV. DEL PARQUE,Tradicional,128,19.4476169148,-99.0574229999
-Mercado San Juan De Aragon Unidad 6,339,Gustavo A. Madero,San Juan De Aragon 6A Seccion (U Hab) Ii,"AV. 506, 553 Y 549",Tradicional,190,19.4664889147,-99.065754
-Mercado Primero De Septiembre,354,Gustavo A. Madero,Vallejo I,"BORODIN, CLAVE Y PUCCINI",Tradicional,244,19.4664909148,-99.134611
-Mercado Alfredo Robles Dominguez,366,Gustavo A. Madero,Guadalupe Insurgentes,ALFREDO ROBLES DOMINGUEZ E INSURGENTES NORTE,Tradicional,61,19.4712229147,-99.135695
-Mercado Cuatro De Febrero,404,Gustavo A. Madero,Juan Gonzalez Romero,RODOLFO MENDEZ Y PERIFERICO,Tradicional,120,19.5060809146,-99.0911006666
-Mercado Cuautepec,405,Gustavo A. Madero,Loma De La Palma,5 DE MAYO Y FRANCISCO VILLA ESQ. 18 DE MARZO,Tradicional,74,19.5494169145,-99.1429079999
-Mercado Ferroplaza,410,Gustavo A. Madero,Aragon La Villa (Aragon),"CALLE ALBERTO HERRERA, ENTRE 5 DE FEBERO Y JUAN BERNARDINO",Tradicional,144,19.4817339147,-99.1161769999
-Mercado Lindavista Vallejo Patera,-366,Gustavo A. Madero,La Patera-Condomodulos (U Hab),AV. PONIENTE 152 ENTRE AV. 100MTS. Y VALLEJO,Tradicional,86,19.5011739146,-99.152832
-Mercado Iztacalco,38,Iztacalco,La Asuncion,"CALZ. DE LA VIGA ESQ. TEZONLE, ENTRE AV. SAN MIGUEL",Tradicional,102,19.389657915,-99.1216479999
-Mercado Agricola Oriental,87,Iztacalco,Agricola Oriental Ii,"ORIENTE 237, SUR 16 Y SUR 12 ROJO GOMEZ",Tradicional,344,19.395236915,-99.075278
-Mercado Militar Marte,-109,Iztacalco,Militar Marte,PLAYA AZUL Y PLAYA TABACHINES,Tradicional,158,19.383031915,-99.1310999999
-Mercado Pantitlan Calle 4,118,Iztacalco,Pantitlan V,"CALLE 4, ENTRE AV. NORTE Y PRIV. DE LA ESCUELA",Tradicional,271,19.4111569149,-99.062213
-Mercado Juventino Rosas,134,Iztacalco,Juventino Rosas Ii,"SUR 117B ESQ. AV. DEL RECREO, ENTRE 117B Y 117",Tradicional,208,19.3933669149,-99.1060749999
-Mercado Bramadero,135,Iztacalco,Ramos Millan Bramadero I,"SUR 163, OTE. 108 Y OTE. 110",Tradicional,278,19.3910499149,-99.0947399999
-Mercado Tlacotal,139,Iztacalco,Gabriel Ramos Millan,"AV. 5, OTE. 100, ENTRE SUR 125 Y AV. 5",Tradicional,273,19.395474915,-99.1027469999
-Mercado La Cruz,147,Iztacalco,La Cruz,CALZ. COYUYA Y AV. HIDALGO,Tradicional,249,19.4023379149,-99.1173649999
-Mercado Veinticuatro De Diciembre,198,Iztacalco,Pantitlan V,"CALLE 7, ENTRE AV. PUEBLA Y PRIV. DEL VALLE",Tradicional,203,19.4027279149,-99.058517
-Mercado Santa Anita,202,Iztacalco,Nueva Sta Anita,"AV. ANDRES MOLINA ENRIQUEZ,  ENTRE SANTA ANITA Y PLUTARCO ELIAS CALLES",Tradicional,117,19.3985079149,-99.1293949999
-Mercado Apatlaco,206,Iztacalco,Campamento 2 De Octubre Ii,AV. APATLACO S/N. ENTRE GALEANA Y LA VIGA,Tradicional,131,19.382641915,-99.119382
-Mercado Leandro Valle,212,Iztacalco,Agricola Oriental Vii,"ORIENTE 253, ENTRE  SUR 20 Y SUR 22",Tradicional,197,19.388531915,-99.0670409999
-Mercado El Rodeo,255,Iztacalco,El Rodeo,ERNESTO P. URUCHURTU Y CALLE 28,Tradicional,68,19.391944915,-99.08544
-Mercado Ejidos De La Magdalena Mixhuca,334,Iztacalco,Ex Ejidos De La Magdalena Mixihuca,HORTALIZA Y TRIGO S/N  ENTRE THE Y OTE. 106,Tradicional,104,19.392240915,-99.0892099999
-Mercado San Miguel Iztacalco,345,Iztacalco,Los Reyes,"EJE 3 OTE. FCO DEL PASO Y TRONCOSO ESQ. JULIO GARCIA, ENTRE RECREO Y BUSTAMANTE",Tradicional,90,19.393844915,-99.1143369999
-Mercado Jose Lopez Portillo,352,Iztacalco,Pantitlan I,"AV. CENTRAL, ENTRE AV. NORTE Y EJE UNO NORTE",Tradicional,352,19.4117249149,-99.0683479999
-Mercado Iztapalapa,39,Iztapalapa,San Pablo (Barr),"AYUNTAMIENTO E HIDALGO, ENTRE CUAUHTEMOC Y LERDO",Tradicional,200,19.3603489151,-99.0912669999
-Mercado Santa Maria Aztahuacan,63,Iztapalapa,Sta Ma Aztahuacan (Pblo),"AV. PALMAS No 17, ENTRE EJIDOS Y PRIMAVERA E HIDALGO",Tradicional,106,19.3497179151,-99.023268
-Mercado San Andres Tetepilco,120,Iztapalapa,San Andres Tetepilco (Pblo),"HUELTACO Y NORMANDIA, ENTRE A. MOLINA ENRIQUEZ Y EMILIANO CARRAZA",Tradicional,207,19.372410915,-99.1301079999
-Mercado Sector Popular,128,Iztapalapa,Sector Popular,"SUR 101A ESQ. ALFONSO TORO, ENTRE RIO CHURUBUSCO Y SUR 101",Tradicional,221,19.368648915,-99.119398
-Mercado Progreso Del Sur,129,Iztapalapa,Los Cipreses,"SILOS Y GANADEROS, ENTRE GRANJEROS Y GANADEROS",Tradicional,135,19.3504949151,-99.1093349999
-Mercado Escuadron 201,131,Iztapalapa,Escuadron 201,"RODOLFO USIGLI, ENTRE JOSE ESPINOZA FUENTES Y FAUSTO VEGA",Tradicional,306,19.3624679151,-99.1119899999
-Mercado Culhuacan,186,Iztapalapa,Culhuacan (Pblo),"AV. TLAHUAC ESQ. AGUSTIN DE ITURVIDE, ENTRE INDEPENDENCIA Y CAL. TAZQ.",Tradicional,109,19.3377529152,-99.1084839999
-Mercado San Juanico,-191,Iztapalapa,San Juanico Nextipac (Pblo),"DIBUJANTE S/N ESQ. SAN JUANICO, ENTRE VICENTE GUERRERO",Tradicional,108,19.373694915,-99.1197944444
-Mercado Santa Cruz Meyehualco,200,Iztapalapa,Santa Cruz Meyehualco (U Hab) I,CALLE 55 S/N. ENTRE CALLE 4 Y CALLE 6,Tradicional,146,19.3460649151,-99.0440469999
-Mercado San Lorenzo Xicotencatl,208,Iztapalapa,San Lorenzo Xicotencatl (Pblo),"ZACANI Y TRINIDAD, ENTRE ZACANI Y JUSTINA",Tradicional,105,19.383375915,-99.027198
-Mercado La Purisima,213,Iztapalapa,San Miguel (Barr),AV. HIDALGO ESQ. QUETZAL,Tradicional,121,19.3545669151,-99.074372
-Mercado Sifon,223,Iztapalapa,Magdalena Atlazolpa (Pblo),AV. ROSAL Y SANTA MARIA,Tradicional,156,19.377550915,-99.1107349999
-Mercado San Lorenzo Tezonco,226,Iztapalapa,San Antonio (Barr),"DESPOSORIOS Y CANDELABROS, ENTRE  FCO JAVIER SALAZAR Y ECHAVE RIOJA",Tradicional,196,19.3106319152,-99.07195
-Mercado Juan De La Barrera,230,Iztapalapa,Juan Escutia Ii,"CORONEL BENITO S. ZENEA, ENTRE PABLO GARCIA Y JUAN ENRIQUEZ",Tradicional,174,19.3921959149,-99.044098
-Mercado Guadalupe Del Moral,239,Iztapalapa,Guadalupe Del Moral,"AGUSTIN MELGAR, ENTRE HIDALGO Y GUERRERO",Tradicional,118,19.371148915,-99.076523
-Mercado Constituyentes De 1917,243,Iztapalapa,Constitucion De 1917 Ii,"PERIFERICO S/N, ENTRE CANDICO AGUILAR Y ANTONIO HIDALGO",Tradicional,184,19.3487159151,-99.0594179999
-Mercado San Jose Aculco,246,Iztapalapa,Aculco (Pblo),"CHURUBUSCO Y VERACRUZ, ENTRE CDA. DE VERACRUZ Y RIO CHURUBUSCO",Tradicional,121,19.374914915,-99.1027049999
-Mercado Francisco Villa,291,Iztapalapa,Francisco Villa,FELIPE ANGELES Y RODOLFO PRIETO,Tradicional,104,19.3373329152,-99.058544
-Mercado Jacarandas,294,Iztapalapa,Jacarandas,MANLIO FABIO ALTAMIRANO ENTRE GUILLERMO GONZALEZ CAMARENA,Tradicional,86,19.3470849151,-99.0511419999
-Mercado Magdalena Contreras (La Loma),132,La Magdalena Contreras,Barranca Seca,JOSE MORENO SALIDO S/N. ENTRE PROVIDENCIA Y FRESNO,Tradicional,90,19.3054499152,-99.2393359999
-Mercado Turistico Magdalena,170,La Magdalena Contreras,La Magdalena Atlitic (Pblo),EMILIO CARRANZA S/N. ANDADOR EL ROSAL Y EMILIO CARRANZA,Turistico y especializado,39,19.3025269153,-99.2460789999
-Mercado Tihuatlan,261,La Magdalena Contreras,San Jeronimo Aculco - Lidice (Pblo),TIHUATLAN S/N. ENTRE PAPALOAPAN Y 19 DE AGOSTO,Tradicional,38,19.3180919152,-99.2254659999
-Mercado Cerro Del Judio,-383,La Magdalena Contreras,Barros Sierra,"INDEPENDENCIA ESQ, SAN BERNABE",Tradicional,91,19.3184939152,-99.2456739999
-Mercado Contreras La Cruz,384,La Magdalena Contreras,La Concepcion,ALVARO OBREGON S/N. ENTRE ALVARO OBREGON Y CAMINO REALLOS POLLITOS,Tradicional,96,19.3054809152,-99.2345659999
-Mercado Benito Juarez (Milpa Alta),40,Milpa Alta,Villa Milpa Alta (Pblo),"YUCATAN ESQ. CONSTITUCION, ENTRE CONSTITUCION , MICHOACAN Y QUERETARO",Tradicional,207,19.1914829156,-99.021355
-Mercado San Pedro Atocpan,182,Milpa Alta,San Pedro Atocpan (Pblo),"FCO. I. MADERO, ENTRE TEUTLI Y V. CARRANZA",Tradicional,20,19.2014789155,-99.050294
-Mercado San Salvador Cuauhtenco (Doce De Octubre,244,Milpa Alta,San Salvador Cuauhtenco (Pblo),"AV. MORELOS S/N , ENTRE JALAPA Y GUERRERO",Tradicional,23,19.1921849156,-99.0895099999
-Mercado San Antonio Tecomitl,322,Milpa Alta,San Antonio Tecomitl (Pblo),AV. MORELOS Y 5 DE MAYO,Tradicional,83,19.2172809155,-98.989593
-Mercado San Pablo Oztotepec,323,Milpa Alta,Pueblo San Pablo,"GUERRERO, ENTRE HIDALGO Y GALEANA",Tradicional,74,19.1847929156,-99.071421
-Mercado Santa Ana Tlacotenco,382,Milpa Alta,Santa Ana Tlacotenco (Pblo),CUAUHTEMOC Y FRANCISCO I. MADERO,Tradicional,19,19.1761089157,-98.998251
-Mercado Villa Milpa Alta (Mercado Antojitos),394,Milpa Alta,Villa Milpa Alta (Pblo),QUERETARO Y YUCATAN,Especializado,23,19.1918559156,-99.021337
-Mercado Benito Juarez  (Anexo),395,Milpa Alta,Villa Milpa Alta (Pblo),"AV. YUCATAN ESQ. MICHOACAN S/N, ENTRE JALISCO Y MICHOACAN",Tradicional,207,19.1921619156,-99.02132
-Mercado San Bartolome Xicomulco,408,Milpa Alta,San Bartolome Xicomulco (Pblo),"AV. 5 DE MAYO ORIENTE, ENTRE MATAMOROS Y PROLONGACIÓN IGNACIO ZARAGOZA",Tradicional,61,19.2053682006,-99.0701299963
-Mercado Santa Maria Nonoalco,31,Álvaro Obregón,Santa Maria Nonoalco,ALEJANDRO ALLORI Y FRANCISCO GIRARDON,Tradicional,106,19.379711915,-99.1930049999
-Mercado Melchor Muzquiz Zona,43,Álvaro Obregón,San Angel,"AV. REVOLUCION, ENTRE DR. ELGUERO Y MELCHOR MUSQUIZ",Tradicional,327,19.3430189151,-99.1912329999
-Mercado Seis De Enero De 1915,48,Álvaro Obregón,Molino De Rosas,"AV. DEL ROSAL, ENTRE ROSA ROJA Y ROSA NEGRA",Tradicional,116,19.372219915,-99.1997859999
-Mercado Tizapan,67,Álvaro Obregón,Tizapan_Tizapan San Angel,FRONTERA Y SAN LUIS POTOSI,Tradicional,128,19.3413599151,-99.1978309999
-Mercado Jose Maria Pino Suarez,82,Álvaro Obregón,Jose Maria Pino Suarez,"JILGUERO Y GOLONDRINAS, ENTRE RIO TACUBAYA Y FABRICA",Tradicional,200,19.397580915,-99.1980259999
-Mercado Melchor Muzquiz (Flores),133,Álvaro Obregón,San Angel,"AV. REVOLUCION, ENTRE AV. DE LA PAZ Y CRACOVIA",Especializado,34,19.3471899151,-99.1900529999
-Mercado Santa Fe,162,Álvaro Obregón,Santa Fe,"VASCO DE QUIROGA, ENTRE CORREGIDORA Y PRIMAVERA",Tradicional,177,19.381936915,-99.2404189999
-Mercado Maria G. Garcia De Ruiz,163,Álvaro Obregón,El Paraiso,"CAMINO ANT. A SANTA FE, ENTRE AUSTRIACOS Y ALEMANES",Tradicional,97,19.389486915,-99.2114689999
-Mercado Cristo Rey,173,Álvaro Obregón,Cristo Rey,"ESCUADRÓN 201,ENTRE JAVIER MARTINEZ Y CAMINO REAL A TOLUCA",Tradicional,118,19.389942915,-99.2020999999
-Mercado Olivar Del Conde,181,Álvaro Obregón,Olivar Del Conde 2Da Seccion I,"AGUSTIN LARA, ENTRE ERNESTO P. URUCHURTO Y AV. SANTA LUCIA",Tradicional,188,19.372019915,-99.2140369999
-Mercado Panteon Jardin (Flores),234,Álvaro Obregón,Flor De Maria,CLZDA. DEL DESIERTO DE LOS LEONES Y FLOR DE MARIA,Especializado,14,19.3479539151,-99.2079669999
-Mercado Puente Colorado,266,Álvaro Obregón,Puente Colorado,RIO CHICO Y  RIO NAZAS,Tradicional,43,19.3471639151,-99.2316109999
-Mercado Corpus Cristy,279,Álvaro Obregón,Corpus Christy,"SAN LUIS Y SAN FRANCISCO, ENTRE PROL. SANTA FE Y LA PAZ",Tradicional,87,19.361295915,-99.2486789998
-Mercado Molino De Santo Domingo,369,Álvaro Obregón,Molino De Santo Domingo,AV. SANTA LUCIA ENTRE BALBINA Y SAN MARTIN CABALLERO,Tradicional,94,19.3943989149,-99.2083759999
-Mercado Centenario,407,Álvaro Obregón,Arcos De Centenario,AV. CENTENARIO 1020 ESQ. JOSE GALVEZ MOYA,Tradicional,86,19.360609915,-99.2274229999
-Mercado Jalalpa El Grande,413,Álvaro Obregón,Jalalpa El Grande,"AV. JALALPA NORTE S/N, ESQ. COLIPA",Tradicional,61,19.368335915,-99.2441759999
-Mercado Central De Tlahuac,41,Tláhuac,San Pedro Tlahuac (Pblo),AV. TLAHUAC-CHALCO S/N. ENTRE EMILIANO ZAPATA Y SEVERIANO CENICEROS,Tradicional,148,19.2685739154,-99.004799
-Mercado Mixquic,178,Tláhuac,San Andres Mixquic (Pblo),"AV. INDEPENDENCIA, 20 DE NOVIEMBRE Y CANAL SECO",Turistico y especializado,102,19.2238759155,-98.961816
-Mercado San Juan Ixtayopan,179,Tláhuac,San Juan Ixtayopan (Pblo),VICENE GUERRERO Y EMILIANO ZAPATA,Tradicional,79,19.2440099155,-98.995024
-Mercado Zapotitlan,192,Tláhuac,La Conchita I,FRANCISCO JIMENEZ ENTRE EMILIANO APATA Y AV. TLAHUAC,Tradicional,67,19.2948449153,-99.036683
-Mercado Tlaltenco (San Francisco),211,Tláhuac,San Francisco Tlaltenco (Pblo),CARLOS A. VIDAL ENTRE PLAN DE AYUTLA Y QUINTANA ROO,Tradicional,117,19.2957259153,-99.014866
-Mercado Santa Cecilia,248,Tláhuac,Santa Cecilia,CALLE CARLOS ESPINOSA DE LOS MONTEROSY MERCEDES CARAZA,Tradicional,61,19.2784229153,-99.005887
-Mercado Abraham Del Llano (Nopalera),252,Tláhuac,La Nopalera,"AMADO NERVO, EMILIANO ZAPATA E INDEPENDENCIA",Tradicional,87,19.2965879153,-99.054218
-Mercado Los Olivos,253,Tláhuac,Granjas Cabrera,JOSE LUGO Y RUIZ CORTINEZ,Tradicional,94,19.2968179152,-99.061709
-Mercado Miguel Hidalgo,254,Tláhuac,Miguel Hidalgo Ote,FCO. I. MADERO Y LUCAS MARENCIO,Tradicional,48,19.2934729153,-99.046328
-Mercado Agricola Metropolitana (Felipe Astorga Ochoa),356,Tláhuac,Agricola Metropolitana,"CALLE ZOYATE , ENTRE NARDO Y VIOLETA",Tradicional,44,19.2898029153,-99.052976
-Mercado Santa Catarina,358,Tláhuac,Santa Catarina Yecahuizotl (Pblo),"PIPILA, ENTRE EMILIANO ZAPATA Y CONCEPCION",Tradicional,51,19.3129049152,-98.966292
-Mercado Del Mar,359,Tláhuac,Del Mar Sur,"TIBURON , CAMARON Y SIRENA",Tradicional,111,19.2871039153,-99.059891
-Mercado San Jose,371,Tláhuac,San Jose,AGUSTIN LARA S/N. ENTRE JUVENTINO ROSAS Y GUADALUPE TRIGO,Tradicional,48,19.2758729153,-98.996081
-Mercado Selene,372,Tláhuac,Selene 1A Secc,"OCEANO DE LAS TEMPESTADES, MAR DE LAS CRISIS Y MONTES APENINOS",Tradicional,112,19.2888869153,-99.005973
-Mercado Emiliano Zapata (Tetelco),373,Tláhuac,Emiliano Zapata 1A,AV. MORELOS Y PUEBLA,Tradicional,24,19.2090749155,-98.970128
-Mercado Zapotitla,374,Tláhuac,San Miguel Zapotitla,SALVADOR DIAZ MIRON ESQ. CECILIO ACOSTA,Tradicional,104,19.3126769152,-99.0381779999
-Mercado Ampliacion Selene,1001,Tláhuac,Selene (Ampl),MAR DE LOS VAPORES,Tradicional,71,19.2848739153,-98.995017
-Mercado Tipico Regional,1002,Tláhuac,San Pedro Tlahuac (Pblo),CALZ. TULYEHUALCO Y AV. GRAL. SEVERIANO CENICEROS,Especializado,26,19.2685769154,-99.004833
-Mercado La Paz,42,Tlalpan,Tlalpan Centro,PLAZA DE LA CONSTITUCION S/N. ENTRE GPE. VICTORIA Y CONGRESO,Tradicional y turistico,141,19.2879889152,-99.1671019999
-Mercado Comidas Huipulco,251,Coyoacán,Viejo Ejido Santa Ursula Coapa,"TLALPAN, SAN LORENZO Y ACUEDUCTO",Especializado,23,19.3025269152,-99.14646
-Mercado Villa Coapa,263,Tlalpan,Narciso Mendoza-Villa Coapa Super Manzana 1 (U Hab),AV. CANAL DE MIRAMONTES S/N. ENTRE AV. ACOXPA Y CAPORAL,Tradicional,167,19.2920459152,-99.126838
-Mercado Lazaro Cardenas,265,Tlalpan,Villa Lazaro Cardenas,"ACOXPA Y FEDERACION MEXICANA DE FUTBOL, ENTRE LAGUNAS Y NECAXA",Tradicional,72,19.2977399153,-99.1389299999
-Mercado Fuentes Brotantes,267,Tlalpan,Santa Ursula Xitla,PARQUE NACIONAL Y FUENTES BROTANTES,Turistico y especializado,26,19.2844109153,-99.1813949999
-Mercado Artesanias Vasco De Quiroga,274,Tlalpan,Miguel Hidalgo,INSURGENTES Y CAMINO A STA TERESA,Especializado,132,19.2952839153,-99.1849219999
-Mercado Isidro Fabela,282,Tlalpan,Isidro Fabela I (Poniente),PRIMERA NORTE Y 4A PONIENTE,Tradicional,60,19.3004849152,-99.1774379999
-Mercado San Andres Totoltepec,285,Tlalpan,San Andres Totoltepec (Pblo),16 DE SEPTIEMBRE S/N. ENTRE REFORMA Y RIVAPALACIO,Tradicional,51,19.2515179154,-99.1723099999
-Mercado Flores San Fernando,286,Tlalpan,Nio Jesus (Barr),"CALZ. DE TALPAN , ENTRE SAN FRANCISCO Y ALLENDE",Especializado,76,19.2897089152,-99.162254
-Mercado Miguel Hidalgo,289,Tlalpan,Miguel Hidalgo,CORREGIDORA S/N Y MICHOACAN,Tradicional,72,19.2876709153,-99.1847069999
-Mercado Torres De Padierna,320,Tlalpan,Torres De Padierna,"TIXPEHUATL TIXKOKOB, ENTRE SEYE Y SACALUM",Tradicional,58,19.2823359153,-99.2282194443
-Mercado San Nicolas Totolapan,350,Tlalpan,Pedregal De Sn Nicolas 1A Secc,"KANTUNIL S/N. , ENTRE SINACHE Y CHEMAX",Tradicional,32,19.2919109153,-99.2364009999
-Mercado Jose Maria Morelos Y Pavon,391,Tlalpan,Coapa 2A Seccion-Ramos Millan,"CDA. DON REFUGIO Y CACAHUATALES, ENTRE TENORIOS Y CALZ. DEL HUESO",Tradicional,56,19.2977949152,-99.1184339999
-Mercado Plaza Mexicana Del Sur,392,Tlalpan,San Lorenzo Huipulco,"ACOXPA C/ESQ. CALZ. DE TLALPAN, ENTRE ACOXPA Y CALZ. DE TLALPAN",Tradicional,79,19.3005519153,-99.146042
-Mercado Hueso Periferico,393,Tlalpan,Hueso Periferico-Isssfam No. 7 (U Habs),"CALZADA DEL HUESO 1079, ENTRE FRESALES Y CANAL NACIONAL",Tradicional,102,19.2995419152,-99.1028779999
-Mercado Veinticuatro De Febrero,316,Tlalpan,Lomas Altas De Padierna Sur,10 DE AGOSTO DE 1860 Y 24 DE ABRIL ENTRE BATALLA DE PASO OVEJAS,Tradicional,124,19.2746429153,-99.2254779999
-Mercado Dr. Y Gral Jose Gonzalez Varela,256,Tlalpan,San Pedro Martir (Pblo),"CALLE DEL ROSAL, ENTRE 5 DE MAYO Y AZUCENA",Tradicional,58,19.2653179154,-99.1693249999
-Mercado Tlalcoligia,406,Tlalpan,Tlalcoligia,TEPEHUANOS Y OTOMIES,Tradicional,70,19.2750839154,-99.171772
-Mercado Mirador,1011,Tlalpan,Lomas De  Padierna I,"POPOLNAH ESQ. BEKAL, ENTRE BEKAL Y TEKIT",Tradicional,90,19.2949639153,-99.2261449999
-Mercado Veintiuno De Abril,1012,Tlalpan,Mirador Ii,"HOPELCHE, XITLE E IZAMAL",Tradicional,65,19.2712189153,-99.2238609999
-Mercado Xochimilco Zona (Xochitl),44,Xochimilco,El Rosario (Barr),"AV.MORELOS , ENTRE FCO. I MADERO Y 16 DE SEPTIEMBRE",Tradicional,447,19.2623379154,-99.1040499999
-Mercado Nativitas,115,Xochimilco,Santa Maria Nativitas (Pblo),EMBARCADERO Y MERCADO,Turistico y especializado,296,19.2506319154,-99.0942789999
-Mercado Tulyehualco,146,Xochimilco,Santiago Tulyehualco (Pblo),ZARAGOZA Y DIVISION DEL NORTE,Tradicional,118,19.2547029154,-99.011455
-Mercado San Gregorio Atlapulco,190,Xochimilco,San Gregorio Atlapulco (Pblo),"CUAUHTEMOC, INSURGENTES Y PLAZA PRINCIPAL",Tradicional,136,19.2551279154,-99.057456
-Mercado Xochimilco Anexo,377,Xochimilco,El Rosario (Barr),AV. MORELOS No 60 ESQ. 16 DE SEPT. ENTRE NETZAHUALCOYOTL Y FCO. I MADERO,Tradicional,968,19.2609549154,-99.104313
-Mercado Santa Cruz Acalpixca,378,Xochimilco,Santa Cruz Acalpixca (Pblo),AV. MEXICO Y PEDRO BENAVIDES,Tradicional,50,19.2460759154,-99.075163
-Mercado Ampliacion San Marcos,379,Xochimilco,San Marcos (Ampl),TEPOZANES 56,Tradicional,91,19.2689979154,-99.113453
-Mercado Guadalupe I. Ramirez,380,Xochimilco,San Antonio (Barr),GUADALUPE I. RAMIREZ Y PEDRO RAMIREZ DEL CASTILLO,Especializado,25,19.2640899154,-99.1053769999
-Mercado Tierra Nueva,-381,Xochimilco,Huichapan,18 DE MARZO Y AV. MEXICO,Tradicional,74,19.2640129154,-99.116067
-Mercado Ampliacion Tepepan,-382,Xochimilco,Tepepan (Ampl),AV. LAS TORRES Y CAMINO REAL AL AJUSCO,Tradicional,60,19.2663549153,-99.133619
-Mercado Ahualapa,383,Xochimilco,Santa Cruz Acalpixca (Pblo),"CUAUHTEMOC, INSURGENTES Y PLAZA PRINCIPAL",Tradicional,33,19.2471189154,-99.0704419999
-Mercado Alamos,27,Benito Juárez,Alamos I,"BOLIVAR, ENTRE CADIZ, GALICIA Y SEGOVIA",Tradicional,269,19.3986239149,-99.1440389999
-Mercado Lago,29,Benito Juárez,Nativitas,"ELISA, ENTRE DON JUAN Y DON LUIS",Tradicional,103,19.380764915,-99.138898
-Mercado Portales Zona,30,Benito Juárez,San Simon Ticumac,"CALZ. SANTA CRUZ, ENTRE 5 DE FEBRERO Y LIBERTAD",Tradicional,599,19.371725915,-99.1435159999
-Mercado Veinticuatro De Agosto,47,Benito Juárez,Narvarte Iii,"ANAXAGORAS, ENTRE LUZ SAVIÑON Y TORRES ADALID",Tradicional,265,19.390120915,-99.1575659999
-Mercado Primero De Diciembre,49,Benito Juárez,Narvarte I,"YACATAS, UXMAL Y CDA. UXMAL",Tradicional,244,19.399193915,-99.1546209999
-Mercado La Moderna,59,Benito Juárez,Moderna,"JORGE WASHINGTON S/N., ENTRE JESUS URUETA Y HORACIO NELSON",Tradicional,181,19.394120915,-99.134015
-Mercado Mixcoac,76,Benito Juárez,Mixcoac,"AV. REVOLUCION, ENTRE TIZIANO Y MOLINOS",Tradicional,476,19.372910915,-99.1885799999
-Mercado Lazaro Cardenas(Del Valle),90,Benito Juárez,Del Valle I,"PEDRO ROMERO DE TERREROS ESQ. ADOLFO PRIETO, ENTRE MIER Y PESADO Y AV. COYOACAN",Tradicional,440,19.3956419149,-99.1661889999
-Mercado San Pedro De Los Pinos,97,Benito Juárez,San Pedro De Los  Pinos,"AV. 2, ENTRE CALLE 7 Y CALLE 9",Tradicional,192,19.3918469149,-99.1835189999
-Mercado Postal Zona,111,Benito Juárez,Miguel Aleman,"AHORRO POSTAL No 345, ENTRE CASTILLA Y TUY",Tradicional,247,19.389407915,-99.1442839999
-Mercado Postal Anexo,112,Benito Juárez,Miguel Aleman,AHORRO POSTAL ENTRE CASTILLA Y LERIDA,Especializado,49,19.3891529149,-99.143874
-Mercado Independencia,113,Benito Juárez,Independencia,"ZEMPOALA, ENTRE ANGEL URRAZA Y SERAFIN OLARTE",Tradicional,226,19.380096915,-99.150259
-Mercado Santa Maria Nativitas,119,Benito Juárez,Narvarte Vi,EJE CENTRALY AV. NIÑOS HEROES,Tradicional,97,19.388124915,-99.1473089999
-Mercado Tlacoquemecatl,122,Benito Juárez,Tlacoquemecatl Del Valle,"PATRICIO SANZ, ENTRE MIGUEL LAURENT Y SAN FRANCISCO",Tradicional,109,19.377019915,-99.1742089999
-Mercado Santa Cruz Atoyac,175,Benito Juárez,Sta Cruz Atoyac,"AV. CUAUHTEMOC, ENTRE CJON. MISERICORDIA Y TENAYUCA",Tradicional,101,19.370229915,-99.1609229999
-Mercado Portales Anexo,201,Benito Juárez,San Simon Ticumac,LIBERTAD Y MONTES DE OCA,Especializado,125,19.372744915,-99.144119
-Mercado Lagunilla Ropa Y Telas,1,Cuauhtémoc,Centro I,"COMONFORT, ECUADOR Y ALLENDE",Especializado,1043,19.4431679148,-99.1363229999
-Mercado Lagunilla Zona,2,Cuauhtémoc,Morelos Iii,COMONFORT Y RAYON,Tradicional,573,19.4440279148,-99.1346569999
-Mercado Lagunilla Varios,3,Cuauhtémoc,Centro I,ALLENDE ESQ. JUAN ALVAREZ,Especializado,344,19.4418479148,-99.13661
-Mercado Lagunilla San Camilito,4,Cuauhtémoc,Centro I,"ECUADOR, HONDURAS, SAN CAMILITO",Especializado,75,19.4419789148,-99.1390319999
-Mercado Martinez De La Torre (Anexo),5,Cuauhtémoc,Guerrero Iii,ZARCO Y EJE 1 NORTE,Especializado,339,19.4454699148,-99.1453889999
-Mercado San Cosme,6,Cuauhtémoc,San Rafael Ii,"RIBERA DE SAN COSME Y GABINO BARREDA, ENTRE ALTAMIRANO Y ICAZBALETA",Tradicional,533,19.4418249148,-99.162254
-Mercado Martinez De La Torre (Zona),7,Cuauhtémoc,Guerrero Iii,"EJE UNO NORTE MOSQUETA Y DEGOLLADO, ENTRE ZARCO Y SOTO",Tradicional,600,19.4452119148,-99.144294
-Mercado Juarez,8,Cuauhtémoc,Juarez,"AV. CHAPULTEPEC,ENTRE TURIN Y ABRAHAM GONZALEZ",Tradicional,454,19.4261399148,-99.1545829999
-Mercado San Lucas,9,Cuauhtémoc,Centro Vi,"ESCUELA MEDICO MILITAR, CJON. DEL HORMIGUERO Y CJON. DE SAN MGUEL",Tradicional,254,19.4249439149,-99.1310979999
-Mercado Dos De Abril,10,Cuauhtémoc,Guerrero Iv,PENSADOR MEXICANO Y 2 DE ABRIL,Tradicional,128,19.4384179148,-99.1416149999
-Mercado Insurgentes,13,Cuauhtémoc,Juarez,"LONDRES 154, ENTRE AMBERES Y FLORENCIA",Turistico y especializado,225,19.4243349149,-99.1654839999
-Mercado Tepito Zona,14,Cuauhtémoc,Morelos Ii,"TOLTECAS, BARTOLOME DE LAS CASAS Y MATAMOROS",Tradicional,522,19.4464179148,-99.1274529999
-Mercado Abelardo L. Rodriguez (Zona),16,Cuauhtémoc,Centro Iii,"REP. DE VENEZUELA No 42, ENTRE RODRIGUEZ PUEBLA Y EL CARMEN",Tradicional y turistico,246,19.4372319148,-99.1279519999
-Mercado Beethoven,17,Cuauhtémoc,Peralvillo Ii,"BEETHOVEN, ADELINA PATT Y MOZART",Tradicional,792,19.4594099148,-99.1300999999
-Mercado Hidalgo Zona,18,Cuauhtémoc,Doctores Iii,"DR. BARRAGAN, ENTRE DR. BALMIS Y DR. ARCE",Tradicional,975,19.4138489149,-99.146099
-Mercado La Dalia,19,Cuauhtémoc,Santa Maria La Ribera I,"FRESNO No 225, ENTRE MANUEL CARPIO Y ELIGIO ANCONA",Tradicional,421,19.4522119147,-99.1600919999
-Mercado Melchor Ocampo,20,Cuauhtémoc,Roma Sur I,"CAMPECHE, ENTRE MEDELLIN Y MONTERREY",Tradicional,517,19.4104079149,-99.1634989999
-Mercado San Joaquin Zona (Peralvillo),22,Cuauhtémoc,Peralvillo I,"ERNESTO ELORDUY, ENTRE LIZT Y SHUBERT",Tradicional,477,19.4626899147,-99.1393239999
-Mercado Tepito Fierros Viejos,23,Cuauhtémoc,Morelos Ii,"TENOCHTITLAN , MATAMOROS Y TOLTECAS",Especializado,661,19.4472069147,-99.1284769999
-Mercado Morelia,24,Cuauhtémoc,Doctores Iv,DR. VERTIZ Y FEDERICO GOMEZ SANTOS,Tradicional,156,19.4085639149,-99.1497949999
-Mercado Bugambilia,28,Cuauhtémoc,Santa Maria La Ribera I,"BUGAMBILIA, MARIANO AZUELA Y FLORES MAGON",Tradicional,201,19.4535699148,-99.1528449999
-Mercado Tepito Varios,36,Cuauhtémoc,Morelos Ii,"MATAMOROS, TOLTECAS Y RIVERO",Especializado,562,19.4471239148,-99.127332
-Mercado Tepito Ropa Y Telas (Granaditas),60,Cuauhtémoc,Centro I,"EJE 1 NORTE Y AZTECAS, ENTRE ARGENTINA Y COSTA RICA",Especializado,709,19.4426499148,-99.12929
-Mercado Pequeño Comercio,66,Cuauhtémoc,Obrera I,5 DE FEBRERO No 161 Y DIAGONAL 20 DE NOVIEMBRE,Especializado,84,19.4215624314,-99.136042116
-Mercado Palacio De Las Flores,74,Cuauhtémoc,Centro Viii,LUIS MOYA Y ERNESTO PUGIBET,Turistico y especializado,133,19.4297779148,-99.146059
-Mercado San Juan Pugibet,77,Cuauhtémoc,Centro Viii,"ENRNESTO PUGIBET, ENTRE LUIS MOYA Y BUEN TONO",Tradicional,361,19.4300359148,-99.1446079999
-Mercado San Juan Arcos De Belem,78,Cuauhtémoc,Centro Viii,"ARCOS DE BELEM Y LOPEZ, ENTRE EJE CENTRAL  Y LOPEZ",Tradicional,399,19.4274179148,-99.142588
-Mercado Abelardo L. Rodriguez (Coronas),83,Cuauhtémoc,Centro Iii,"RODRIGUEZ PUEBLA,COLOMBIA Y CALLEJON DE GIRON",Especializado,151,19.4378159148,-99.1282919999
-Mercado San Juan Curiosidades,86,Cuauhtémoc,Centro Viii,"AYUNTAMIENTO,  ARANDA Y BUEN TONO",Turistico y especializado,176,19.4301749149,-99.1430849999
-Mercado Hidalgo Anexo,91,Cuauhtémoc,Doctores Iii,"DR. BARRAGAN, ENTRE DR. BALMIS Y DR. OLVERA",Especializado,428,19.4147029149,-99.1457409999
-Mercado Isabel La Catolica,96,Cuauhtémoc,Algarin,"ISABEL LA CATOLICA S/N, ENTRE HERNANDEZ DAVALOS Y EJE 3 SUR  PEON CONTRERAS",Tradicional,165,19.4070109149,-99.1393239999
-Mercado Cuauhtemoc,98,Cuauhtémoc,Cuauhtemoc,"LERMA, TIGRIS Y DANUBIO",Tradicional,85,19.4296849148,-99.1668889999
-Mercado Merced Mixcalco,108,Cuauhtémoc,Centro Iii,CIRCUNVALACION S/N ENTRE MIXCALCO Y GUATEMALA,Especializado,920,19.4343809148,-99.1251059999
-Mercado San Joaquin (Anexo),110,Cuauhtémoc,Peralvillo I,"ELORDUY,SCHUBERT Y LIZT",Especializado,275,19.4619769148,-99.1390669999
-Mercado Francisco Sarabia,114,Cuauhtémoc,Ex Hipodromo De Peralvillo,"MASCAGNI,ROSSINI Y BACH",Tradicional,119,19.4579619148,-99.1373119999
-Mercado Michoacan,153,Cuauhtémoc,Hipodromo Condesa,"TAMAULIPAS Y MICHOACAN, ENTRE VICENTE SUAREZ Y ATLIXCO",Tradicional,35,19.4113269149,-99.1744599999
-Mercado Paulino  Navarro,216,Cuauhtémoc,Paulino Navarro,CALZ. DE LA VIGA Y AV. DEL TALLER,Tradicional,110,19.4124789149,-99.1283669999
-Mercado Anahuac Zona,11,Miguel Hidalgo,Tlaxpana,"TLALOC Y ATZAYACATL, ENTRE NETZAHUALPILLI Y TONATZIN",Tradicional,412,19.4407549148,-99.1699749999
-Mercado Tacuba,32,Miguel Hidalgo,Tacuba,CAL. MEXICO TACUBA YGOLFO DE MEXICO,Tradicional,1231,19.4581099148,-99.1866569999
-Mercado Tacubaya,33,Miguel Hidalgo,Tacubaya,HEROES DE 1810 Y BECERRA,Tradicional,512,19.398671915,-99.1871939999
-Mercado Granada,55,Miguel Hidalgo,Granada,LAGO YURIRIA Y RIO SAN JOAQUIN,Tradicional,148,19.4418199148,-99.1923759999
-Mercado Anahuac Anexo,72,Miguel Hidalgo,Tlaxpana,"TLALOC Y ATZAYACATL, ENTRE TIZOC  Y TONATZIN",Especializado,280,19.4402419148,-99.1703179999
-Mercado Plutarco Elias Calles       (El Chorrito),75,Miguel Hidalgo,San Miguel Chapultepec I,"MELCHOR MUZQUIZ Y JOSE CEBALOS, ENTRE PARQUE LIRA Y CDA. GOB. IGANCIO ESTEVA",Tradicional,361,19.4105929149,-99.1903169999
-Mercado Monte Athos,79,Miguel Hidalgo,Lomas De Chapultepec,"MONTE ATHOS No  375, ESQ. EVEREST",Tradicional,63,19.4192549148,-99.2147439999
-Mercado Dieciocho De Marzo,85,Venustiano Carranza,Puebla,"CALLE 69 Y AV. 4, ENTRE 65 Y 67",Tradicional,335,19.4102969149,-99.082984
-Mercado Lago Garda,93,Miguel Hidalgo,Pensil San Juanico,"LAGO GARDA, LAGO CONSTANZA Y LAGO MAYOR",Tradicional,319,19.4500549148,-99.1860319999
-Mercado Zacatito,94,Miguel Hidalgo,Nueva Argentina (Argentina Poniente),"SANCTORUM Y CJON. DE ZACATITO, ENTRE RIO YAPURA Y TLACOTALPAN",Tradicional,182,19.4579709148,-99.2077499999
-Mercado Argentina,95,Miguel Hidalgo,Mexico Nuevo,ATTLAN Y LAGO VIEDMA S/N. ENTRE LEGARIA Y VIEDMA,Tradicional,964,19.4525939147,-99.2019329999
-Mercado Escandon,99,Miguel Hidalgo,Escandon I,"MARTI, COMERCIO Y AGRICULTURA",Tradicional,249,19.402664915,-99.1774149999
-Mercado Ing. Gonzalo Peña Manterola (Cartagena),100,Miguel Hidalgo,Tacubaya,LUIS RUIZ Y ERASMO CAYETANO Q.,Tradicional,700,19.4028159149,-99.1888939999
-Mercado America,124,Miguel Hidalgo,America,"SUR 128,CORONEL CAMACHO Y GENERAL TOLA",Tradicional,307,19.4049159149,-99.2019839999
-Mercado Lago Gascasonica,151,Miguel Hidalgo,San Diego Ocoyoacac,LAGO GASCASONICA Y LAGO ESCLAVOS,Tradicional,374,19.4614329147,-99.1919059999
-Mercado Prado Norte,172,Miguel Hidalgo,Lomas De Chapultepec,PRADO NORTE Y EXPLANADA,Tradicional,122,19.4273469149,-99.2124489999
-Mercado Prado Sur,196,Miguel Hidalgo,Lomas Virreyes (Lomas De Chapultepec),MONTE ATHOS Y PRADO SUR 145,Tradicional,23,19.4216409149,-99.2092729999
-Mercado San Isidro Zona,232,Miguel Hidalgo,Reforma Social,AV. STA ROSA ENTRE   CALLE 11 Y CALLE 12,Tradicional,51,19.4298469148,-99.2207679998
-Mercado San Isidro Anexo,233,Miguel Hidalgo,Reforma Social,ACUEDUCTO Y SIERRA SANTA ROSA,Especializado,38,19.4297209148,-99.2216639999
-Mercado Jamaica Zona,15,Venustiano Carranza,Jamaica,CONGRESO DE LA UNION ENTRE MORELOS Y LA VIGA,Tradicional,562,19.4085839149,-99.1227879999
-Mercado Moctezuma,21,Venustiano Carranza,Moctezuma 2A Seccion Ii,OTE.154 Y OTE.158 ENTRE NORTE 25 Y NORTE 21,Tradicional,526,19.4322389148,-99.097047
-Mercado Unidad Rastro,25,Venustiano Carranza,Felipe Angeles,ING. EDUARDO MOLINA ENTRE ALUMINIO Y ESTAÑO,Tradicional,717,19.4510339148,-99.1105949999
-Mercado Romero Rubio,26,Venustiano Carranza,Romero Rubio,"CANTON, ENTRE MARRUECOS Y PERSIA",Tradicional,639,19.4439979148,-99.099373
-Mercado Merced Ampudia,52,Venustiano Carranza,Centro Ii,AV. ANILLO DE CIRCUNVALACION No 4 y CJON. CARRETONES,Especializado,151,19.4271899149,-99.12521
-Mercado Jamaica Comidas,65,Venustiano Carranza,Jamaica,CONGRESO DE LA UNION Y GUILLERMO PRIETO,Especializado,66,19.4067229149,-99.122373
-Mercado Puebla,85,Venustiano Carranza,Puebla,"CALLE 69 Y AV. 4, ENTRE 65 Y 67",Tradicional,281,19.4102969149,-99.082984
-Mercado Merced Nave Menor,101,Venustiano Carranza,Centro Ii,ROSARIO Y ADOLFO GURRION,Especializado,647,19.4254879148,-99.1226759999
-Mercado Merced Nave Mayor,102,Venustiano Carranza,Centro Ii,ROSARIO Y ABRAHAM OLVERA,Tradicional,4200,19.4261859149,-99.123813
-Mercado Merced Comidas,104,Venustiano Carranza,Centro Ii,"CALLE ROSARIO 120, ENTRE GRAL. ANAYA Y CARRETONES",Especializado,218,19.4272999149,-99.1228219999
-Mercado Merced Flores,105,Venustiano Carranza,Centro Ii,ANILLO DE CIRCUNVALACION S/N. ENTRE PLAZA CARRIZALES Y RAYON,Especializado,110,19.4260669149,-99.1250679999
-Mercado Merced Anexo,106,Venustiano Carranza,Centro Ii,ADOLFO GURRION ESQ. CABAÑAS,Especializado,186,19.4244579148,-99.1249469999
-Mercado Sonora,107,Venustiano Carranza,Merced Balbuena,SAN NICOLAS S/N. ENTRE CALLE FRAY SERVANDO T. DE MIER Y CALLE  CANAL,Especializado,407,19.4222569148,-99.124636
-Mercado Sonora Anexo,-108,Venustiano Carranza,Merced Balbuena,SAN NICOLAS S/N. ENTRE CALLE FRAY SERVANDO T. DE MIER Y CALLE  CANAL,Especializado,271,19.4217139148,-99.1244429999
-Mercado Alvaro Obregon,140,Venustiano Carranza,Magdalena  Mixhuca (Pblo),"CUCURPE Y ROA BARCENAS, ENTRE AGIABANPO Y BACUM",Tradicional,211,19.4113669149,-99.1178609999
-Mercado Ignacio Zaragoza,148,Venustiano Carranza,Ignacio Zaragoza I,"AV.8, ENTRE CALLE 35 Y CALLE 39",Tradicional,428,19.4125409149,-99.091449
-Mercado Pensador Mexicano,150,Venustiano Carranza,Pensador Mexicano Ii,"NORTE 172 S/N. NORTE 174, ENTRE BOLIVARES Y CIRC. INTERIOR RIO CONSULADO",Tradicional,156,19.4439509148,-99.0869749999
-Mercado Jardin Balbuena,159,Venustiano Carranza,Jardin Balbuena Iii,"RET.27 DE GENAO GARCIA, ENTRE RET.27 Y RET.29",Tradicional,133,19.4157159149,-99.100897
-Mercado Morelos,165,Venustiano Carranza,Morelos Ii,ING. EDUARDO MOLINA ENTRE HERREROS Y HORTELANOS,Tradicional,912,19.4398339148,-99.114755
-Mercado Veinte De Abril,174,Venustiano Carranza,Moctezuma 2A Seccion Iv,ORIENTE 168 ENTRE ORIENTE 170 Y NORTE 13,Tradicional,272,19.4276229149,-99.0976429999
-Mercado Federal,183,Venustiano Carranza,Federal,"AV. UNIVERSIDAD NACIONAL, ENTRE SUPREMA CORTE DE JUSTICIA Y EDUCACION PUBLICA",Tradicional,103,19.4204039148,-99.0893839999
-Mercado Aviacion Civil,187,Venustiano Carranza,Aviacion Civil,HORACIO RUIZ Y LINDBERGH,Tradicional,124,19.4142079149,-99.077711
-Mercado Aquiles Serdan,197,Venustiano Carranza,Aquiles Serdan,"PEQUIN Y PUERTO ARTURO, ENTRE DINARES Y ESTERLINAS",Tradicional,222,19.4471289148,-99.092321
-Mercado Emilio Carranza,203,Venustiano Carranza,Morelos Ii,IMPRENTA Y JARDINEROS,Tradicional,126,19.4424049148,-99.1187299999
-Mercado Adolfo Lopez Mateos,209,Venustiano Carranza,Adolfo Lopez Mateos,EDUARDO BUSTAMANTE Y ERNESTO P. URUCHURTU,Tradicional,211,19.4212129149,-99.07276
-Mercado Plan De Ayala Caracol,214,Venustiano Carranza,Ampl Caracol,IGNCIO ZARAGOZA Y FRANCISCO VILLA,Tradicional,96,19.4280679148,-99.069552
-Mercado Jamaica Nuevo,235,Venustiano Carranza,Jamaica,"CONGRESO DE LA UNION, ENTRE GUILLERMO PRIETO Y MORELOS",Especializado,1312,19.4077499149,-99.123057
-Mercado Pantitlan Arenal,238,Venustiano Carranza,Cuchilla Pantitlan,AV. CIRCUNVALACION Y ERNESTO P. URUCHURTU,Tradicional,143,19.4235019149,-99.0650939999
-Mercado Unidad Kennedy,240,Venustiano Carranza,Jardin Balbuena I,"RET. 5 DE ZARAGOZA, ENTRE CECILIO ROBELO Y RIBERA CAMBAS",Tradicional,182,19.4246679149,-99.1086289999
-Mercado Valle Gomez,245,Venustiano Carranza,Valle Gomez,"RIO CONZULADO , ENTRE PROAÑO Y POZOS",Tradicional,203,19.4591189147,-99.1217739999
-Mercado Calzado La Central,264,Venustiano Carranza,Felipe Angeles,CDA. AVIADERO ENTRE ALUMINIO Y ESTAÑO,Especializado,172,19.4509769147,-99.112503
-Mercado Santa Juanita,278,Venustiano Carranza,20 De Noviembre,"OFICIOS, ENTRE ELECTRICISTAS Y GRABADOS",Tradicional,107,19.4447869148,-99.1080469999
-Mercado Arenal 4A Seccion,283,Venustiano Carranza,El Arenal 4A Seccion,XOCHITLAN NORTE Y XOCHITLAN SUR,Tradicional,199,19.4283179148,-99.056468
-Mercado Peñon De Los Baños,346,Venustiano Carranza,Peon De Los Baos,MATAMOROS Y CHIMALHUACAN,Tradicional,101,19.4396119148,-99.0849969999
-Mercado Lic. Octavio Senties,381,Venustiano Carranza,20 De Noviembre,"FLORICULTURA Y ELECTRICISTAS, ENTRE GRABADOS Y OFICIOS",Tradicional,40,19.4448849148,-99.1078049999
-Mercado Minillas,409,Venustiano Carranza,5To Tramo De 20 De Noviembre,CONGRESO DE LA UNION Y CANLAL DEL NORTE,Especializado,225,19.4502559148,-99.1152469999
-Mercado Nuevo San Lazaro,901,Venustiano Carranza,Magdalena  Mixhuca,"RIO FRIO No 261, ENTRE 20 DE NOVIEMBRE E INDUSTRIA",Especializado,78,19.4074709149,-99.114828
-Mercado Del Parque,903,Venustiano Carranza,El Parque,"CONGRESO DE LA UNION S/N, LORENZO BOTURINI Y NIVEL",Tradicional,106,19.4161619149,-99.1209679999
-Mercado Luis Preciado De La Torre,904,Venustiano Carranza,Moctezuma 1A Seccion,EMILIO CARRANZA Y LUIS PRECIADO DE LA TORRE,Tradicional,132,19.4283759148,-99.1061129999
-Mercado Merced Banqueton,109,Venustiano Carranza,Centro Ii,ROSARIO Y ABRAHAM OLVERA COL.,Tradicional,449,19.4261993206,-99.1230284001
-Mercado Pasaje Chapultepec,363,Cuauhtémoc,Juarez,REFORMA CON RODANO Y LIEJA,Especializado,45,19.4228258996,-99.1750076016
-Mercado Colima,158,Cuauhtémoc,Roma Norte I,"COLIMA 397, CP 6700",Tradicional,52,19.4175497958,-99.1709085105
-Mercado La Estacion,411,Tláhuac,La Estacion,PINO SUAREZ S/N ENTRE BELLAS ARTES Y SAN RAFAEL ATLIXCO,Tradicional,70,19.3097100862,-99.0435490834
-Mercado Reynosa Tamaulipas,177,Azcapotzalco,San Andres (Pblo),REFINERIA MINATITLAN Y CAMPO CORONA,Tradicional,216,19.4921399147,-99.1839269999
-Mercado Contadero,-394,Cuajimalpa de Morelos,El Contadero,16 DE SEPTIEMBRE S/N. ENTRE VERACRUZ Y ARTEAGA SALAZAR,Tradicional,78,19.348248,-99.300662
-Mercado Emiliano Zapata,57,Gustavo A. Madero,Tablas De San Agustin,ORIENTE 95 Y NORTE 60,Tradicional,301,19.46313,-99.113543
-Mercado 24 De Septiembre,365,Gustavo A. Madero,La Pradera I (U Hab),RET. TREBOL TULLA Y PITACANTO,Tradicional,78,19.474659,-99.062943
-Mercado Veinticuatro De Febrero,0.394,Tlalpan,Lomas Altas De Padierna Sur,"F.F. C.C. CUERNAVACA, ENTRE TULUN Y PROL. TEKIL",Tradicional,53,19.274643,-99.225478
-Mercado Merced Paso A Desnivel,103,Venustiano Carranza,Centro Ii,ROSARIO Y ADOLFO GURRION COL. MERCED CENTRO,Especializado,77,19.425589,-99.123394
-Mercado Merced Paso A Desnivel Gomez Pedraza,241,Venustiano Carranza,Centro Ii,ROSARIO Y ADOLFO GURRION COL. MERCED CENTRO,Especializado,67,19.423712,-99.123459
-Mercado Providencia,136,Gustavo A. Madero,Providencia Iii,"ESTADO DE ZACATECAS, ENTRE ESTADO DE MORELOS Y ESTADO DE OAXACA",Tradicional,193,19.484384,-99.070745
+nombre,numero,alcaldia,colonia,direccion,tipo,locales,lat,lon,ids_estrato
+Mercado Azcapotzalco,35,Azcapotzalco,Centro De Azcapotzalco,AV. AZCAPOTZALCO ENTRE ESPERANZA Y RAYON,Tradicional,546,19.4828719147,-99.1854389999,
+Mercado Claveria,46,Azcapotzalco,Claveria,IRAPUATO Y CLAVERIA S/N,Tradicional,98,19.4650029147,-99.1811519999,alto
+Mercado Arenal,125,Azcapotzalco,Arenal,ALAMO Y CALLE 6 ENTRE OLIVO Y CALLE 6,Tradicional,198,19.4662709147,-99.150715,medio
+Mercado Prohogar,126,Azcapotzalco,Pro Hogar I,CALLE 14 S/N ENTRE CALLES 19 Y 21,Tradicional,641,19.4758479147,-99.1535589999,medio
+Mercado Santa Lucia,137,Azcapotzalco,Santa Lucia (Barr),AV. SANTA LUCIA ENTRE CENTEOTL Y ACATL,Tradicional,150,19.4764169147,-99.1963989999,medio
+Mercado Cosmopolita,138,Azcapotzalco,Potrero Del Llano,AV. CEYLAN ESQ. ISLAS ALEUTIANAS,Tradicional,135,19.4752229147,-99.1617959999,medio
+Mercado Victoria De Las Democracias,141,Azcapotzalco,Ignacio Allende,"TORONJIL Y PEREJIL, ENTRE PIMIENTA Y MEJORANA",Tradicional,177,19.4675909147,-99.1630669999,medio
+Mercado Obrero Popular,142,Azcapotzalco,Obrero Popular,NORTE 67 ENTRE  PONIENTE 54 Y SUR 4,Tradicional,125,19.4632329148,-99.1735679999,alto
+Mercado Nueva Santa Maria,143,Azcapotzalco,Nueva Santa Maria,"CLAVELINAS ENTRE MEMBRILLO, BEGONIAS Y VID",Tradicional,126,19.4643959147,-99.1692599999,muy alto
+Mercado Benito Juarez,167,Azcapotzalco,Sindicato Mexicano De Electricistas,AV. RABAUL ENTRE NORTE 81 Y NORTE 79,Tradicional,123,19.4757259147,-99.1768029999,alto
+Mercado Tlatilco,194,Azcapotzalco,Tlatilco,"ORQUIDEA 35, ENTRE AV. JARDIN Y AV. TLATILCO",Tradicional,155,19.4620539148,-99.1625949999,alto
+Mercado San Juan Tlihuaca,224,Azcapotzalco,San Juan Tlihuaca (Pblo),SAN JUAN TLIHUACA Y FORTUNA ZUA ZUA,Tradicional,168,19.4929589146,-99.2033809999,medio
+Mercado Jardin 23 De Abril,227,Azcapotzalco,San Pedro Xalpa (Ampl) I,"AV. 23 DE ABRIL Y LIBERATO LARA, ENTRE ADRIAN CASTREJON Y JOAQUIN AMARO",Tradicional,154,19.4823639147,-99.2153219999,bajo
+Mercado Jardin Fortuna Nacional,228,Azcapotzalco,San Antonio (Fracc),"CAMPO FORTUNA NACIONAL, ENTRE  CAMPO VERDE Y CAMPO TASAJERA",Tradicional,71,19.4807519147,-99.2051779999,alto
+Mercado Providencia,247,Azcapotzalco,Providencia,"CALLE LUCIO BLANCO, ENTRE FRANCISCO I. MADERO Y VENUSTIANO CARRANZA",Tradicional,143,19.4914999146,-99.2136319999,medio
+Mercado Laminadores,250,Azcapotzalco,Monte Alto,"MINEROS METALURGICOS, ENTRE LAMINADORES Y CALLES 8 Y 9",Tradicional,148,19.4803289147,-99.1558689999,medio
+Mercado Pantaco,268,Azcapotzalco,Jardin Azpeitia,AV. RABAUL Y ADUANAS PANTACO,Especializado,41,19.4744329147,-99.1712289999,
+Mercado Pasteros,276,Azcapotzalco,Pasteros,JACARANDAS ENTRE DURAZNOS Y CIRUELOS,Tradicional,122,19.4962039146,-99.1974969999,medio
+Mercado Coyoacan,89,Coyoacán,Del Carmen,"XICOTENCATL, ENTRE MALITZIN Y ALLENDE",Tradicional,464,19.3527349151,-99.1614979999,
+Mercado Prado Churubusco,130,Coyoacán,Prado Churubusco,OSA MENOR ENTRE ORION Y PEGASO,Tradicional,117,19.3540979151,-99.125975,medio
+Mercado Santa Ursula Coapa (Pescaditos),154,Coyoacán,Pedregal De Santa Ursula I,"SAN GONZALO MZ. 933 LT. 2, ENTRE SAN BENJAMIN Y SAN CASTULO",Tradicional,268,19.3117739152,-99.1503369999,medio
+Mercado El Reloj,155,Coyoacán,El Reloj,"CAL.CALIZ Y PRIMAVERA,CDA DE CALIZ",Tradicional,90,19.3186839152,-99.1405319999,alto
+Mercado Xotepingo,157,Coyoacán,Ciudad Jardin,LAS ROSAS Y NOCHE BUENA,Tradicional,124,19.3380869151,-99.1445519999,alto
+Mercado Churubusco,171,Coyoacán,San Mateo (Barr),"MARTIRES IRLANDESES, ENTRE JUAN AGUILAR Y LOPEZ  Y PAZ MONTES DE OCA",Tradicional,157,19.3497769151,-99.1470619999,alto
+Mercado Avante,180,Coyoacán,Avante,AV. DEL PARQUE Y RETORNO 50 S/N,Tradicional,101,19.3261629152,-99.1349329999,muy alto
+Mercado Ruiz Cortinez (La Cruz),199,Coyoacán,Adolfo Ruiz Cortines Ii,TEPETLAPA ENTRE CANAZOC Y TEPEPEHU,Tradicional,95,19.3187239152,-99.1513459999,bajo
+Mercado Ajusco Montserrat (La Bola),229,Coyoacán,Ajusco I,TOTONACAS IXTLIXOCHITL (LA BOLA),Tradicional,233,19.3238169152,-99.1574639999,bajo
+Mercado San Francisco Culhuacan,236,Coyoacán,Ampliacion San Francisco Culhuacan (Ej),"HEROICA ESCUELA NAVAL MILITAR # 51, ENTRE AV. TAXQUEÑA Y EJIDO  SAN ANTONIO TOMATLAN",Tradicional,235,19.3360439151,-99.1233089999,medio
+Mercado Ajusco Moctezuma,237,Coyoacán,Ajusco Iii,"AV. CORAS Y NEZAHALPILLI, ENTRE MOCTEZUMA Y SAN GUILLERMO",Tradicional,232,19.3130269153,-99.1623249999,medio
+Mercado Educacion Petrolera,259,Coyoacán,Petrolera Taxquea,AVENIDA 3 Y AVENIDA 5,Tradicional,78,19.3363029151,-99.1318449999,muy alto
+Mercado Los Reyes Coyoacan,300,Coyoacán,Pedregal De Sto Domingo Ii,BASALTO Y CANTERA,Tradicional,104,19.3335259151,-99.1579439999,bajo
+Mercado Santo Domingo Las Rosas,301,Coyoacán,Pedregal De Sto Domingo Iii,AV. PAPALOTL ENTRE ESCUINAPA Y CANAHUTLI,Tradicional,105,19.3309569152,-99.1629299999,bajo
+Mercado Carmen Serdan,303,Coyoacán,Carmen Serdan,MANUELA MEDINA S/N. HERMANAS GONZALEZ Y GERTRUDIS BOCANEGRA,Tradicional,116,19.3203469152,-99.1060589999,bajo
+Mercado Margarita Maza De Juarez,311,Coyoacán,Alianza Popular Revolucionaria Oriente (U Hab),"ORIENTAL , ENTRE TEPETLAPA Y TORRE EIFFEL",Tradicional,102,19.3130479153,-99.1146,muy alto
+Mercado Emiliano Zapata,319,Coyoacán,Emiliano Zapata (U Hab),PLAN DE AYALA Y ANENECUILCO,Tradicional,47,19.3164129152,-99.109774,muy bajo
+Mercado Santo Domingo Los Reyes,340,Coyoacán,Pedregal De Sto Domingo Vii,ZIHUATLAN No 25 ENTRE PASCLE Y AHUEJOTE,Tradicional,35,19.3196929152,-99.1687719999,muy bajo
+Mercado Copilco El Alto,347,Coyoacán,Pedregal De Sto Domingo Ix,AV.ANACAHUITLA Y ECUINAPA S/N,Tradicional,68,19.3318099152,-99.1706849999,medio
+Mercado Hermosillo,368,Coyoacán,Hermosillo,AMACUZAC ESQ. QUINCEO,Tradicional,45,19.3459929151,-99.1284289999,medio
+Mercado El Verde,412,Coyoacán,Ctm Viii Culhuacan (U Hab),ROSARIO CASTELLANOS Y DOLORES GUERRERO,Tradicional,176,19.3146639152,-99.1039189999,muy alto
+Mercado Bazar Del Artesano Mexicano,414,Coyoacán,Villa Coyoacan,CALLE FELIPE CARRILLO PUERTO No 25,Especializado,550,19.3501729151,-99.1634649999,muy alto
+Mercado Cuajimalpa,37,Cuajimalpa de Morelos,San Pedro Cuajimalpa (Pblo),AV. VERACRUZ Y MELCHOR OCAMPO,Tradicional,128,19.355573915,-99.2993179998,medio
+Mercado San Mateo Tlaltenango,258,Cuajimalpa de Morelos,San Mateo Tlaltenango (Pblo),MINA Y CDA. DE MINA S/N,Tradicional,32,19.3422729151,-99.2824659998,bajo
+Mercado Rosa Torres,262,Cuajimalpa de Morelos,San Jose De Los Cedros Ii,"AV. SAN JOSE DE LOS CEDROS ESQ, SAUCE",Tradicional,159,19.369909915,-99.2888889999,medio
+Mercado Huizachito,-378,Cuajimalpa de Morelos,Jardines De La Palma (Huizachito),"CAMINO A HUIZACHITOS/N, NOCHE DE PAZ Y ECHANOVE",Tradicional,8,19.371298915,-99.2805909998,alto
+Mercado Villa Zona,34,Gustavo A. Madero,Villa Gustavo A Madero,5 DE FEBRERO ENTRE MATAMOROS E ITURBIDE,Tradicional,938,19.4838639146,-99.115241,medio
+Mercado Ramon Corona,45,Gustavo A. Madero,Industrial I,"CONSTANCIA  S/N, ENTRE RIO BLANCO Y NECAXA",Tradicional,458,19.4771019147,-99.1244919999,alto
+Mercado Carrera Lardizabal,50,Gustavo A. Madero,Constitucion De La Republica,LUIS DE LA ROSA Y LEON GUZMAN,Tradicional,131,19.4825229147,-99.0997109999,bajo
+Mercado Rio Blanco,53,Gustavo A. Madero,Martires De Rio Blanco,"CONGRESO DE LA UNION, ENTRE ORIENTE 95 Y ORIENTE 91",Tradicional,454,19.4615999148,-99.1126009999,
+Mercado Estrella,54,Gustavo A. Madero,Estrella,JOYAS ENTRE OPALO Y ESCUELA,Tradicional,124,19.4756379147,-99.115836,alto
+Mercado Diez De Mayo,56,Gustavo A. Madero,Nueva Tenochtitlan,"ORIENTE 87, NORTE 84 Y ORIENTE 89",Tradicional,390,19.4561979147,-99.104686,muy bajo
+Mercado Gertrudis Sanchez,58,Gustavo A. Madero,Gertrudis Sanchez 2A Seccion,"NORTE 82B ESQ. HENRY FORD, ENTRE NORTE 84 Y NORTE 82",Tradicional,215,19.4640839147,-99.101213,medio
+Mercado Salvado Diaz Miron,62,Gustavo A. Madero,Salvador Diaz Miron,"NORTE 66A, ORIENTE 155 Y NORTE 66",Tradicional,150,19.4878659146,-99.099303,medio
+Mercado Gabriel Hernandez,69,Gustavo A. Madero,Santiago Atzacoalco (Pblo),AV. CENTENARIO Y CERRITO,Tradicional,214,19.5010649146,-99.0950519999,muy bajo
+Mercado Vasco De Quiroga,70,Gustavo A. Madero,Vasco De Quiroga,BARTOLOME DE OLMEDO Y FRAY JUAN DE PADILLA,Tradicional,212,19.4945639147,-99.094934,bajo
+Mercado Tres Estrellas,171,Coyoacán,San Mateo (Barr),"MARTIRES IRLANDESES, ENTRE JUAN AGUILAR Y LOPEZ  Y PAZ MONTES DE OCA",Tradicional,122,19.3497769151,-99.1470619999,alto
+Mercado Progreso Nacional,73,Gustavo A. Madero,Guadalupe Proletaria,CALLE 28 ENTRE CALLE 11 Y CALLE 12,Tradicional,274,19.5218719146,-99.158824,medio
+Mercado Villa Comidas (Viejo),81,Gustavo A. Madero,15 De Agosto,5 DE FEBRERO ENTRE ECHEVERRIA Y PEDRO MARIA ANAYA,Especializado,209,19.4847549147,-99.113189,bajo
+Mercado Ampliacion Casas Aleman,116,Gustavo A. Madero,Casas Aleman (Ampl) I,"PUERTO TAMPICO Y PUERTO ACAPULCO, PUERTO MANZANILLO Y CDA . PUERTO ACAPULCO",Tradicional,192,19.4763089147,-99.0838319999,medio
+Mercado Martin Carrera,117,Gustavo A. Madero,Martin Carrera I,V. GUERRERO Y JOSE J. HERRERA,Tradicional,241,19.4870619147,-99.106977,bajo
+Mercado San Juan De Aragon Unidad I,121,Gustavo A. Madero,San Juan De Aragon 1A Seccion (U Hab) I,AV. 517 Y 521,Tradicional,193,19.4597059148,-99.09175,medio
+Mercado Vicente Guerrero (Nueva Atzacoalco),123,Gustavo A. Madero,Nueva Atzacoalco Ii,CALLE 314 ENTRE CALLE 311 Y 313,Tradicional,386,19.5015429146,-99.085439,medio
+Mercado Maximino Avila Camacho,127,Gustavo A. Madero,Tlacamaca,"PPONIENTE 112, NORTE 1B Y NORTE 1C",Tradicional,130,19.4759409147,-99.137876,medio
+Mercado Panamericana,145,Gustavo A. Madero,Panamericana,PONIENTE 122 Y NORTE 9,Tradicional,430,19.4776129147,-99.1453989999,medio
+Mercado Fernando Casas Aleman,156,Gustavo A. Madero,Cerro Prieto,"RUBLOS, CAIRO Y PESETAS",Tradicional,222,19.4526849148,-99.0972779999,medio
+Mercado Juan Gonzalez Romero,160,Gustavo A. Madero,Juan Gonzalez Romero,"AV. DE LAS FLORES Y CALLE GLORIA, ENTRE MADRE SELVA Y ALCATRAZ",Tradicional,201,19.5064369146,-99.0900489999,muy bajo
+Mercado Bondojito,161,Gustavo A. Madero,Faja De Oro,HENRY FORD Y NORTE 72A,Tradicional,181,19.4657169147,-99.105756,alto
+Mercado Santa Rosa,164,Gustavo A. Madero,Santa Rosa,"CALLE 26 , ENTRE CALLE 28A Y CALZ. VALLEJO",Tradicional,167,19.5245939146,-99.1686969999,medio
+Mercado Santa Maria Ticoman,176,Gustavo A. Madero,La Laguna Ticoman (Barr),AV. 21 DE MARZO Y CALLE 1810,Tradicional,119,19.5163179145,-99.133305,medio
+Mercado Pueblo De San Juan De Aragon,185,Gustavo A. Madero,San Juan De Aragon (Pblo),"RIO GUADALUPE, JARDIN REVOLUCION Y J. M. MORELOS",Tradicional,64,19.4687059147,-99.0842109999,medio
+Mercado San Bartolo Atepehuacan,188,Gustavo A. Madero,San Bartolo Atepehuacan (Pblo),AV. MONTEVIDEO No 500 ENTRE CALLE LOMA Y MANDUJANO,Tradicional,159,19.4917859146,-99.1406139999,medio
+Mercado San Pedro Zacatenco,189,Gustavo A. Madero,Residencial Zacatenco,"LA RIOJA Y MANIZALES, ENTRE MANIZALES Y RAMIRIQUI",Tradicional,111,19.5056279146,-99.1250519999,alto
+Mercado Magdalena De Las Salinas (Nueva Vallejo),193,Gustavo A. Madero,Nueva Vallejo,"PONIENTE 122, ENTRE NORTE 19A NORTE 21 Y PTE 126",Tradicional,86,19.4851229146,-99.1487169999,alto
+Mercado San Juan De Aragon Unidad 7,204,Gustavo A. Madero,San Juan De Aragon 7 Secc (U Hab) Ii,"AV. 414, ENTRE 481 Y 483",Tradicional,190,19.4701709147,-99.0754499999,bajo
+Mercado San Felipe De Jesus,205,Gustavo A. Madero,San Felipe De Jesus Iv,HIDALGO ENTRE TAMAZULA Y APATZINGAN,Tradicional,269,19.4935729146,-99.0765599999,medio
+Mercado San Juan De Aragon Unidad 2,218,Gustavo A. Madero,San Juan De Aragon 2A Seccion (U Hab) I,"AV. 506, 553 Y 549",Tradicional,108,19.4539619148,-99.0856129999,medio
+Mercado San Juan De Aragon Unidad 3,219,Gustavo A. Madero,San Juan De Aragon 3A Seccion (U Hab) I,"AV. 606, 597 Y 595",Tradicional,232,19.4517999148,-99.0717499999,alto
+Mercado Santa Isabel Tola,221,Gustavo A. Madero,Santa Isabel Tola (Pblo),CUAUHTEMOC Y CACAMA,Tradicional,67,19.4988129146,-99.116792,medio
+Mercado Pradera,242,Gustavo A. Madero,La Pradera,MALINCHE Y POPOCATEPETL,Tradicional,106,19.4756779147,-99.0675479999,bajo
+Mercado Campestre Aragon,272,Gustavo A. Madero,Campestre Aragon I,"CALLE ESFUERZO""A""  ESQ. CAMINO CENTRAL SUR",Tradicional,137,19.4859219147,-99.0782099999,medio
+Mercado Ampliacion Gabriel Hernandez,277,Gustavo A. Madero,Gabriel Hernandez (Ampl) Ii,EVA SAMANO DE LOPEZ MATEOS Y RODOLFO MENDEZ,Tradicional,78,19.5058609146,-99.099716,medio
+Mercado Veinticinco De Julio,302,Gustavo A. Madero,25 De Julio,"EJIDO Y CANAL DE DESAGUE, ENTRE CANAL Y CUAUHTEMOC",Especializado,249,19.4961399147,-99.0826199999,bajo
+Mercado San Pedro El Chico,329,Gustavo A. Madero,San Pedro El Chico,AV.TALISMAN Y NORTE 94,Tradicional,51,19.4678769147,-99.0956659999,alto
+Mercado Ma. Esther Zuno De Echeverria,330,Gustavo A. Madero,Villa Gustavo A Madero,AQUILES SERDAN Y FRAY JUAN DE ZUMARRAGA,Especializado,90,19.4832679146,-99.117126,alto
+Mercado San Juan De Aragon Unidad 4 Y 5,336,Gustavo A. Madero,San Juan De Aragon 4A  Y 5A Seccion (U Hab) I,CALLE 625 Y CALLE 623 ENTRE CALLE 604 Y CALLE 606,Tradicional,169,19.4535779147,-99.065062,alto
+Mercado Cuchilla Del Tesoro,338,Gustavo A. Madero,Cuchilla Del Tesoro,AV. CUHILLA DEL TESORO Y AV. DEL PARQUE,Tradicional,128,19.4476169148,-99.0574229999,medio
+Mercado San Juan De Aragon Unidad 6,339,Gustavo A. Madero,San Juan De Aragon 6A Seccion (U Hab) Ii,"AV. 506, 553 Y 549",Tradicional,190,19.4664889147,-99.065754,muy alto
+Mercado Primero De Septiembre,354,Gustavo A. Madero,Vallejo I,"BORODIN, CLAVE Y PUCCINI",Tradicional,244,19.4664909148,-99.134611,medio
+Mercado Alfredo Robles Dominguez,366,Gustavo A. Madero,Guadalupe Insurgentes,ALFREDO ROBLES DOMINGUEZ E INSURGENTES NORTE,Tradicional,61,19.4712229147,-99.135695,muy alto
+Mercado Cuatro De Febrero,404,Gustavo A. Madero,Juan Gonzalez Romero,RODOLFO MENDEZ Y PERIFERICO,Tradicional,120,19.5060809146,-99.0911006666,bajo
+Mercado Cuautepec,405,Gustavo A. Madero,Loma De La Palma,5 DE MAYO Y FRANCISCO VILLA ESQ. 18 DE MARZO,Tradicional,74,19.5494169145,-99.1429079999,bajo
+Mercado Ferroplaza,410,Gustavo A. Madero,Aragon La Villa (Aragon),"CALLE ALBERTO HERRERA, ENTRE 5 DE FEBERO Y JUAN BERNARDINO",Tradicional,144,19.4817339147,-99.1161769999,alto
+Mercado Lindavista Vallejo Patera,-366,Gustavo A. Madero,La Patera-Condomodulos (U Hab),AV. PONIENTE 152 ENTRE AV. 100MTS. Y VALLEJO,Tradicional,86,19.5011739146,-99.152832,alto
+Mercado Iztacalco,38,Iztacalco,La Asuncion,"CALZ. DE LA VIGA ESQ. TEZONLE, ENTRE AV. SAN MIGUEL",Tradicional,102,19.389657915,-99.1216479999,medio
+Mercado Agricola Oriental,87,Iztacalco,Agricola Oriental Ii,"ORIENTE 237, SUR 16 Y SUR 12 ROJO GOMEZ",Tradicional,344,19.395236915,-99.075278,medio
+Mercado Militar Marte,-109,Iztacalco,Militar Marte,PLAYA AZUL Y PLAYA TABACHINES,Tradicional,158,19.383031915,-99.1310999999,muy alto
+Mercado Pantitlan Calle 4,118,Iztacalco,Pantitlan V,"CALLE 4, ENTRE AV. NORTE Y PRIV. DE LA ESCUELA",Tradicional,271,19.4111569149,-99.062213,alto
+Mercado Juventino Rosas,134,Iztacalco,Juventino Rosas Ii,"SUR 117B ESQ. AV. DEL RECREO, ENTRE 117B Y 117",Tradicional,208,19.3933669149,-99.1060749999,medio
+Mercado Bramadero,135,Iztacalco,Ramos Millan Bramadero I,"SUR 163, OTE. 108 Y OTE. 110",Tradicional,278,19.3910499149,-99.0947399999,bajo
+Mercado Tlacotal,139,Iztacalco,Gabriel Ramos Millan,"AV. 5, OTE. 100, ENTRE SUR 125 Y AV. 5",Tradicional,273,19.395474915,-99.1027469999,medio
+Mercado La Cruz,147,Iztacalco,La Cruz,CALZ. COYUYA Y AV. HIDALGO,Tradicional,249,19.4023379149,-99.1173649999,bajo
+Mercado Veinticuatro De Diciembre,198,Iztacalco,Pantitlan V,"CALLE 7, ENTRE AV. PUEBLA Y PRIV. DEL VALLE",Tradicional,203,19.4027279149,-99.058517,medio
+Mercado Santa Anita,202,Iztacalco,Nueva Sta Anita,"AV. ANDRES MOLINA ENRIQUEZ,  ENTRE SANTA ANITA Y PLUTARCO ELIAS CALLES",Tradicional,117,19.3985079149,-99.1293949999,bajo
+Mercado Apatlaco,206,Iztacalco,Campamento 2 De Octubre Ii,AV. APATLACO S/N. ENTRE GALEANA Y LA VIGA,Tradicional,131,19.382641915,-99.119382,bajo
+Mercado Leandro Valle,212,Iztacalco,Agricola Oriental Vii,"ORIENTE 253, ENTRE  SUR 20 Y SUR 22",Tradicional,197,19.388531915,-99.0670409999,bajo
+Mercado El Rodeo,255,Iztacalco,El Rodeo,ERNESTO P. URUCHURTU Y CALLE 28,Tradicional,68,19.391944915,-99.08544,medio
+Mercado Ejidos De La Magdalena Mixhuca,334,Iztacalco,Ex Ejidos De La Magdalena Mixihuca,HORTALIZA Y TRIGO S/N  ENTRE THE Y OTE. 106,Tradicional,104,19.392240915,-99.0892099999,medio
+Mercado San Miguel Iztacalco,345,Iztacalco,Los Reyes,"EJE 3 OTE. FCO DEL PASO Y TRONCOSO ESQ. JULIO GARCIA, ENTRE RECREO Y BUSTAMANTE",Tradicional,90,19.393844915,-99.1143369999,alto
+Mercado Jose Lopez Portillo,352,Iztacalco,Pantitlan I,"AV. CENTRAL, ENTRE AV. NORTE Y EJE UNO NORTE",Tradicional,352,19.4117249149,-99.0683479999,medio
+Mercado Iztapalapa,39,Iztapalapa,San Pablo (Barr),"AYUNTAMIENTO E HIDALGO, ENTRE CUAUHTEMOC Y LERDO",Tradicional,200,19.3603489151,-99.0912669999,bajo
+Mercado Santa Maria Aztahuacan,63,Iztapalapa,Sta Ma Aztahuacan (Pblo),"AV. PALMAS No 17, ENTRE EJIDOS Y PRIMAVERA E HIDALGO",Tradicional,106,19.3497179151,-99.023268,bajo
+Mercado San Andres Tetepilco,120,Iztapalapa,San Andres Tetepilco (Pblo),"HUELTACO Y NORMANDIA, ENTRE A. MOLINA ENRIQUEZ Y EMILIANO CARRAZA",Tradicional,207,19.372410915,-99.1301079999,bajo
+Mercado Sector Popular,128,Iztapalapa,Sector Popular,"SUR 101A ESQ. ALFONSO TORO, ENTRE RIO CHURUBUSCO Y SUR 101",Tradicional,221,19.368648915,-99.119398,alto
+Mercado Progreso Del Sur,129,Iztapalapa,Los Cipreses,"SILOS Y GANADEROS, ENTRE GRANJEROS Y GANADEROS",Tradicional,135,19.3504949151,-99.1093349999,medio
+Mercado Escuadron 201,131,Iztapalapa,Escuadron 201,"RODOLFO USIGLI, ENTRE JOSE ESPINOZA FUENTES Y FAUSTO VEGA",Tradicional,306,19.3624679151,-99.1119899999,medio
+Mercado Culhuacan,186,Iztapalapa,Culhuacan (Pblo),"AV. TLAHUAC ESQ. AGUSTIN DE ITURVIDE, ENTRE INDEPENDENCIA Y CAL. TAZQ.",Tradicional,109,19.3377529152,-99.1084839999,muy bajo
+Mercado San Juanico,-191,Iztapalapa,San Juanico Nextipac (Pblo),"DIBUJANTE S/N ESQ. SAN JUANICO, ENTRE VICENTE GUERRERO",Tradicional,108,19.373694915,-99.1197944444,muy bajo
+Mercado Santa Cruz Meyehualco,200,Iztapalapa,Santa Cruz Meyehualco (U Hab) I,CALLE 55 S/N. ENTRE CALLE 4 Y CALLE 6,Tradicional,146,19.3460649151,-99.0440469999,alto
+Mercado San Lorenzo Xicotencatl,208,Iztapalapa,San Lorenzo Xicotencatl (Pblo),"ZACANI Y TRINIDAD, ENTRE ZACANI Y JUSTINA",Tradicional,105,19.383375915,-99.027198,bajo
+Mercado La Purisima,213,Iztapalapa,San Miguel (Barr),AV. HIDALGO ESQ. QUETZAL,Tradicional,121,19.3545669151,-99.074372,muy bajo
+Mercado Sifon,223,Iztapalapa,Magdalena Atlazolpa (Pblo),AV. ROSAL Y SANTA MARIA,Tradicional,156,19.377550915,-99.1107349999,bajo
+Mercado San Lorenzo Tezonco,226,Iztapalapa,San Antonio (Barr),"DESPOSORIOS Y CANDELABROS, ENTRE  FCO JAVIER SALAZAR Y ECHAVE RIOJA",Tradicional,196,19.3106319152,-99.07195,muy bajo
+Mercado Juan De La Barrera,230,Iztapalapa,Juan Escutia Ii,"CORONEL BENITO S. ZENEA, ENTRE PABLO GARCIA Y JUAN ENRIQUEZ",Tradicional,174,19.3921959149,-99.044098,medio
+Mercado Guadalupe Del Moral,239,Iztapalapa,Guadalupe Del Moral,"AGUSTIN MELGAR, ENTRE HIDALGO Y GUERRERO",Tradicional,118,19.371148915,-99.076523,muy bajo
+Mercado Constituyentes De 1917,243,Iztapalapa,Constitucion De 1917 Ii,"PERIFERICO S/N, ENTRE CANDICO AGUILAR Y ANTONIO HIDALGO",Tradicional,184,19.3487159151,-99.0594179999,alto
+Mercado San Jose Aculco,246,Iztapalapa,Aculco (Pblo),"CHURUBUSCO Y VERACRUZ, ENTRE CDA. DE VERACRUZ Y RIO CHURUBUSCO",Tradicional,121,19.374914915,-99.1027049999,muy bajo
+Mercado Francisco Villa,291,Iztapalapa,Francisco Villa,FELIPE ANGELES Y RODOLFO PRIETO,Tradicional,104,19.3373329152,-99.058544,bajo
+Mercado Jacarandas,294,Iztapalapa,Jacarandas,MANLIO FABIO ALTAMIRANO ENTRE GUILLERMO GONZALEZ CAMARENA,Tradicional,86,19.3470849151,-99.0511419999,medio
+Mercado Magdalena Contreras (La Loma),132,La Magdalena Contreras,Barranca Seca,JOSE MORENO SALIDO S/N. ENTRE PROVIDENCIA Y FRESNO,Tradicional,90,19.3054499152,-99.2393359999,alto
+Mercado Turistico Magdalena,170,La Magdalena Contreras,La Magdalena Atlitic (Pblo),EMILIO CARRANZA S/N. ANDADOR EL ROSAL Y EMILIO CARRANZA,Turistico y especializado,39,19.3025269153,-99.2460789999,bajo
+Mercado Tihuatlan,261,La Magdalena Contreras,San Jeronimo Aculco - Lidice (Pblo),TIHUATLAN S/N. ENTRE PAPALOAPAN Y 19 DE AGOSTO,Tradicional,38,19.3180919152,-99.2254659999,medio
+Mercado Cerro Del Judio,-383,La Magdalena Contreras,Barros Sierra,"INDEPENDENCIA ESQ, SAN BERNABE",Tradicional,91,19.3184939152,-99.2456739999,medio
+Mercado Contreras La Cruz,384,La Magdalena Contreras,La Concepcion,ALVARO OBREGON S/N. ENTRE ALVARO OBREGON Y CAMINO REALLOS POLLITOS,Tradicional,96,19.3054809152,-99.2345659999,alto
+Mercado Benito Juarez (Milpa Alta),40,Milpa Alta,Villa Milpa Alta (Pblo),"YUCATAN ESQ. CONSTITUCION, ENTRE CONSTITUCION , MICHOACAN Y QUERETARO",Tradicional,207,19.1914829156,-99.021355,muy bajo
+Mercado San Pedro Atocpan,182,Milpa Alta,San Pedro Atocpan (Pblo),"FCO. I. MADERO, ENTRE TEUTLI Y V. CARRANZA",Tradicional,20,19.2014789155,-99.050294,medio
+Mercado San Salvador Cuauhtenco (Doce De Octubre,244,Milpa Alta,San Salvador Cuauhtenco (Pblo),"AV. MORELOS S/N , ENTRE JALAPA Y GUERRERO",Tradicional,23,19.1921849156,-99.0895099999,muy bajo
+Mercado San Antonio Tecomitl,322,Milpa Alta,San Antonio Tecomitl (Pblo),AV. MORELOS Y 5 DE MAYO,Tradicional,83,19.2172809155,-98.989593,bajo
+Mercado San Pablo Oztotepec,323,Milpa Alta,Pueblo San Pablo,"GUERRERO, ENTRE HIDALGO Y GALEANA",Tradicional,74,19.1847929156,-99.071421,muy bajo
+Mercado Santa Ana Tlacotenco,382,Milpa Alta,Santa Ana Tlacotenco (Pblo),CUAUHTEMOC Y FRANCISCO I. MADERO,Tradicional,19,19.1761089157,-98.998251,medio
+Mercado Villa Milpa Alta (Mercado Antojitos),394,Milpa Alta,Villa Milpa Alta (Pblo),QUERETARO Y YUCATAN,Especializado,23,19.1918559156,-99.021337,muy bajo
+Mercado Benito Juarez  (Anexo),395,Milpa Alta,Villa Milpa Alta (Pblo),"AV. YUCATAN ESQ. MICHOACAN S/N, ENTRE JALISCO Y MICHOACAN",Tradicional,207,19.1921619156,-99.02132,muy bajo
+Mercado San Bartolome Xicomulco,408,Milpa Alta,San Bartolome Xicomulco (Pblo),"AV. 5 DE MAYO ORIENTE, ENTRE MATAMOROS Y PROLONGACIÓN IGNACIO ZARAGOZA",Tradicional,61,19.2053682006,-99.0701299963,bajo
+Mercado Santa Maria Nonoalco,31,Álvaro Obregón,Santa Maria Nonoalco,ALEJANDRO ALLORI Y FRANCISCO GIRARDON,Tradicional,106,19.379711915,-99.1930049999,bajo
+Mercado Melchor Muzquiz Zona,43,Álvaro Obregón,San Angel,"AV. REVOLUCION, ENTRE DR. ELGUERO Y MELCHOR MUSQUIZ",Tradicional,327,19.3430189151,-99.1912329999,medio
+Mercado Seis De Enero De 1915,48,Álvaro Obregón,Molino De Rosas,"AV. DEL ROSAL, ENTRE ROSA ROJA Y ROSA NEGRA",Tradicional,116,19.372219915,-99.1997859999,medio
+Mercado Tizapan,67,Álvaro Obregón,Tizapan_Tizapan San Angel,FRONTERA Y SAN LUIS POTOSI,Tradicional,128,19.3413599151,-99.1978309999,medio
+Mercado Jose Maria Pino Suarez,82,Álvaro Obregón,Jose Maria Pino Suarez,"JILGUERO Y GOLONDRINAS, ENTRE RIO TACUBAYA Y FABRICA",Tradicional,200,19.397580915,-99.1980259999,bajo
+Mercado Melchor Muzquiz (Flores),133,Álvaro Obregón,San Angel,"AV. REVOLUCION, ENTRE AV. DE LA PAZ Y CRACOVIA",Especializado,34,19.3471899151,-99.1900529999,muy alto
+Mercado Santa Fe,162,Álvaro Obregón,Santa Fe,"VASCO DE QUIROGA, ENTRE CORREGIDORA Y PRIMAVERA",Tradicional,177,19.381936915,-99.2404189999,bajo
+Mercado Maria G. Garcia De Ruiz,163,Álvaro Obregón,El Paraiso,"CAMINO ANT. A SANTA FE, ENTRE AUSTRIACOS Y ALEMANES",Tradicional,97,19.389486915,-99.2114689999,medio
+Mercado Cristo Rey,173,Álvaro Obregón,Cristo Rey,"ESCUADRÓN 201,ENTRE JAVIER MARTINEZ Y CAMINO REAL A TOLUCA",Tradicional,118,19.389942915,-99.2020999999,muy alto
+Mercado Olivar Del Conde,181,Álvaro Obregón,Olivar Del Conde 2Da Seccion I,"AGUSTIN LARA, ENTRE ERNESTO P. URUCHURTO Y AV. SANTA LUCIA",Tradicional,188,19.372019915,-99.2140369999,medio
+Mercado Panteon Jardin (Flores),234,Álvaro Obregón,Flor De Maria,CLZDA. DEL DESIERTO DE LOS LEONES Y FLOR DE MARIA,Especializado,14,19.3479539151,-99.2079669999,muy alto
+Mercado Puente Colorado,266,Álvaro Obregón,Puente Colorado,RIO CHICO Y  RIO NAZAS,Tradicional,43,19.3471639151,-99.2316109999,medio
+Mercado Corpus Cristy,279,Álvaro Obregón,Corpus Christy,"SAN LUIS Y SAN FRANCISCO, ENTRE PROL. SANTA FE Y LA PAZ",Tradicional,87,19.361295915,-99.2486789998,medio
+Mercado Molino De Santo Domingo,369,Álvaro Obregón,Molino De Santo Domingo,AV. SANTA LUCIA ENTRE BALBINA Y SAN MARTIN CABALLERO,Tradicional,94,19.3943989149,-99.2083759999,medio
+Mercado Centenario,407,Álvaro Obregón,Arcos De Centenario,AV. CENTENARIO 1020 ESQ. JOSE GALVEZ MOYA,Tradicional,86,19.360609915,-99.2274229999,medio
+Mercado Jalalpa El Grande,413,Álvaro Obregón,Jalalpa El Grande,"AV. JALALPA NORTE S/N, ESQ. COLIPA",Tradicional,61,19.368335915,-99.2441759999,bajo
+Mercado Central De Tlahuac,41,Tláhuac,San Pedro Tlahuac (Pblo),AV. TLAHUAC-CHALCO S/N. ENTRE EMILIANO ZAPATA Y SEVERIANO CENICEROS,Tradicional,148,19.2685739154,-99.004799,muy bajo
+Mercado Mixquic,178,Tláhuac,San Andres Mixquic (Pblo),"AV. INDEPENDENCIA, 20 DE NOVIEMBRE Y CANAL SECO",Turistico y especializado,102,19.2238759155,-98.961816,muy bajo
+Mercado San Juan Ixtayopan,179,Tláhuac,San Juan Ixtayopan (Pblo),VICENE GUERRERO Y EMILIANO ZAPATA,Tradicional,79,19.2440099155,-98.995024,bajo
+Mercado Zapotitlan,192,Tláhuac,La Conchita I,FRANCISCO JIMENEZ ENTRE EMILIANO APATA Y AV. TLAHUAC,Tradicional,67,19.2948449153,-99.036683,bajo
+Mercado Tlaltenco (San Francisco),211,Tláhuac,San Francisco Tlaltenco (Pblo),CARLOS A. VIDAL ENTRE PLAN DE AYUTLA Y QUINTANA ROO,Tradicional,117,19.2957259153,-99.014866,bajo
+Mercado Santa Cecilia,248,Tláhuac,Santa Cecilia,CALLE CARLOS ESPINOSA DE LOS MONTEROSY MERCEDES CARAZA,Tradicional,61,19.2784229153,-99.005887,bajo
+Mercado Abraham Del Llano (Nopalera),252,Tláhuac,La Nopalera,"AMADO NERVO, EMILIANO ZAPATA E INDEPENDENCIA",Tradicional,87,19.2965879153,-99.054218,medio
+Mercado Los Olivos,253,Tláhuac,Granjas Cabrera,JOSE LUGO Y RUIZ CORTINEZ,Tradicional,94,19.2968179152,-99.061709,bajo
+Mercado Miguel Hidalgo,254,Tláhuac,Miguel Hidalgo Ote,FCO. I. MADERO Y LUCAS MARENCIO,Tradicional,48,19.2934729153,-99.046328,muy alto
+Mercado Agricola Metropolitana (Felipe Astorga Ochoa),356,Tláhuac,Agricola Metropolitana,"CALLE ZOYATE , ENTRE NARDO Y VIOLETA",Tradicional,44,19.2898029153,-99.052976,muy bajo
+Mercado Santa Catarina,358,Tláhuac,Santa Catarina Yecahuizotl (Pblo),"PIPILA, ENTRE EMILIANO ZAPATA Y CONCEPCION",Tradicional,51,19.3129049152,-98.966292,bajo
+Mercado Del Mar,359,Tláhuac,Del Mar Sur,"TIBURON , CAMARON Y SIRENA",Tradicional,111,19.2871039153,-99.059891,bajo
+Mercado San Jose,371,Tláhuac,San Jose,AGUSTIN LARA S/N. ENTRE JUVENTINO ROSAS Y GUADALUPE TRIGO,Tradicional,48,19.2758729153,-98.996081,medio
+Mercado Selene,372,Tláhuac,Selene 1A Secc,"OCEANO DE LAS TEMPESTADES, MAR DE LAS CRISIS Y MONTES APENINOS",Tradicional,112,19.2888869153,-99.005973,bajo
+Mercado Emiliano Zapata (Tetelco),373,Tláhuac,Emiliano Zapata 1A,AV. MORELOS Y PUEBLA,Tradicional,24,19.2090749155,-98.970128,muy bajo
+Mercado Zapotitla,374,Tláhuac,San Miguel Zapotitla,SALVADOR DIAZ MIRON ESQ. CECILIO ACOSTA,Tradicional,104,19.3126769152,-99.0381779999,muy bajo
+Mercado Ampliacion Selene,1001,Tláhuac,Selene (Ampl),MAR DE LOS VAPORES,Tradicional,71,19.2848739153,-98.995017,muy bajo
+Mercado Tipico Regional,1002,Tláhuac,San Pedro Tlahuac (Pblo),CALZ. TULYEHUALCO Y AV. GRAL. SEVERIANO CENICEROS,Especializado,26,19.2685769154,-99.004833,muy bajo
+Mercado La Paz,42,Tlalpan,Tlalpan Centro,PLAZA DE LA CONSTITUCION S/N. ENTRE GPE. VICTORIA Y CONGRESO,Tradicional y turistico,141,19.2879889152,-99.1671019999,muy alto
+Mercado Comidas Huipulco,251,Coyoacán,Viejo Ejido Santa Ursula Coapa,"TLALPAN, SAN LORENZO Y ACUEDUCTO",Especializado,23,19.3025269152,-99.14646,muy bajo
+Mercado Villa Coapa,263,Tlalpan,Narciso Mendoza-Villa Coapa Super Manzana 1 (U Hab),AV. CANAL DE MIRAMONTES S/N. ENTRE AV. ACOXPA Y CAPORAL,Tradicional,167,19.2920459152,-99.126838,muy alto
+Mercado Lazaro Cardenas,265,Tlalpan,Villa Lazaro Cardenas,"ACOXPA Y FEDERACION MEXICANA DE FUTBOL, ENTRE LAGUNAS Y NECAXA",Tradicional,72,19.2977399153,-99.1389299999,alto
+Mercado Fuentes Brotantes,267,Tlalpan,Santa Ursula Xitla,PARQUE NACIONAL Y FUENTES BROTANTES,Turistico y especializado,26,19.2844109153,-99.1813949999,medio
+Mercado Artesanias Vasco De Quiroga,274,Tlalpan,Miguel Hidalgo,INSURGENTES Y CAMINO A STA TERESA,Especializado,132,19.2952839153,-99.1849219999,alto
+Mercado Isidro Fabela,282,Tlalpan,Isidro Fabela I (Poniente),PRIMERA NORTE Y 4A PONIENTE,Tradicional,60,19.3004849152,-99.1774379999,bajo
+Mercado San Andres Totoltepec,285,Tlalpan,San Andres Totoltepec (Pblo),16 DE SEPTIEMBRE S/N. ENTRE REFORMA Y RIVAPALACIO,Tradicional,51,19.2515179154,-99.1723099999,bajo
+Mercado Flores San Fernando,286,Tlalpan,Nio Jesus (Barr),"CALZ. DE TALPAN , ENTRE SAN FRANCISCO Y ALLENDE",Especializado,76,19.2897089152,-99.162254,muy alto
+Mercado Miguel Hidalgo,289,Tlalpan,Miguel Hidalgo,CORREGIDORA S/N Y MICHOACAN,Tradicional,72,19.2876709153,-99.1847069999,alto
+Mercado Torres De Padierna,320,Tlalpan,Torres De Padierna,"TIXPEHUATL TIXKOKOB, ENTRE SEYE Y SACALUM",Tradicional,58,19.2823359153,-99.2282194443,muy bajo
+Mercado San Nicolas Totolapan,350,Tlalpan,Pedregal De Sn Nicolas 1A Secc,"KANTUNIL S/N. , ENTRE SINACHE Y CHEMAX",Tradicional,32,19.2919109153,-99.2364009999,bajo
+Mercado Jose Maria Morelos Y Pavon,391,Tlalpan,Coapa 2A Seccion-Ramos Millan,"CDA. DON REFUGIO Y CACAHUATALES, ENTRE TENORIOS Y CALZ. DEL HUESO",Tradicional,56,19.2977949152,-99.1184339999,muy alto
+Mercado Plaza Mexicana Del Sur,392,Tlalpan,San Lorenzo Huipulco,"ACOXPA C/ESQ. CALZ. DE TLALPAN, ENTRE ACOXPA Y CALZ. DE TLALPAN",Tradicional,79,19.3005519153,-99.146042,muy bajo
+Mercado Hueso Periferico,393,Tlalpan,Hueso Periferico-Isssfam No. 7 (U Habs),"CALZADA DEL HUESO 1079, ENTRE FRESALES Y CANAL NACIONAL",Tradicional,102,19.2995419152,-99.1028779999,muy alto
+Mercado Veinticuatro De Febrero,316,Tlalpan,Lomas Altas De Padierna Sur,10 DE AGOSTO DE 1860 Y 24 DE ABRIL ENTRE BATALLA DE PASO OVEJAS,Tradicional,124,19.2746429153,-99.2254779999,muy bajo
+Mercado Dr. Y Gral Jose Gonzalez Varela,256,Tlalpan,San Pedro Martir (Pblo),"CALLE DEL ROSAL, ENTRE 5 DE MAYO Y AZUCENA",Tradicional,58,19.2653179154,-99.1693249999,medio
+Mercado Tlalcoligia,406,Tlalpan,Tlalcoligia,TEPEHUANOS Y OTOMIES,Tradicional,70,19.2750839154,-99.171772,muy bajo
+Mercado Mirador,1011,Tlalpan,Lomas De  Padierna I,"POPOLNAH ESQ. BEKAL, ENTRE BEKAL Y TEKIT",Tradicional,90,19.2949639153,-99.2261449999,bajo
+Mercado Veintiuno De Abril,1012,Tlalpan,Mirador Ii,"HOPELCHE, XITLE E IZAMAL",Tradicional,65,19.2712189153,-99.2238609999,bajo
+Mercado Xochimilco Zona (Xochitl),44,Xochimilco,El Rosario (Barr),"AV.MORELOS , ENTRE FCO. I MADERO Y 16 DE SEPTIEMBRE",Tradicional,447,19.2623379154,-99.1040499999,alto
+Mercado Nativitas,115,Xochimilco,Santa Maria Nativitas (Pblo),EMBARCADERO Y MERCADO,Turistico y especializado,296,19.2506319154,-99.0942789999,medio
+Mercado Tulyehualco,146,Xochimilco,Santiago Tulyehualco (Pblo),ZARAGOZA Y DIVISION DEL NORTE,Tradicional,118,19.2547029154,-99.011455,muy alto
+Mercado San Gregorio Atlapulco,190,Xochimilco,San Gregorio Atlapulco (Pblo),"CUAUHTEMOC, INSURGENTES Y PLAZA PRINCIPAL",Tradicional,136,19.2551279154,-99.057456,muy bajo
+Mercado Xochimilco Anexo,377,Xochimilco,El Rosario (Barr),AV. MORELOS No 60 ESQ. 16 DE SEPT. ENTRE NETZAHUALCOYOTL Y FCO. I MADERO,Tradicional,968,19.2609549154,-99.104313,muy bajo
+Mercado Santa Cruz Acalpixca,378,Xochimilco,Santa Cruz Acalpixca (Pblo),AV. MEXICO Y PEDRO BENAVIDES,Tradicional,50,19.2460759154,-99.075163,alto
+Mercado Ampliacion San Marcos,379,Xochimilco,San Marcos (Ampl),TEPOZANES 56,Tradicional,91,19.2689979154,-99.113453,bajo
+Mercado Guadalupe I. Ramirez,380,Xochimilco,San Antonio (Barr),GUADALUPE I. RAMIREZ Y PEDRO RAMIREZ DEL CASTILLO,Especializado,25,19.2640899154,-99.1053769999,alto
+Mercado Tierra Nueva,-381,Xochimilco,Huichapan,18 DE MARZO Y AV. MEXICO,Tradicional,74,19.2640129154,-99.116067,alto
+Mercado Ampliacion Tepepan,-382,Xochimilco,Tepepan (Ampl),AV. LAS TORRES Y CAMINO REAL AL AJUSCO,Tradicional,60,19.2663549153,-99.133619,medio
+Mercado Ahualapa,383,Xochimilco,Santa Cruz Acalpixca (Pblo),"CUAUHTEMOC, INSURGENTES Y PLAZA PRINCIPAL",Tradicional,33,19.2471189154,-99.0704419999,bajo
+Mercado Alamos,27,Benito Juárez,Alamos I,"BOLIVAR, ENTRE CADIZ, GALICIA Y SEGOVIA",Tradicional,269,19.3986239149,-99.1440389999,muy alto
+Mercado Lago,29,Benito Juárez,Nativitas,"ELISA, ENTRE DON JUAN Y DON LUIS",Tradicional,103,19.380764915,-99.138898,alto
+Mercado Portales Zona,30,Benito Juárez,San Simon Ticumac,"CALZ. SANTA CRUZ, ENTRE 5 DE FEBRERO Y LIBERTAD",Tradicional,599,19.371725915,-99.1435159999,alto
+Mercado Veinticuatro De Agosto,47,Benito Juárez,Narvarte Iii,"ANAXAGORAS, ENTRE LUZ SAVIÑON Y TORRES ADALID",Tradicional,265,19.390120915,-99.1575659999,alto
+Mercado Primero De Diciembre,49,Benito Juárez,Narvarte I,"YACATAS, UXMAL Y CDA. UXMAL",Tradicional,244,19.399193915,-99.1546209999,muy alto
+Mercado La Moderna,59,Benito Juárez,Moderna,"JORGE WASHINGTON S/N., ENTRE JESUS URUETA Y HORACIO NELSON",Tradicional,181,19.394120915,-99.134015,muy alto
+Mercado Mixcoac,76,Benito Juárez,Mixcoac,"AV. REVOLUCION, ENTRE TIZIANO Y MOLINOS",Tradicional,476,19.372910915,-99.1885799999,bajo
+Mercado Lazaro Cardenas(Del Valle),90,Benito Juárez,Del Valle I,"PEDRO ROMERO DE TERREROS ESQ. ADOLFO PRIETO, ENTRE MIER Y PESADO Y AV. COYOACAN",Tradicional,440,19.3956419149,-99.1661889999,medio
+Mercado San Pedro De Los Pinos,97,Benito Juárez,San Pedro De Los  Pinos,"AV. 2, ENTRE CALLE 7 Y CALLE 9",Tradicional,192,19.3918469149,-99.1835189999,muy alto
+Mercado Postal Zona,111,Benito Juárez,Miguel Aleman,"AHORRO POSTAL No 345, ENTRE CASTILLA Y TUY",Tradicional,247,19.389407915,-99.1442839999,alto
+Mercado Postal Anexo,112,Benito Juárez,Miguel Aleman,AHORRO POSTAL ENTRE CASTILLA Y LERIDA,Especializado,49,19.3891529149,-99.143874,alto
+Mercado Independencia,113,Benito Juárez,Independencia,"ZEMPOALA, ENTRE ANGEL URRAZA Y SERAFIN OLARTE",Tradicional,226,19.380096915,-99.150259,alto
+Mercado Santa Maria Nativitas,119,Benito Juárez,Narvarte Vi,EJE CENTRALY AV. NIÑOS HEROES,Tradicional,97,19.388124915,-99.1473089999,alto
+Mercado Tlacoquemecatl,122,Benito Juárez,Tlacoquemecatl Del Valle,"PATRICIO SANZ, ENTRE MIGUEL LAURENT Y SAN FRANCISCO",Tradicional,109,19.377019915,-99.1742089999,muy alto
+Mercado Santa Cruz Atoyac,175,Benito Juárez,Sta Cruz Atoyac,"AV. CUAUHTEMOC, ENTRE CJON. MISERICORDIA Y TENAYUCA",Tradicional,101,19.370229915,-99.1609229999,muy alto
+Mercado Portales Anexo,201,Benito Juárez,San Simon Ticumac,LIBERTAD Y MONTES DE OCA,Especializado,125,19.372744915,-99.144119,muy alto
+Mercado Lagunilla Ropa Y Telas,1,Cuauhtémoc,Centro I,"COMONFORT, ECUADOR Y ALLENDE",Especializado,1043,19.4431679148,-99.1363229999,muy bajo
+Mercado Lagunilla Zona,2,Cuauhtémoc,Morelos Iii,COMONFORT Y RAYON,Tradicional,573,19.4440279148,-99.1346569999,muy bajo
+Mercado Lagunilla Varios,3,Cuauhtémoc,Centro I,ALLENDE ESQ. JUAN ALVAREZ,Especializado,344,19.4418479148,-99.13661,medio
+Mercado Lagunilla San Camilito,4,Cuauhtémoc,Centro I,"ECUADOR, HONDURAS, SAN CAMILITO",Especializado,75,19.4419789148,-99.1390319999,medio
+Mercado Martinez De La Torre (Anexo),5,Cuauhtémoc,Guerrero Iii,ZARCO Y EJE 1 NORTE,Especializado,339,19.4454699148,-99.1453889999,alto
+Mercado San Cosme,6,Cuauhtémoc,San Rafael Ii,"RIBERA DE SAN COSME Y GABINO BARREDA, ENTRE ALTAMIRANO Y ICAZBALETA",Tradicional,533,19.4418249148,-99.162254,muy alto
+Mercado Martinez De La Torre (Zona),7,Cuauhtémoc,Guerrero Iii,"EJE UNO NORTE MOSQUETA Y DEGOLLADO, ENTRE ZARCO Y SOTO",Tradicional,600,19.4452119148,-99.144294,medio
+Mercado Juarez,8,Cuauhtémoc,Juarez,"AV. CHAPULTEPEC,ENTRE TURIN Y ABRAHAM GONZALEZ",Tradicional,454,19.4261399148,-99.1545829999,muy alto
+Mercado San Lucas,9,Cuauhtémoc,Centro Vi,"ESCUELA MEDICO MILITAR, CJON. DEL HORMIGUERO Y CJON. DE SAN MGUEL",Tradicional,254,19.4249439149,-99.1310979999,bajo
+Mercado Dos De Abril,10,Cuauhtémoc,Guerrero Iv,PENSADOR MEXICANO Y 2 DE ABRIL,Tradicional,128,19.4384179148,-99.1416149999,muy bajo
+Mercado Insurgentes,13,Cuauhtémoc,Juarez,"LONDRES 154, ENTRE AMBERES Y FLORENCIA",Turistico y especializado,225,19.4243349149,-99.1654839999,alto
+Mercado Tepito Zona,14,Cuauhtémoc,Morelos Ii,"TOLTECAS, BARTOLOME DE LAS CASAS Y MATAMOROS",Tradicional,522,19.4464179148,-99.1274529999,muy bajo
+Mercado Abelardo L. Rodriguez (Zona),16,Cuauhtémoc,Centro Iii,"REP. DE VENEZUELA No 42, ENTRE RODRIGUEZ PUEBLA Y EL CARMEN",Tradicional y turistico,246,19.4372319148,-99.1279519999,bajo
+Mercado Beethoven,17,Cuauhtémoc,Peralvillo Ii,"BEETHOVEN, ADELINA PATT Y MOZART",Tradicional,792,19.4594099148,-99.1300999999,medio
+Mercado Hidalgo Zona,18,Cuauhtémoc,Doctores Iii,"DR. BARRAGAN, ENTRE DR. BALMIS Y DR. ARCE",Tradicional,975,19.4138489149,-99.146099,
+Mercado La Dalia,19,Cuauhtémoc,Santa Maria La Ribera I,"FRESNO No 225, ENTRE MANUEL CARPIO Y ELIGIO ANCONA",Tradicional,421,19.4522119147,-99.1600919999,alto
+Mercado Melchor Ocampo,20,Cuauhtémoc,Roma Sur I,"CAMPECHE, ENTRE MEDELLIN Y MONTERREY",Tradicional,517,19.4104079149,-99.1634989999,alto
+Mercado San Joaquin Zona (Peralvillo),22,Cuauhtémoc,Peralvillo I,"ERNESTO ELORDUY, ENTRE LIZT Y SHUBERT",Tradicional,477,19.4626899147,-99.1393239999,medio
+Mercado Tepito Fierros Viejos,23,Cuauhtémoc,Morelos Ii,"TENOCHTITLAN , MATAMOROS Y TOLTECAS",Especializado,661,19.4472069147,-99.1284769999,muy bajo
+Mercado Morelia,24,Cuauhtémoc,Doctores Iv,DR. VERTIZ Y FEDERICO GOMEZ SANTOS,Tradicional,156,19.4085639149,-99.1497949999,medio
+Mercado Bugambilia,28,Cuauhtémoc,Santa Maria La Ribera I,"BUGAMBILIA, MARIANO AZUELA Y FLORES MAGON",Tradicional,201,19.4535699148,-99.1528449999,alto
+Mercado Tepito Varios,36,Cuauhtémoc,Morelos Ii,"MATAMOROS, TOLTECAS Y RIVERO",Especializado,562,19.4471239148,-99.127332,muy bajo
+Mercado Tepito Ropa Y Telas (Granaditas),60,Cuauhtémoc,Centro I,"EJE 1 NORTE Y AZTECAS, ENTRE ARGENTINA Y COSTA RICA",Especializado,709,19.4426499148,-99.12929,muy bajo
+Mercado Pequeño Comercio,66,Cuauhtémoc,Obrera I,5 DE FEBRERO No 161 Y DIAGONAL 20 DE NOVIEMBRE,Especializado,84,19.4215624314,-99.136042116,alto
+Mercado Palacio De Las Flores,74,Cuauhtémoc,Centro Viii,LUIS MOYA Y ERNESTO PUGIBET,Turistico y especializado,133,19.4297779148,-99.146059,alto
+Mercado San Juan Pugibet,77,Cuauhtémoc,Centro Viii,"ENRNESTO PUGIBET, ENTRE LUIS MOYA Y BUEN TONO",Tradicional,361,19.4300359148,-99.1446079999,alto
+Mercado San Juan Arcos De Belem,78,Cuauhtémoc,Centro Viii,"ARCOS DE BELEM Y LOPEZ, ENTRE EJE CENTRAL  Y LOPEZ",Tradicional,399,19.4274179148,-99.142588,alto
+Mercado Abelardo L. Rodriguez (Coronas),83,Cuauhtémoc,Centro Iii,"RODRIGUEZ PUEBLA,COLOMBIA Y CALLEJON DE GIRON",Especializado,151,19.4378159148,-99.1282919999,bajo
+Mercado San Juan Curiosidades,86,Cuauhtémoc,Centro Viii,"AYUNTAMIENTO,  ARANDA Y BUEN TONO",Turistico y especializado,176,19.4301749149,-99.1430849999,muy bajo
+Mercado Hidalgo Anexo,91,Cuauhtémoc,Doctores Iii,"DR. BARRAGAN, ENTRE DR. BALMIS Y DR. OLVERA",Especializado,428,19.4147029149,-99.1457409999,
+Mercado Isabel La Catolica,96,Cuauhtémoc,Algarin,"ISABEL LA CATOLICA S/N, ENTRE HERNANDEZ DAVALOS Y EJE 3 SUR  PEON CONTRERAS",Tradicional,165,19.4070109149,-99.1393239999,medio
+Mercado Cuauhtemoc,98,Cuauhtémoc,Cuauhtemoc,"LERMA, TIGRIS Y DANUBIO",Tradicional,85,19.4296849148,-99.1668889999,muy alto
+Mercado Merced Mixcalco,108,Cuauhtémoc,Centro Iii,CIRCUNVALACION S/N ENTRE MIXCALCO Y GUATEMALA,Especializado,920,19.4343809148,-99.1251059999,muy bajo
+Mercado San Joaquin (Anexo),110,Cuauhtémoc,Peralvillo I,"ELORDUY,SCHUBERT Y LIZT",Especializado,275,19.4619769148,-99.1390669999,medio
+Mercado Francisco Sarabia,114,Cuauhtémoc,Ex Hipodromo De Peralvillo,"MASCAGNI,ROSSINI Y BACH",Tradicional,119,19.4579619148,-99.1373119999,alto
+Mercado Michoacan,153,Cuauhtémoc,Hipodromo Condesa,"TAMAULIPAS Y MICHOACAN, ENTRE VICENTE SUAREZ Y ATLIXCO",Tradicional,35,19.4113269149,-99.1744599999,muy alto
+Mercado Paulino  Navarro,216,Cuauhtémoc,Paulino Navarro,CALZ. DE LA VIGA Y AV. DEL TALLER,Tradicional,110,19.4124789149,-99.1283669999,medio
+Mercado Anahuac Zona,11,Miguel Hidalgo,Tlaxpana,"TLALOC Y ATZAYACATL, ENTRE NETZAHUALPILLI Y TONATZIN",Tradicional,412,19.4407549148,-99.1699749999,bajo
+Mercado Tacuba,32,Miguel Hidalgo,Tacuba,CAL. MEXICO TACUBA YGOLFO DE MEXICO,Tradicional,1231,19.4581099148,-99.1866569999,muy bajo
+Mercado Tacubaya,33,Miguel Hidalgo,Tacubaya,HEROES DE 1810 Y BECERRA,Tradicional,512,19.398671915,-99.1871939999,alto
+Mercado Granada,55,Miguel Hidalgo,Granada,LAGO YURIRIA Y RIO SAN JOAQUIN,Tradicional,148,19.4418199148,-99.1923759999,alto
+Mercado Anahuac Anexo,72,Miguel Hidalgo,Tlaxpana,"TLALOC Y ATZAYACATL, ENTRE TIZOC  Y TONATZIN",Especializado,280,19.4402419148,-99.1703179999,bajo
+Mercado Plutarco Elias Calles       (El Chorrito),75,Miguel Hidalgo,San Miguel Chapultepec I,"MELCHOR MUZQUIZ Y JOSE CEBALOS, ENTRE PARQUE LIRA Y CDA. GOB. IGANCIO ESTEVA",Tradicional,361,19.4105929149,-99.1903169999,medio
+Mercado Monte Athos,79,Miguel Hidalgo,Lomas De Chapultepec,"MONTE ATHOS No  375, ESQ. EVEREST",Tradicional,63,19.4192549148,-99.2147439999,alto
+Mercado Dieciocho De Marzo,85,Venustiano Carranza,Puebla,"CALLE 69 Y AV. 4, ENTRE 65 Y 67",Tradicional,335,19.4102969149,-99.082984,alto
+Mercado Lago Garda,93,Miguel Hidalgo,Pensil San Juanico,"LAGO GARDA, LAGO CONSTANZA Y LAGO MAYOR",Tradicional,319,19.4500549148,-99.1860319999,medio
+Mercado Zacatito,94,Miguel Hidalgo,Nueva Argentina (Argentina Poniente),"SANCTORUM Y CJON. DE ZACATITO, ENTRE RIO YAPURA Y TLACOTALPAN",Tradicional,182,19.4579709148,-99.2077499999,medio
+Mercado Argentina,95,Miguel Hidalgo,Mexico Nuevo,ATTLAN Y LAGO VIEDMA S/N. ENTRE LEGARIA Y VIEDMA,Tradicional,964,19.4525939147,-99.2019329999,bajo
+Mercado Escandon,99,Miguel Hidalgo,Escandon I,"MARTI, COMERCIO Y AGRICULTURA",Tradicional,249,19.402664915,-99.1774149999,alto
+Mercado Ing. Gonzalo Peña Manterola (Cartagena),100,Miguel Hidalgo,Tacubaya,LUIS RUIZ Y ERASMO CAYETANO Q.,Tradicional,700,19.4028159149,-99.1888939999,muy alto
+Mercado America,124,Miguel Hidalgo,America,"SUR 128,CORONEL CAMACHO Y GENERAL TOLA",Tradicional,307,19.4049159149,-99.2019839999,medio
+Mercado Lago Gascasonica,151,Miguel Hidalgo,San Diego Ocoyoacac,LAGO GASCASONICA Y LAGO ESCLAVOS,Tradicional,374,19.4614329147,-99.1919059999,medio
+Mercado Prado Norte,172,Miguel Hidalgo,Lomas De Chapultepec,PRADO NORTE Y EXPLANADA,Tradicional,122,19.4273469149,-99.2124489999,medio
+Mercado Prado Sur,196,Miguel Hidalgo,Lomas Virreyes (Lomas De Chapultepec),MONTE ATHOS Y PRADO SUR 145,Tradicional,23,19.4216409149,-99.2092729999,muy alto
+Mercado San Isidro Zona,232,Miguel Hidalgo,Reforma Social,AV. STA ROSA ENTRE   CALLE 11 Y CALLE 12,Tradicional,51,19.4298469148,-99.2207679998,medio
+Mercado San Isidro Anexo,233,Miguel Hidalgo,Reforma Social,ACUEDUCTO Y SIERRA SANTA ROSA,Especializado,38,19.4297209148,-99.2216639999,medio
+Mercado Jamaica Zona,15,Venustiano Carranza,Jamaica,CONGRESO DE LA UNION ENTRE MORELOS Y LA VIGA,Tradicional,562,19.4085839149,-99.1227879999,alto
+Mercado Moctezuma,21,Venustiano Carranza,Moctezuma 2A Seccion Ii,OTE.154 Y OTE.158 ENTRE NORTE 25 Y NORTE 21,Tradicional,526,19.4322389148,-99.097047,medio
+Mercado Unidad Rastro,25,Venustiano Carranza,Felipe Angeles,ING. EDUARDO MOLINA ENTRE ALUMINIO Y ESTAÑO,Tradicional,717,19.4510339148,-99.1105949999,bajo
+Mercado Romero Rubio,26,Venustiano Carranza,Romero Rubio,"CANTON, ENTRE MARRUECOS Y PERSIA",Tradicional,639,19.4439979148,-99.099373,
+Mercado Merced Ampudia,52,Venustiano Carranza,Centro Ii,AV. ANILLO DE CIRCUNVALACION No 4 y CJON. CARRETONES,Especializado,151,19.4271899149,-99.12521,bajo
+Mercado Jamaica Comidas,65,Venustiano Carranza,Jamaica,CONGRESO DE LA UNION Y GUILLERMO PRIETO,Especializado,66,19.4067229149,-99.122373,alto
+Mercado Puebla,85,Venustiano Carranza,Puebla,"CALLE 69 Y AV. 4, ENTRE 65 Y 67",Tradicional,281,19.4102969149,-99.082984,alto
+Mercado Merced Nave Menor,101,Venustiano Carranza,Centro Ii,ROSARIO Y ADOLFO GURRION,Especializado,647,19.4254879148,-99.1226759999,muy bajo
+Mercado Merced Nave Mayor,102,Venustiano Carranza,Centro Ii,ROSARIO Y ABRAHAM OLVERA,Tradicional,4200,19.4261859149,-99.123813,
+Mercado Merced Comidas,104,Venustiano Carranza,Centro Ii,"CALLE ROSARIO 120, ENTRE GRAL. ANAYA Y CARRETONES",Especializado,218,19.4272999149,-99.1228219999,
+Mercado Merced Flores,105,Venustiano Carranza,Centro Ii,ANILLO DE CIRCUNVALACION S/N. ENTRE PLAZA CARRIZALES Y RAYON,Especializado,110,19.4260669149,-99.1250679999,
+Mercado Merced Anexo,106,Venustiano Carranza,Centro Ii,ADOLFO GURRION ESQ. CABAÑAS,Especializado,186,19.4244579148,-99.1249469999,bajo
+Mercado Sonora,107,Venustiano Carranza,Merced Balbuena,SAN NICOLAS S/N. ENTRE CALLE FRAY SERVANDO T. DE MIER Y CALLE  CANAL,Especializado,407,19.4222569148,-99.124636,
+Mercado Sonora Anexo,-108,Venustiano Carranza,Merced Balbuena,SAN NICOLAS S/N. ENTRE CALLE FRAY SERVANDO T. DE MIER Y CALLE  CANAL,Especializado,271,19.4217139148,-99.1244429999,muy bajo
+Mercado Alvaro Obregon,140,Venustiano Carranza,Magdalena  Mixhuca (Pblo),"CUCURPE Y ROA BARCENAS, ENTRE AGIABANPO Y BACUM",Tradicional,211,19.4113669149,-99.1178609999,medio
+Mercado Ignacio Zaragoza,148,Venustiano Carranza,Ignacio Zaragoza I,"AV.8, ENTRE CALLE 35 Y CALLE 39",Tradicional,428,19.4125409149,-99.091449,alto
+Mercado Pensador Mexicano,150,Venustiano Carranza,Pensador Mexicano Ii,"NORTE 172 S/N. NORTE 174, ENTRE BOLIVARES Y CIRC. INTERIOR RIO CONSULADO",Tradicional,156,19.4439509148,-99.0869749999,muy bajo
+Mercado Jardin Balbuena,159,Venustiano Carranza,Jardin Balbuena Iii,"RET.27 DE GENAO GARCIA, ENTRE RET.27 Y RET.29",Tradicional,133,19.4157159149,-99.100897,medio
+Mercado Morelos,165,Venustiano Carranza,Morelos Ii,ING. EDUARDO MOLINA ENTRE HERREROS Y HORTELANOS,Tradicional,912,19.4398339148,-99.114755,medio
+Mercado Veinte De Abril,174,Venustiano Carranza,Moctezuma 2A Seccion Iv,ORIENTE 168 ENTRE ORIENTE 170 Y NORTE 13,Tradicional,272,19.4276229149,-99.0976429999,bajo
+Mercado Federal,183,Venustiano Carranza,Federal,"AV. UNIVERSIDAD NACIONAL, ENTRE SUPREMA CORTE DE JUSTICIA Y EDUCACION PUBLICA",Tradicional,103,19.4204039148,-99.0893839999,medio
+Mercado Aviacion Civil,187,Venustiano Carranza,Aviacion Civil,HORACIO RUIZ Y LINDBERGH,Tradicional,124,19.4142079149,-99.077711,medio
+Mercado Aquiles Serdan,197,Venustiano Carranza,Aquiles Serdan,"PEQUIN Y PUERTO ARTURO, ENTRE DINARES Y ESTERLINAS",Tradicional,222,19.4471289148,-99.092321,alto
+Mercado Emilio Carranza,203,Venustiano Carranza,Morelos Ii,IMPRENTA Y JARDINEROS,Tradicional,126,19.4424049148,-99.1187299999,bajo
+Mercado Adolfo Lopez Mateos,209,Venustiano Carranza,Adolfo Lopez Mateos,EDUARDO BUSTAMANTE Y ERNESTO P. URUCHURTU,Tradicional,211,19.4212129149,-99.07276,medio
+Mercado Plan De Ayala Caracol,214,Venustiano Carranza,Ampl Caracol,IGNCIO ZARAGOZA Y FRANCISCO VILLA,Tradicional,96,19.4280679148,-99.069552,bajo
+Mercado Jamaica Nuevo,235,Venustiano Carranza,Jamaica,"CONGRESO DE LA UNION, ENTRE GUILLERMO PRIETO Y MORELOS",Especializado,1312,19.4077499149,-99.123057,alto
+Mercado Pantitlan Arenal,238,Venustiano Carranza,Cuchilla Pantitlan,AV. CIRCUNVALACION Y ERNESTO P. URUCHURTU,Tradicional,143,19.4235019149,-99.0650939999,muy bajo
+Mercado Unidad Kennedy,240,Venustiano Carranza,Jardin Balbuena I,"RET. 5 DE ZARAGOZA, ENTRE CECILIO ROBELO Y RIBERA CAMBAS",Tradicional,182,19.4246679149,-99.1086289999,muy alto
+Mercado Valle Gomez,245,Venustiano Carranza,Valle Gomez,"RIO CONZULADO , ENTRE PROAÑO Y POZOS",Tradicional,203,19.4591189147,-99.1217739999,medio
+Mercado Calzado La Central,264,Venustiano Carranza,Felipe Angeles,CDA. AVIADERO ENTRE ALUMINIO Y ESTAÑO,Especializado,172,19.4509769147,-99.112503,bajo
+Mercado Santa Juanita,278,Venustiano Carranza,20 De Noviembre,"OFICIOS, ENTRE ELECTRICISTAS Y GRABADOS",Tradicional,107,19.4447869148,-99.1080469999,muy bajo
+Mercado Arenal 4A Seccion,283,Venustiano Carranza,El Arenal 4A Seccion,XOCHITLAN NORTE Y XOCHITLAN SUR,Tradicional,199,19.4283179148,-99.056468,bajo
+Mercado Peñon De Los Baños,346,Venustiano Carranza,Peon De Los Baos,MATAMOROS Y CHIMALHUACAN,Tradicional,101,19.4396119148,-99.0849969999,medio
+Mercado Lic. Octavio Senties,381,Venustiano Carranza,20 De Noviembre,"FLORICULTURA Y ELECTRICISTAS, ENTRE GRABADOS Y OFICIOS",Tradicional,40,19.4448849148,-99.1078049999,medio
+Mercado Minillas,409,Venustiano Carranza,5To Tramo De 20 De Noviembre,CONGRESO DE LA UNION Y CANLAL DEL NORTE,Especializado,225,19.4502559148,-99.1152469999,muy bajo
+Mercado Nuevo San Lazaro,901,Venustiano Carranza,Magdalena  Mixhuca,"RIO FRIO No 261, ENTRE 20 DE NOVIEMBRE E INDUSTRIA",Especializado,78,19.4074709149,-99.114828,medio
+Mercado Del Parque,903,Venustiano Carranza,El Parque,"CONGRESO DE LA UNION S/N, LORENZO BOTURINI Y NIVEL",Tradicional,106,19.4161619149,-99.1209679999,alto
+Mercado Luis Preciado De La Torre,904,Venustiano Carranza,Moctezuma 1A Seccion,EMILIO CARRANZA Y LUIS PRECIADO DE LA TORRE,Tradicional,132,19.4283759148,-99.1061129999,alto
+Mercado Merced Banqueton,109,Venustiano Carranza,Centro Ii,ROSARIO Y ABRAHAM OLVERA COL.,Tradicional,449,19.4261993206,-99.1230284001,
+Mercado Pasaje Chapultepec,363,Cuauhtémoc,Juarez,REFORMA CON RODANO Y LIEJA,Especializado,45,19.4228258996,-99.1750076016,muy alto
+Mercado Colima,158,Cuauhtémoc,Roma Norte I,"COLIMA 397, CP 6700",Tradicional,52,19.4175497958,-99.1709085105,muy alto
+Mercado La Estacion,411,Tláhuac,La Estacion,PINO SUAREZ S/N ENTRE BELLAS ARTES Y SAN RAFAEL ATLIXCO,Tradicional,70,19.3097100862,-99.0435490834,bajo
+Mercado Reynosa Tamaulipas,177,Azcapotzalco,San Andres (Pblo),REFINERIA MINATITLAN Y CAMPO CORONA,Tradicional,216,19.4921399147,-99.1839269999,bajo
+Mercado Contadero,-394,Cuajimalpa de Morelos,El Contadero,16 DE SEPTIEMBRE S/N. ENTRE VERACRUZ Y ARTEAGA SALAZAR,Tradicional,78,19.348248,-99.300662,medio
+Mercado Emiliano Zapata,57,Gustavo A. Madero,Tablas De San Agustin,ORIENTE 95 Y NORTE 60,Tradicional,301,19.46313,-99.113543,muy alto
+Mercado 24 De Septiembre,365,Gustavo A. Madero,La Pradera I (U Hab),RET. TREBOL TULLA Y PITACANTO,Tradicional,78,19.474659,-99.062943,alto
+Mercado Veinticuatro De Febrero,0.394,Tlalpan,Lomas Altas De Padierna Sur,"F.F. C.C. CUERNAVACA, ENTRE TULUN Y PROL. TEKIL",Tradicional,53,19.274643,-99.225478,muy bajo
+Mercado Merced Paso A Desnivel,103,Venustiano Carranza,Centro Ii,ROSARIO Y ADOLFO GURRION COL. MERCED CENTRO,Especializado,77,19.425589,-99.123394,muy bajo
+Mercado Merced Paso A Desnivel Gomez Pedraza,241,Venustiano Carranza,Centro Ii,ROSARIO Y ADOLFO GURRION COL. MERCED CENTRO,Especializado,67,19.423712,-99.123459,muy bajo
+Mercado Providencia,136,Gustavo A. Madero,Providencia Iii,"ESTADO DE ZACATECAS, ENTRE ESTADO DE MORELOS Y ESTADO DE OAXACA",Tradicional,193,19.484384,-99.070745,medio

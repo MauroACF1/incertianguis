@@ -1,18 +1,18 @@
-alcaldia,mercados,tianguis,comercios_afiliables
-Álvaro Obregón,16,125,5034
-Azcapotzalco,19,28,3293
-Benito Juárez,16,56,1886
-Coyoacán,24,100,3809
-Cuajimalpa de Morelos,5,11,1579
-Cuauhtémoc,39,61,4214
-Gustavo A. Madero,50,177,9368
-Iztacalco,16,36,3406
-Iztapalapa,19,254,20950
-La Magdalena Contreras,5,18,2102
-Miguel Hidalgo,18,34,2220
-Milpa Alta,9,11,2027
-Tláhuac,19,38,4013
-Tlalpan,20,123,5417
-Venustiano Carranza,43,32,6371
-Xochimilco,11,36,4679
-Total CDMX,329,1140,80368
+alcaldia,mercados,tianguis,comercios_afiliables,comercios_ids_muy_bajo,comercios_ids_bajo,comercios_ids_bajo_y_muy_bajo,pct_comercios_ids_bajo_y_muy_bajo
+Álvaro Obregón,16,125,5034,1114,1905,3019,60.0
+Azcapotzalco,19,28,3293,70,506,576,17.5
+Benito Juárez,16,56,1886,7,77,84,4.5
+Coyoacán,24,100,3809,414,1236,1650,43.3
+Cuajimalpa de Morelos,5,11,1579,334,662,996,63.1
+Cuauhtémoc,39,61,4214,379,1022,1401,33.2
+Gustavo A. Madero,50,177,9368,1755,2921,4676,49.9
+Iztacalco,16,36,3406,195,1199,1394,40.9
+Iztapalapa,19,254,20950,7764,5566,13330,63.6
+La Magdalena Contreras,5,18,2102,670,753,1423,67.7
+Miguel Hidalgo,18,34,2220,114,530,644,29.0
+Milpa Alta,9,11,2027,1293,523,1816,89.6
+Tláhuac,19,38,4013,1549,1730,3279,81.7
+Tlalpan,20,123,5417,2179,1636,3815,70.4
+Venustiano Carranza,43,32,6371,2399,970,3369,52.9
+Xochimilco,11,36,4679,1697,1310,3007,64.3
+Total CDMX,329,1140,80368,21933,22546,44479,55.3

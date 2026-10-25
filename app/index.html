@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#9f2241">
+  <title>Canjea Cerca · App CDMX</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="telefono">
+    <header class="barra">
+      <button class="barra-atras" id="btn-atras" aria-label="Regresar" hidden>&#8592;</button>
+      <div class="barra-titulo">
+        <span class="barra-app">App CDMX</span>
+        <span class="barra-modulo" id="titulo">Canjea Cerca</span>
+      </div>
+    </header>
+
+    <main id="vista" aria-live="polite">
+      <!-- Inicio -->
+      <section class="pantalla" data-ruta="inicio">
+        <h1>Mis vales</h1>
+        <p class="sub">Vales Mercomuna · Ingreso Social CDMX</p>
+        <div class="tarjeta saldo">
+          <div class="saldo-total" id="saldo-total">$0</div>
+          <div class="saldo-nota">Saldo disponible (simulado)</div>
+          <ul class="vales" id="lista-vales"></ul>
+        </div>
+        <div class="tarjeta limite">
+          <div class="limite-titulo">Fecha límite de canje</div>
+          <div class="limite-fecha">31 de diciembre de 2026</div>
+          <div class="limite-dias" id="dias-restantes"></div>
+        </div>
+        <a class="boton boton-principal" href="#mapa">¿Dónde canjeo?</a>
+        <p class="nota">Prototipo de demostración · Chilangatón 2026. Los saldos son ficticios.</p>
+      </section>
+
+      <!-- Mapa -->
+      <section class="pantalla" data-ruta="mapa">
+        <h1>Cerca de ti</h1>
+        <p class="sub" id="ubicacion-texto">Ubicación de demostración</p>
+        <button class="boton boton-secundario" id="btn-ubicacion">📍 Usar mi ubicación</button>
+        <div class="filtros" id="filtros" role="group" aria-label="Filtrar por giro"></div>
+        <label class="interruptor">
+          <input type="checkbox" id="solo-vales">
+          <span>Solo comercios que aceptan vales</span>
+        </label>
+        <div id="mapa" class="mapa" role="region" aria-label="Mapa de comercios cercanos"></div>
+        <h2>Lo más cercano</h2>
+        <ol class="lista" id="lista-cercanos"></ol>
+        <h2 id="titulo-cp">Más comercios en tu código postal</h2>
+        <p class="sub" id="nota-cp"></p>
+        <ul class="lista lista-cp" id="lista-cp"></ul>
+      </section>
+
+      <!-- Ficha -->
+      <section class="pantalla" data-ruta="comercio">
+        <div class="ficha-icono" id="ficha-icono"></div>
+        <h1 id="ficha-nombre"></h1>
+        <p class="ficha-giro" id="ficha-giro"></p>
+        <p class="ficha-dato" id="ficha-direccion"></p>
+        <p class="ficha-dato" id="ficha-extra"></p>
+        <p class="etiqueta-vales" id="ficha-vales"></p>
+        <a class="boton boton-principal" id="ficha-llegar" target="_blank" rel="noopener">Cómo llegar</a>
+        <div class="tarjeta opcional" id="ficha-retro">
+          <p class="opcional-titulo">Opcional: ayuda a tu barrio</p>
+          <p class="nota">¿Pudiste pagar con tus vales aquí?</p>
+          <button class="boton boton-si" data-retro="aceptado">Sí me aceptaron el vale</button>
+          <button class="boton boton-no" data-retro="no_aceptado">No me aceptaron el vale</button>
+        </div>
+      </section>
+
+      <!-- Gracias -->
+      <section class="pantalla" data-ruta="gracias">
+        <h1>¡Gracias!</h1>
+        <p class="sub">Tu respuesta ayuda a mejorar el programa en tu barrio.</p>
+        <div class="privacidad">
+          🔒 No guardamos datos personales ni tu ubicación exacta: solo el código postal del comercio, su giro y tus respuestas.
+        </div>
+        <div class="pregunta" data-pregunta="encontro">
+          <p>¿Encontraste lo que buscabas?</p>
+          <div class="opciones">
+            <button data-valor="si">Sí</button><button data-valor="parcial">Parcialmente</button><button data-valor="no">No</button>
+          </div>
+        </div>
+        <div class="pregunta" data-pregunta="dificultad">
+          <p>¿Qué te costó más trabajo?</p>
+          <div class="opciones">
+            <button data-valor="distancia">Distancia</button><button data-valor="horario">Horario</button>
+            <button data-valor="no_aceptaban">No aceptaban el vale</button><button data-valor="sin_producto">No había producto</button>
+            <button data-valor="nada">Nada</button>
+          </div>
+        </div>
+        <div class="pregunta">
+          <label for="deseo">¿Qué te gustaría encontrar cerca?</label>
+          <input id="deseo" maxlength="60" placeholder="Ej. una tortillería" autocomplete="off">
+          <p class="nota">Máximo 60 letras. No escribas nombres ni teléfonos.</p>
+          <button class="boton boton-secundario" id="btn-deseo">Enviar</button>
+        </div>
+        <a class="boton boton-omitir" href="#mapa" id="btn-omitir">Omitir</a>
+      </section>
+
+      <!-- Panel SEDECO (oculto) -->
+      <section class="pantalla" data-ruta="panel">
+        <h1>Panel SEDECO</h1>
+        <p class="sub">Retroalimentación agregada por código postal y giro. Sin datos personales.</p>
+        <div class="panel-resumen" id="panel-resumen"></div>
+        <div class="tabla-envoltura"><table class="tabla" id="panel-tabla"></table></div>
+        <h2>¿Qué les gustaría encontrar cerca?</h2>
+        <ul class="lista" id="panel-deseos"></ul>
+        <button class="boton boton-secundario" id="btn-reiniciar">Reiniciar datos de demostración</button>
+      </section>
+    </main>
+  </div>
+
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -37,3 +37,19 @@ Cada fuente descargada se registra aquí. Las fechas están en formato AAAA-MM-D
 Ningún archivo versionado pasa de 100 MB (límite de GitHub); el mayor es `raw/denue_09_46.csv`, de 42 MB. Quedan fuera de git (`.gitignore`) y se regeneran así:
 - `raw/denue_zip/*.zip` (~285 MB): `py -3.12 scripts/03_descarga_denue.py`
 - `raw/manzanas_mg2020.zip` (18 MB): `py -3.12 scripts/07_descarga_ids.py`
+
+## Hallazgos sobre el directorio Mercomuna
+
+Fuente: https://comercios-mercomuna.cdmx.gob.mx, consultada el 2026-10-25 (`scripts/05_mercomuna_playwright.py`).
+
+- **Totales:** el directorio tiene **9,048 registros** y **8,798 comercios únicos**. Lo verificamos de dos formas independientes, con el mismo resultado:
+  - recorriendo la paginación completa (905 páginas de 10; el sitio reporta `total: 9048`);
+  - filtrando alcaldía por alcaldía: los 16 totales suman 9,048 y las dos descargas dan el mismo conjunto, registro por registro.
+- **Duplicados en la fuente:** hay **250 registros duplicados exactos** (mismo nombre, giro, dirección, CP, alcaldía y colonia). Aparecen igual con ambos métodos, así que están en la base del sitio y no los causa la descarga. Se concentran en Gustavo A. Madero (135 filas) y Coyoacán (101).
+- **Buscador por alcaldía:** la sugerencia "Gustavo A. Madero" (con punto) que ofrece el propio buscador devuelve **0 resultados**. Escribiendo "GUSTAVO A MADERO" (sin punto) devuelve **1,125**. Quien use la sugerencia no encuentra ningún comercio en la segunda alcaldía con más registros.
+- **Pregunta abierta: ¿por qué el directorio publica menos comercios que las cifras oficiales?** En prensa se habla de alrededor de **27,500 comercios afiliados** (fuente por confirmar). Otras notas reportan cifras de distintas fechas: 15,000 al arranque en agosto de 2025 ([Expansión](https://politica.expansion.mx/cdmx/2025/08/26/cdmx-inicia-programa-mercomuna-beneficiara-a-335-mil-familias-y-15-mil-negocios)), más de 25,330 ([UnoTV](https://www.unotv.com/estados/ciudad-de-mexico/mas-de-25-mil-negocios-reciben-los-vales-mercomuna-en-la-cdmx/)) y 30,000 ([Chilango](https://www.chilango.com/noticias/educacion/mercomuna-beneficia-a-335-mil-familias-y-fortalece-mas-de-30-mil-comercios-en-la-cdmx/)). El directorio público tiene 8,798. Algunas explicaciones posibles, sin confirmar:
+  - el directorio muestra solo una parte (p. ej. comercios que aceptaron aparecer públicamente o con registro validado);
+  - las cifras de prensa cuentan altas acumuladas, incluidas bajas, o locales dentro de mercados públicos;
+  - el directorio no se ha actualizado.
+
+  Vale la pena preguntarlo a SAPCI. La cobertura que calculamos (`cobertura_ids.csv`, `resumen_alcaldias.csv`) se basa solo en el directorio público.

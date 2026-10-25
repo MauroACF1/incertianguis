@@ -31,6 +31,7 @@ OUT = RAIZ / "data" / "processed"
 LAT_MIN, LAT_MAX, LON_MIN, LON_MAX = 19.04, 19.60, -99.37, -98.94
 
 IDS_DIST_MAX = 60  # metros
+LIGERO_MB = 20  # GeoJSON más pesados también se guardan en versión _ligero
 ESTRATOS = ["muy bajo", "bajo", "medio", "alto", "muy alto"]
 
 # Giros de alimentos donde se canjean vales (catálogo SCIAN 2023, verificado contra el DENUE).
@@ -106,7 +107,24 @@ def guarda(df, nombre):
     with open(OUT / f"{nombre}.geojson", "w", encoding="utf-8") as f:
         json.dump({"type": "FeatureCollection", "features": features}, f, ensure_ascii=False)
     print(f"{nombre}: {len(df):,} puntos")
+    if (OUT / f"{nombre}.geojson").stat().st_size > LIGERO_MB * 1e6:
+        guarda_ligero(df, nombre)
     return df
+
+
+def guarda_ligero(df, nombre):
+    """Versión <nombre>_ligero.geojson: pocas propiedades y coordenadas con 5 decimales (~1 m)."""
+    props = [c for c in ["nombre", "giro", "alcaldia", "ids_estrato", "precision"] if c in df.columns]
+    sub = df[props].astype(object).where(df[props].notna(), None)
+    features = [{"type": "Feature",
+                 "geometry": {"type": "Point", "coordinates": [round(lon, 5), round(lat, 5)]},
+                 "properties": p}
+                for lat, lon, p in zip(df["lat"], df["lon"], sub.to_dict("records"))]
+    destino = OUT / f"{nombre}_ligero.geojson"
+    with open(destino, "w", encoding="utf-8") as f:
+        json.dump({"type": "FeatureCollection", "features": features}, f, ensure_ascii=False,
+                  separators=(",", ":"))
+    print(f"{destino.name}: {destino.stat().st_size / 1e6:.1f} MB")
 
 
 def mercados():

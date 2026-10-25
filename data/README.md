@@ -30,3 +30,10 @@ Cada fuente descargada se registra aquí. Las fechas están en formato AAAA-MM-D
 | `processed/cobertura_ids.csv` | `scripts/08_capa_mercomuna.py` | Cobertura = comercios Mercomuna de alimentos / comercios afiliables, por estrato IDS, para toda la CDMX. `mercomuna_alimentos_est` reparte los ubicados por CP entre estratos en proporción a los afiliables de su CP (valor esperado). `_exacta` cuenta solo los de ubicación exacta. |
 
 `resumen_alcaldias.csv` (tras correr 08) agrega mercomuna, mercomuna_alimentos, mercomuna_alimentos_ids_bajo_y_muy_bajo_est (estimado, igual que arriba), cobertura_pct y cobertura_ids_bajo_y_muy_bajo_pct. Orden de ejecución: 06 y luego 08.
+| `processed/comercios_afiliables_ligero.geojson` | `scripts/06_capas_mapa.py comercios` (se genera solo si el GeoJSON completo pasa de 20 MB) | 16.7 MB contra 21.0 MB del completo. Propiedades: nombre, giro, alcaldia, ids_estrato; coordenadas con 5 decimales (~1 m) y JSON compacto. Sin `precision`: los afiliables son puntos DENUE con coordenada propia. |
+
+## Tamaños y archivos fuera de git
+
+Ningún archivo versionado pasa de 100 MB (límite de GitHub); el mayor es `raw/denue_09_46.csv`, de 42 MB. Quedan fuera de git (`.gitignore`) y se regeneran así:
+- `raw/denue_zip/*.zip` (~285 MB): `py -3.12 scripts/03_descarga_denue.py`
+- `raw/manzanas_mg2020.zip` (18 MB): `py -3.12 scripts/07_descarga_ids.py`
